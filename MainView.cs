@@ -29,43 +29,136 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using MyClasses.MetaViewWrappers;
 
 namespace PhatACAdmin
 {
     internal static class MainView
     {
         #region Auto-generated view code
-        static MyClasses.MetaViewWrappers.IView View;
-        static MyClasses.MetaViewWrappers.IButton btnSpawn;
-        static MyClasses.MetaViewWrappers.ITextBox txtInput;
+        static IView View;
+        static ITextBox txtSearch;
+        static IList lstLookup;
 
         public static void ViewInit()
         {
             //Create view here
-            View = MyClasses.MetaViewWrappers.ViewSystemSelector.CreateViewResource(PluginCore.MyHost, "PhatACAdmin.ViewXML.MainView.xml");
+            View = ViewSystemSelector.CreateViewResource(PluginCore.MyHost, "PhatACAdmin.ViewXML.MainView.xml");
 
-            txtInput = (MyClasses.MetaViewWrappers.ITextBox)View["txtInput"]; 
-            btnSpawn = (MyClasses.MetaViewWrappers.IButton)View["btnSpawn"];
+            txtSearch = (ITextBox)View["txtSearch"]; 
+            lstLookup = (IList)View["lstLookup"];
+            txtSearch.Change += new EventHandler<MVTextBoxChangeEventArgs>(txtSearch_Change);
+            lstLookup.Selected += new EventHandler<MVListSelectEventArgs>(lstLookup_Selected);
 
-            btnSpawn.Hit += new EventHandler(btnSpawn_Hit);
+            addAll();
         }
+
 
         public static void ViewDestroy()
         {
-            btnSpawn.Hit -= new EventHandler(btnSpawn_Hit);
+            txtSearch.Change -= new EventHandler<MVTextBoxChangeEventArgs>(txtSearch_Change);
+            lstLookup.Selected -= new EventHandler<MVListSelectEventArgs>(lstLookup_Selected);
 
-            btnSpawn = null;
-            txtInput = null;
+            txtSearch = null;
+            lstLookup = null;
 
             View.Dispose();
         }
         #endregion Auto-generated view code
 
-        static void btnSpawn_Hit(object sender, EventArgs e)
+        static void Spawn(String id)
         {
-            String msg = "/spawn " + txtInput.Text;
-            PluginCore.MyHost.Actions.AddChatText(msg, 0, 1);
-            PluginCore.MyHost.Actions.InvokeChatParser(msg);
+            String msg = "/spawn " + id.ToString();
+
+            try
+            {
+                PluginCore.MyHost.Actions.AddChatText(msg, 0, 1);
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+        }
+
+        static void lstLookup_Selected(object sender, MVListSelectEventArgs e)
+        {
+            try
+            {
+                String val = (String)lstLookup[e.Row][1][0];
+                Spawn("0x" + Convert.ToInt32(val).ToString("X"));
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+            
+        }
+
+        static void txtSearch_Change(object sender, MVTextBoxChangeEventArgs e)
+        {
+            var searchText = txtSearch.Text;
+
+            if (searchText.Length == 0)
+            {
+                addAll();
+                return;
+            }
+
+            try
+            {
+                lstLookup.Clear();
+
+                foreach (KeyValuePair<String, Int32> entry in PluginCore.lookup)
+                {
+                    if (!(entry.Key.ToLowerInvariant().Contains(searchText.ToLowerInvariant())))
+                    {
+                        continue;
+                    }
+
+                    IListRow row = lstLookup.Add();
+
+                    row[0][0] = entry.Key;
+                    row[1][0] = entry.Value.ToString();
+                }
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+
+        }
+
+        static void addAll()
+        {
+            try
+            {
+                lstLookup.Clear();
+
+                foreach (KeyValuePair<String, Int32> entry in PluginCore.lookup)
+                {
+
+                    IListRow row = lstLookup.Add();
+
+                    row[0][0] = entry.Key;
+                    row[1][0] = entry.Value.ToString();
+                }
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+        }
+
+        static void Chat(String msg)
+        {
+            try
+            {
+                PluginCore.MyHost.Actions.AddChatText(msg, 0, 1);
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
         }
     }
 }

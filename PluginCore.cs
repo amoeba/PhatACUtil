@@ -28,24 +28,88 @@
 
 using System;
 using System.Collections.Generic;
-using System.Text;
+using Decal.Adapter;
 
 namespace PhatACAdmin
 {
+    [FriendlyName("PhatACAdmin")]
     public class PluginCore: Decal.Adapter.PluginBase
     {
+        static String LogPath;
+
         internal static Decal.Adapter.Wrappers.PluginHost MyHost;
+        internal static Dictionary<String, Int32> lookup = new Dictionary<string, int> {
+            { "Drudge Skulker", 0x01},
+            { "Tusker Guard", 0xeeef }
+        };
+
 
         protected override void Startup()
         {
+            LogPath = Path.ToString() + "\\error.txt";
             MyHost = Host;
-            MainView.ViewInit();
+
+            try
+            {   
+                MainView.ViewInit();
+                LogMessage("Testing logging.");
+            }
+            catch (Exception ex)
+            {
+                LogError(ex);
+            }
+            
+
+
         }
 
         protected override void Shutdown()
         {
-            MainView.ViewDestroy();
+            try
+            {
+
+                MainView.ViewDestroy();
+            }
+            catch (Exception ex)
+            {
+                LogError(ex);
+            }
+
             MyHost = null;
+        }
+
+        public static void LogMessage(String msg)
+        {
+            try
+            {
+                System.IO.StreamWriter sw = new System.IO.StreamWriter(LogPath, true);
+            }
+            catch (Exception ex)
+            {
+                LogError(ex);
+            }
+        }
+
+        public static void LogError(Exception ex) {
+            try {
+                System.IO.StreamWriter sw = new System.IO.StreamWriter(LogPath, true);
+
+                sw.WriteLine("============================================================================");
+                sw.WriteLine(DateTime.Now.ToString());
+                sw.WriteLine("Error: " + ex.Message);
+                sw.WriteLine("Source: " + ex.Source);
+                sw.WriteLine("Stack: " + ex.StackTrace);
+                if (ex.InnerException != null)
+                {
+                    sw.WriteLine("Inner: " + ex.InnerException.Message);
+                    sw.WriteLine("Inner Stack: " + ex.InnerException.StackTrace);
+                }
+                sw.WriteLine("============================================================================");
+                sw.WriteLine("");
+                sw.Close();
+            }
+            catch (Exception exc) {
+            }
         }
     }
 }
