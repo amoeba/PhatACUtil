@@ -36,39 +36,36 @@ namespace PhatACAdmin
     {
         #region Auto-generated view code
         static MyClasses.MetaViewWrappers.IView View;
-        static MyClasses.MetaViewWrappers.IButton bTest;
-        static MyClasses.MetaViewWrappers.ITextBox txtTest;
-        static MyClasses.MetaViewWrappers.ISlider sldTest;
+        static MyClasses.MetaViewWrappers.IButton btnSpawn;
+        static MyClasses.MetaViewWrappers.ITextBox txtInput;
 
         public static void ViewInit()
         {
             //Create view here
-            View = MyClasses.MetaViewWrappers.ViewSystemSelector.CreateViewResource(PluginCore.MyHost, "PhatACAdmin.ViewXML.testlayout.xml");
-            bTest = (MyClasses.MetaViewWrappers.IButton)View["bTest"];
-            txtTest = (MyClasses.MetaViewWrappers.ITextBox)View["txtTest"];
-            sldTest = (MyClasses.MetaViewWrappers.ISlider)View["sldTest"];
+            View = MyClasses.MetaViewWrappers.ViewSystemSelector.CreateViewResource(PluginCore.MyHost, "PhatACAdmin.ViewXML.MainView.xml");
 
-            sldTest.Change += new EventHandler<MyClasses.MetaViewWrappers.MVIndexChangeEventArgs>(sldTest_Change);
-            bTest.Hit += new EventHandler(bTest_Hit);
+            txtInput = (MyClasses.MetaViewWrappers.ITextBox)View["txtInput"]; 
+            btnSpawn = (MyClasses.MetaViewWrappers.IButton)View["btnSpawn"];
+
+            btnSpawn.Hit += new EventHandler(btnSpawn_Hit);
         }
 
         public static void ViewDestroy()
         {
-            bTest = null;
-            txtTest = null;
-            sldTest = null;
+            btnSpawn.Hit -= new EventHandler(btnSpawn_Hit);
+
+            btnSpawn = null;
+            txtInput = null;
+
             View.Dispose();
         }
         #endregion Auto-generated view code
 
-        static void bTest_Hit(object sender, EventArgs e)
+        static void btnSpawn_Hit(object sender, EventArgs e)
         {
-            PluginCore.MyHost.Actions.AddChatText("Button hit!", 0, 1);
-        }
-
-        static void sldTest_Change(object sender, EventArgs e)
-        {
-            txtTest.Text = sldTest.Position.ToString();
+            String msg = "/spawn " + txtInput.Text;
+            PluginCore.MyHost.Actions.AddChatText(msg, 0, 1);
+            PluginCore.MyHost.Actions.InvokeChatParser(msg);
         }
     }
 }

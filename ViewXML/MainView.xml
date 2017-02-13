@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<view icon="26075" title="PhatACAdmin" width="400" height="400">
+		<control progid="DecalControls.FixedLayout" clipped="">
+      <control progid="DecalControls.Edit" name="txtInput" left="16" top="16" width="100" height="16" text="0x01"/>
+      <control progid="DecalControls.PushButton" name="btnSpawn" left="16" top="32" width="100" height="16" text="Test Button"/>
+    </control>
+
+</view>

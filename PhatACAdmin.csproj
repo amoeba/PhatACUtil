@@ -77,7 +77,7 @@
     <Compile Include="Wrapper_WireupHelper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="ViewXML\testlayout.xml" />
+    <EmbeddedResource Include="ViewXML\MainView.xml" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
