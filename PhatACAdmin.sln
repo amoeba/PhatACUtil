@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual C# Express 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamplePlugin", "ExamplePlugin.csproj", "{C86F78A4-3F29-41EC-8841-6D1194A1C0F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhatACAdmin", "PhatACAdmin.csproj", "{C86F78A4-3F29-41EC-8841-6D1194A1C0F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

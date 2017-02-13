@@ -30,7 +30,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ExamplePlugin
+namespace PhatACAdmin
 {
     public class PluginCore: Decal.Adapter.PluginBase
     {

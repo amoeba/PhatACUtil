@@ -30,7 +30,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ExamplePlugin
+namespace PhatACAdmin
 {
     internal static class MainView
     {
@@ -43,7 +43,7 @@ namespace ExamplePlugin
         public static void ViewInit()
         {
             //Create view here
-            View = MyClasses.MetaViewWrappers.ViewSystemSelector.CreateViewResource(PluginCore.MyHost, "ExamplePlugin.ViewXML.testlayout.xml");
+            View = MyClasses.MetaViewWrappers.ViewSystemSelector.CreateViewResource(PluginCore.MyHost, "PhatACAdmin.ViewXML.testlayout.xml");
             bTest = (MyClasses.MetaViewWrappers.IButton)View["bTest"];
             txtTest = (MyClasses.MetaViewWrappers.ITextBox)View["txtTest"];
             sldTest = (MyClasses.MetaViewWrappers.ISlider)View["sldTest"];

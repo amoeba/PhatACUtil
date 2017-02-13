@@ -7,8 +7,8 @@
     <ProjectGuid>{C86F78A4-3F29-41EC-8841-6D1194A1C0F3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ExamplePlugin</RootNamespace>
-    <AssemblyName>ExamplePlugin</AssemblyName>
+    <RootNamespace>PhatACAdmin</RootNamespace>
+    <AssemblyName>PhatACAdmin</AssemblyName>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
