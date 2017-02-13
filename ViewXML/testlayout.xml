@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<view icon="26075" title="Example Plugin" width="246" height="217">
+		<control progid="DecalControls.FixedLayout" clipped="">
+			<control progid="DecalControls.PushButton" name="bTest" left="128" top="128" width="104" height="32" text="Test Button"/>
+			<control progid="DecalControls.Edit" name="txtTest" left="16" top="24" width="200" height="16" imageportalsrc="4726" text="Sample text"/>
+			<control progid="DecalControls.Slider" name="sldTest" left="16" top="64" width="216" height="16" minimum="0" maximum="100" textcolor="0" vertical="0"/>
+		</control>
+
+</view>
