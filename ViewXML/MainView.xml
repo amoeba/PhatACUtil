@@ -1,10 +1,22 @@
 <?xml version="1.0"?>
 <view icon="4149" title="PhatACUtil" width="400" height="400">
-		<control progid="DecalControls.FixedLayout" clipped="">
-      <control progid="DecalControls.Edit" name="txtSearch" left="16" top="16" width="200" height="16" />
-      <control progid="DecalControls.List" name="lstLookup" left="16" top="48" width="200" height="100">
-        <column progid="DecalControls.TextColumn" name="colName" fixedwidth="100"/>
-        <column progid="DecalControls.TextColumn" name="colid" fixedwidth="100"/>
-      </control>
+  <control progid="DecalControls.FixedLayout" clipped="">
+    <control progid="DecalControls.Notebook" name="nbkNotebook" left="0" top="0" width="400" height="400">
+      <page label="Spawn">
+        <control progid="DecalControls.FixedLayout" clipped="">
+          <control progid="DecalControls.Edit" name="txtSearchText" left="16" top="16" width="200" height="16" />
+          <control progid="DecalControls.List" name="lstSearchList" left="16" top="48" width="200" height="100">
+            <column progid="DecalControls.TextColumn" name="colSearchListName" fixedwidth="100"/>
+            <column progid="DecalControls.TextColumn" name="colSearchListId" fixedwidth="100"/>
+          </control>
+        </control>
+      </page>
+      <page label="Spawn Tool">
+        <control progid="DecalControls.FixedLayout" clipped="">
+          <control progid="DecalControls.StaticText" name="stxAtSymbol" left="16" top="16" width="40" height="16" text="@" />
+          <control progid="DecalControls.Edit" name="txtSpawnToolCommand" left="40" top="16" width="100" height="16" />
+        </control>
+      </page>
     </control>
+  </control>
 </view>

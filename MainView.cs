@@ -37,18 +37,19 @@ namespace PhatACUtil
     {
         #region Auto-generated view code
         static IView View;
-        static ITextBox txtSearch;
-        static IList lstLookup;
+        static ITextBox txtSearchText;
+        static IList lstSearchList;
 
         public static void ViewInit()
         {
             //Create view here
             View = ViewSystemSelector.CreateViewResource(PluginCore.MyHost, "PhatACUtil.ViewXML.MainView.xml");
 
-            txtSearch = (ITextBox)View["txtSearch"]; 
-            lstLookup = (IList)View["lstLookup"];
-            txtSearch.Change += new EventHandler<MVTextBoxChangeEventArgs>(txtSearch_Change);
-            lstLookup.Selected += new EventHandler<MVListSelectEventArgs>(lstLookup_Selected);
+            txtSearchText = (ITextBox)View["txtSearchText"]; 
+            lstSearchList = (IList)View["txtSearchList"];
+
+            txtSearchText.Change += new EventHandler<MVTextBoxChangeEventArgs>(txtSearchText_Change);
+            lstSearchList.Selected += new EventHandler<MVListSelectEventArgs>(lstSearchList_Selected);
 
             addAll();
         }
@@ -56,11 +57,11 @@ namespace PhatACUtil
 
         public static void ViewDestroy()
         {
-            txtSearch.Change -= new EventHandler<MVTextBoxChangeEventArgs>(txtSearch_Change);
-            lstLookup.Selected -= new EventHandler<MVListSelectEventArgs>(lstLookup_Selected);
+            txtSearchText.Change -= new EventHandler<MVTextBoxChangeEventArgs>(txtSearchText_Change);
+            lstSearchList.Selected -= new EventHandler<MVListSelectEventArgs>(lstSearchList_Selected);
 
-            txtSearch = null;
-            lstLookup = null;
+            txtSearchText = null;
+            lstSearchList = null;
 
             View.Dispose();
         }
@@ -80,11 +81,11 @@ namespace PhatACUtil
             }
         }
 
-        static void lstLookup_Selected(object sender, MVListSelectEventArgs e)
+        static void lstSearchList_Selected(object sender, MVListSelectEventArgs e)
         {
             try
             {
-                String val = (String)lstLookup[e.Row][1][0];
+                String val = (String)lstSearchList[e.Row][1][0];
                 Spawn("0x" + Convert.ToInt32(val).ToString("X"));
             }
             catch (Exception ex)
@@ -94,9 +95,9 @@ namespace PhatACUtil
             
         }
 
-        static void txtSearch_Change(object sender, MVTextBoxChangeEventArgs e)
+        static void txtSearchText_Change(object sender, MVTextBoxChangeEventArgs e)
         {
-            var searchText = txtSearch.Text;
+            var searchText = txtSearchText.Text;
 
             if (searchText.Length == 0)
             {
@@ -106,7 +107,7 @@ namespace PhatACUtil
 
             try
             {
-                lstLookup.Clear();
+                lstSearchList.Clear();
 
                 foreach (KeyValuePair<String, Int32> entry in PluginCore.lookup)
                 {
@@ -115,7 +116,7 @@ namespace PhatACUtil
                         continue;
                     }
 
-                    IListRow row = lstLookup.Add();
+                    IListRow row = lstSearchList.Add();
 
                     row[0][0] = entry.Key;
                     row[1][0] = entry.Value.ToString();
@@ -132,12 +133,12 @@ namespace PhatACUtil
         {
             try
             {
-                lstLookup.Clear();
+                lstSearchList.Clear();
 
                 foreach (KeyValuePair<String, Int32> entry in PluginCore.lookup)
                 {
 
-                    IListRow row = lstLookup.Add();
+                    IListRow row = lstSearchList.Add();
 
                     row[0][0] = entry.Key;
                     row[1][0] = entry.Value.ToString();

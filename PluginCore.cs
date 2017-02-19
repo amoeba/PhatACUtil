@@ -33,7 +33,7 @@ using Decal.Adapter;
 namespace PhatACUtil
 {
     [FriendlyName("PhatACUtil")]
-    public class PluginCore: Decal.Adapter.PluginBase
+    public partial class PluginCore : PluginBase
     {
         static String LogPath;
 
