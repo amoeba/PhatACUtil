@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PhatACAdmin")]
+[assembly: AssemblyTitle("PhatACUtil")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("KolthSoft")]
-[assembly: AssemblyProduct("PhatACAdmin")]
+[assembly: AssemblyProduct("PhatACUtil")]
 [assembly: AssemblyCopyright("Copyright © KolthSoft 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("a10386fe-fe04-450e-99fe-6025177747a9")]
+[assembly: Guid("1a26c53f-68d9-406d-b9c1-071c37410c80")]
 
 // Version information for an assembly consists of the following four values:
 //

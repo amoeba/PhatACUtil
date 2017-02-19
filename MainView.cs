@@ -31,7 +31,7 @@ using System.Collections.Generic;
 using System.Text;
 using MyClasses.MetaViewWrappers;
 
-namespace PhatACAdmin
+namespace PhatACUtil
 {
     internal static class MainView
     {
@@ -43,7 +43,7 @@ namespace PhatACAdmin
         public static void ViewInit()
         {
             //Create view here
-            View = ViewSystemSelector.CreateViewResource(PluginCore.MyHost, "PhatACAdmin.ViewXML.MainView.xml");
+            View = ViewSystemSelector.CreateViewResource(PluginCore.MyHost, "PhatACUtil.ViewXML.MainView.xml");
 
             txtSearch = (ITextBox)View["txtSearch"]; 
             lstLookup = (IList)View["lstLookup"];

@@ -30,9 +30,9 @@ using System;
 using System.Collections.Generic;
 using Decal.Adapter;
 
-namespace PhatACAdmin
+namespace PhatACUtil
 {
-    [FriendlyName("PhatACAdmin")]
+    [FriendlyName("PhatACUtil")]
     public class PluginCore: Decal.Adapter.PluginBase
     {
         static String LogPath;

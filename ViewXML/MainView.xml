@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<view icon="4149" title="PhatACAdmin" width="400" height="400">
+<view icon="4149" title="PhatACUtil" width="400" height="400">
 		<control progid="DecalControls.FixedLayout" clipped="">
       <control progid="DecalControls.Edit" name="txtSearch" left="16" top="16" width="200" height="16" />
       <control progid="DecalControls.List" name="lstLookup" left="16" top="48" width="200" height="100">
