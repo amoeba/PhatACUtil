@@ -71,7 +71,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainView.cs" />
+    <Compile Include="Views\MainView.cs" />
     <Compile Include="PluginCore.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewSystemSelector.cs" />
@@ -81,7 +81,7 @@
     <Compile Include="Wrapper_WireupHelper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="ViewXML\MainView.xml" />
+    <EmbeddedResource Include="Views\MainView.xml" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
