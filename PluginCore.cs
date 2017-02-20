@@ -85,7 +85,9 @@ namespace PhatACUtil
         {
             try
             {
-                System.IO.StreamWriter sw = new System.IO.StreamWriter(LogPath, true);
+                StreamWriter sw = new StreamWriter(log_path, true);
+                sw.WriteLine(msg);
+                sw.Close();
             }
             catch (Exception ex)
             {
