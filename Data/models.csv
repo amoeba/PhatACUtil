@@ -1,0 +1,7269 @@
+0001,"Male Human NPC, Naked"
+0002,"Old Model Olthoi, Purple"
+0003,"Armadillo, Orangeish"
+0004,None
+0005,"Cow, Brown"
+0006,None
+0007,None
+0008,None
+0009,None
+000A,None
+000B,None
+000C,None
+000D,None
+000E,None
+000F,None
+0010,None
+0011,None
+0012,None
+0013,None
+0014,None
+0015,None
+0016,None
+0017,None
+0018,None
+0019,None
+001A,None
+001B,None
+001C,None
+001D,None
+001E,None
+001F,None
+0020,None
+0021,None
+0022,None
+0023,None
+0024,None
+0025,None
+0026,None
+0027,None
+0028,None
+0029,None
+002A,None
+002B,None
+002C,None
+002D,Auroch
+002E,None
+002F,None
+0030,Old Model Banderling
+0031,Old Model Drudge
+0032,None
+0033,Old Model Drudge
+0034,None
+0035,beta remoran maybe?
+0036,"Gromnie, Blue"
+0037,"Old Lugian, Brown Armor"
+0038,Reedshark
+0039,Mosswart
+003A,Red Pynthos Wasp
+003B,None
+003C,Black Rat
+003D,None
+003E,None
+003F,Tumerok Purple
+0040,Virindi
+0041,None
+0042,None
+0043,None
+0044,None
+0045,None
+0046,None
+0047,None
+0048,None
+0049,None
+004A,None
+004B,None
+004C,wood/metal machine
+004D,"Female NPC, white, naked"
+004E,portal arch
+004F,none
+0050,None
+0051,None
+0052,None
+0053,"Male Char, Naked"
+0054,"Old Golem Model, Brown"
+0055,None
+0056,None
+0057,None
+0058,skeleton
+0059,None
+005A,None
+005B,None
+005C,None
+005D,None
+005E,None
+005F,None
+0060,None
+0061,"Male Char, Naked, Arm Bent"
+0062,None
+0063,None
+0064,"Sword, standing up straight"
+0065,None
+0066,None
+0067,None
+0068,None
+0069,None
+006A,None
+006B,None
+006C,None
+006D,None
+006E,None
+006F,None
+0070,None
+0071,None
+0072,None
+0073,None
+0074,None
+0075,None
+0076,None
+0077,None
+0078,None
+0079,None
+007A,None
+007B,"Chest, halfway open"
+007C,None
+007D,None
+007E,None
+007F,None
+0080,Chandelier
+0081,None
+0082,None
+0083,None
+0084,None
+0085,None
+0086,None
+0087,None
+0088,None
+0089,None
+008A,None
+008B,None
+008C,None
+008D,None
+008E,None
+008F,None
+0090,None
+0091,None
+0092,None
+0093,None
+0094,None
+0095,None
+0096,None
+0097,None
+0098,None
+0099,None
+009A,None
+009B,None
+009C,tall skinny tree
+009D,bush
+009E,None
+009F,None
+00A0,none
+00A1,none
+00A2,none
+00A3,"wooden barrell, open"
+00A4,"wooden barrell, closed"
+00A5,blue jar
+00A6,anvil on wooden base
+00A7,forge bellows
+00A8,blue liquid component
+00A9,blue liquid component
+00AA,blue liquid component
+00AB,bowl
+00AC,"empty bucket, on side"
+00AD,"empty keg, on side"
+00AE,none
+00AF,none
+00B0,none
+00B1,none
+00B2,none
+00B3,none
+00B4,none
+00B5,none
+00B6,none
+00B7,none
+00B8,none
+00B9,none
+00BA,none
+00BB,none
+00BC,none
+00BD,none
+00BE,none
+00BF,none
+00C0,none
+00C1,none
+00C2,none
+00C3,none
+00C4,none
+00C5,none
+00C6,none
+00C7,none
+00C8,none
+00C9,none
+00CA,none
+00CB,none
+00CC,none
+00CD,"coffin, stone, closed"
+00CE,none
+00CF,none
+00D0,cooking? maybe?
+00D1,sand? cooking?
+00D2,food?
+00D3,food?
+00D4,none
+00D5,"hands, wrists "
+00D6,underwear
+00D7,gauntlets
+00D8,horned helm
+00D9,helmet
+00DA,coif
+00DB,koubaton
+00DC,underwear and upper legs
+00DD,feet
+00DE,leg armor
+00DF,hands and lower arms
+00E0,underwear and upper torso
+00E1,pyreals
+00E2,pyreals
+00E3,pyreals
+00E4,chalice
+00E5,cup
+00E6,cup
+00E7,cup
+00E8,cup
+00E9,pot
+00EA,apple
+00EB,cooking?
+00EC,food?
+00ED,none
+00EE,none
+00EF,wheel of cheese 1 slice missing
+00F0,egg
+00F1,fish
+00F2,food?
+00F3,slice of bread?
+00F4,hunk of beef
+00F5,hunk of beef
+00F6,hunk of beef
+00F7,necklace
+00F8,bracelet
+00F9,"gold bracelet, red stone, black etching"
+00FA,"shorter gold bracelet, red stone, black etching"
+00FB,circlet?
+00FC,crown?
+00FD,none
+00FE,armor?
+00FF,"Necklace of some sort, laying flat"
+0100,"Gold necklace, red stone, black etchings, hanging down"
+0101,"Gold Ring, purple stone, standing up"
+0102,Gold pentagram ring? of some sort
+0103,Stone Lantern
+0104,Candles?
+0105,Candle? Butter?
+0106,Stone lava sconce
+0107,1/2 lava container
+0108,Log
+0109,"3 logs, firewood"
+010A,teapot
+010B,lantern
+010C,cow horn?
+010D,none
+010E,"wand, standing up"
+010F,"Sceptre, standing up"
+0110,"Wand, standing up"
+0111,Spike?
+0112,None
+0113,None
+0114,Wall Fountain
+0115,"Water Pool, Square"
+0116,"Water Pool, Round"
+0117,"Well, Water"
+0118,"Brench, Wood"
+0119,"button, dungeon"
+011A,none
+011B,none
+011C,none
+011D,wooden crate
+011E,wooden table small
+011F,"stool, wood"
+0120,"Chair, Wood"
+0121,"Bench, Stone"
+0122,"Stool, Wood"
+0123,"Arrow, on ground"
+0124,"Axe, 1 Blade, Standing Up"
+0125,"Axe, 2 Blade Standing Up"
+0126,"Axe, Small, 1 Blade, Standing Up"
+0127,"Bow, Laying Down"
+0128,"Bow, Small, Laying Down"
+0129,"arrow, on ground"
+012A,"wooden club, standing up"
+012B,"crowssbow, standing up"
+012C,"crowssbow, standing up"
+012D,"knife, standing up"
+012E,"dagger, standing up"
+012F,None
+0130,"Dart, Laying Flat"
+0131,"Arrow, Standing Up"
+0132,Coconut Mace? Standing Up
+0133,"Jitte, Small, Standing Up"
+0134,"Sword, 1H, Standing Up"
+0135,"Sword, curved blade, Standing Up"
+0136,"Katar, Pointing Down"
+0137,Knife? Standing Up
+0138,Knife? Standing Up
+0139,"Mace, standing up"
+013A,"Mace, Dabus, standing up"
+013B,"mace, spiked"
+013C,melee staff
+013D,sword
+013E,sword
+013F,"Ninja Star, Standing Up"
+0140,"Axe, Small, 1 Blade, Standing Up"
+0141,None
+0142,Orb?
+0143,"Longer Arrow, Standing Up"
+0144,"Sword, 1H Standing Up"
+0145,"Sword, 1H Standing Up"
+0146,"Sword, 1H Standing Up"
+0147,"Sword, 1H Standing Up"
+0148,None
+0149,None
+014A,"sword, standing up"
+014B,None
+014C,"sword, standing up"
+014D,"hammer, standing up"
+014E,"hammer, standing up"
+014F,backpack
+0150,backpack
+0151,backpack
+0152,"Book, Closed, Laying on Ground"
+0153,"Book, Open, Laying on Ground"
+0154,"Page of book, on ground"
+0155,"Scroll, rolled, on ground"
+0156,None
+0157,"scroll, rolled up"
+0158,None
+0159,none
+015A,None
+015B,None
+015C,None
+015D,None
+015E,None
+015F,Key
+0160,"shield, tower"
+0161,"shield, round"
+0162,"Kite Shield, standing up"
+0163,"Kite Shield, standing up"
+0164,buckler or tiny round shield ??
+0165,"Lockpick, standing up"
+0166,None
+0167,None
+0168,None
+0169,None
+016A,None
+016B,tub of water
+016C,bed
+016D,hammer?
+016E,water holder
+016F,None
+0170,None
+0171,wall hanging of some kind
+0172,Tea Pot?
+0173,None
+0174,"mushroom, orange"
+0175,loaf of bread
+0176,"chicken, cooking"
+0177,"food, orange"
+0178,"calling stone type gem, blue"
+0179,spiked collar?
+017A,torch?
+017B,"wand, standing up"
+017C,"pick axe, standing up"
+017D,peg leg?
+017E,none
+017F,Well with Covering
+0180,"Sack, on ground"
+0181,"Pillar, blue/brown"
+0182,Book Case
+0183,None
+0184,Small Table
+0185,Unclaimed/Brown Tattered Banner
+0186,"Chair, Stone"
+0187,"Spear, Stadning up"
+0188,chest? podium?
+0189,"scroll, unrolled, standing up"
+018A,"male char, naked, posing"
+018B,tent?
+018C,wooden block?
+018D,painting
+018E,olthoi enslavement painting
+018F,Isparian Arrival Painting
+0190,Painting
+0191,None
+0192,None
+0193,None
+0194,None
+0195,None
+0196,Undead ____
+0197,None
+0198,None
+0199,None
+019A,None
+019B,None
+019C,None
+019D,None
+019E,None
+019F,None
+01A0,None
+01A1,None
+01A2,None
+01A3,None
+01A4,None
+01A5,underwear and upper torso
+01A6,helm or some sort?
+01A7,human legs model
+01A8,None
+01A9,None
+01AA,None
+01AB,None
+01AC,None
+01AD,None
+01AE,None
+01AF,None
+01B0,None
+01B1,None
+01B2,purple portal
+01B3,wooden stairs with platform
+01B4,none
+01B5,none
+01B6,none
+01B7,none
+01B8,none
+01B9,lantern
+01BA,lantern
+01BB,lantern
+01BC,lantern
+01BD,lantern
+01BE,lantern
+01BF,wooden piece
+01C0,too small
+01C1,too small
+01C2,"upper body, arms chainmail upper,"
+01C3,too small
+01C4,too small
+01C5,too small
+01C6,small knife
+01C7,None
+01C8,None
+01C9,None
+01CA,None
+01CB,None
+01CC,None
+01CD,None
+01CE,None
+01CF,None
+01D0,None
+01D1,None
+01D2,None
+01D3,None
+01D4,None
+01D5,None
+01D6,None
+01D7,None
+01D8,None
+01D9,None
+01DA,armor?
+01DB,None
+01DC,None
+01DD,None
+01DE,food?
+01DF,None
+01E0,None
+01E1,None
+01E2,None
+01E3,None
+01E4,metal with wooden torch
+01E5,none
+01E6,wooden construction piece
+01E7,metal with wooden torch
+01E8,none
+01E9,metal with wooden torch
+01EA,metal with wooden torch
+01EB,wooden construction piece
+01EC,none
+01ED,none
+01EE,none
+01EF,dinner plate
+01F0,bowl
+01F1,platter
+01F2,none
+01F3,none
+01F4,none
+01F5,stone with torch
+01F6,stone with torch
+01F7,stone with torch
+01F8,none
+01F9,1h axe standing up
+01FA,none
+01FB,none
+01FC,none
+01FD,none
+01FE,none
+01FF,Wood Planks of some sort?
+0200,Wood Planks of some sort?
+0201,One Wood Board standing Up
+0202,None
+0203,None
+0204,piece of a dungeon?
+0205,piece of a dungeon?
+0206,piece of a dungeon?
+0207,piece of a dungeon?
+0208,piece of a dungeon?
+0209,None
+020A,None
+020B,None
+020C,None
+020D,wooden construction piece
+020E,None
+020F,piece of a dungeon/armor?
+0210,"Chalice, On Ground"
+0211,None
+0212,None
+0213,Palm Tree
+0214,None
+0215,None
+0216,None
+0217,None
+0218,Smaller Island Tree
+0219,None
+021A,None
+021B,None
+021C,None
+021D,None
+021E,box
+021F,None
+0220,None
+0221,Wooden / Rope Bridge
+0222,None
+0223,Wooden / Rope Bridge
+0224,Wooden / Rope Bridge
+0225,None
+0226,Tiny Tree in Water Dish
+0227,Two sided post wood double band
+0228,Forge pit (small)
+0229,None
+022A,None
+022B,None
+022C,wooden construction piece
+022D,None
+022E,None
+022F,None
+0230,None
+0231,Two sided post Wood top white band
+0232,Two sided post (small)
+0233,Two sided post Wood top white band (small)
+0234,None
+0235,None
+0236,None
+0237,None
+0238,None
+0239,None
+023A,wood with torch
+023B,None
+023C,None
+023D,None
+023E,None
+023F,Large bushy tree
+0240,Small three cluster blue crystal
+0241,Forge Pit (small) Opposite angle to 229
+0242,Large flat Mushroom
+0243,None
+0244,None
+0245,Large bushy tree longer trunk
+0246,Large Cactus
+0247,"Empyrean column, pyramid 8 levels high"
+0248,None
+0249,none
+024A,"arwic style column, broken"
+024B,"arwic style column, laying down"
+024C,none
+024D,broken tree
+024E,2 wooden doors
+024F,None
+0250,Massive Double Tree
+0251,None
+0252,Palm Leaf Upright
+0253,Cluster of four palm leaves branched out shrub
+0254,Stone Pillar Flared
+0255,Pine Tree (Medium)
+0256,Pine Tree (Small)
+0257,Pine Tree (Large)
+0258,None
+0259,stone tile floor
+025A,None
+025B,None
+025C,None
+025D,None
+025E,None
+025F,None
+0260,Switch
+0261,None
+0262,None
+0263,None
+0264,None
+0265,Three stack of boxes
+0266,Two stack of boxes
+0267,grey metal helmet
+0268,None
+0269,none
+026A,turbine box
+026B,none
+026C,metal with wooden torch
+026D,metal with wooden torch
+026E,none
+026F,Grey Sleeping Bag
+0270,None
+0271,Wooden Table
+0272,Corner smoldering Lava pit
+0273,Stone Flat Pedistle for dead bodies
+0274,Stone statue pedistle
+0275,Top of Fireplace
+0276,Rolled Blanket
+0277,Wood Stairs
+0278,Wood Pillar
+0279,none
+027A,fountain
+027B,wooden door
+027C,none
+027D,none
+027E,fountain
+027F,None
+0280,prison doors ajar
+0281,None
+0282,small
+0283,small
+0284,Stone thing holding large flame
+0285,Stone thing holding large flame
+0286,Stone thing holding large flame
+0287,Shackles
+0288,shoes
+0289,underwear?
+028A,white shirt
+028B,upper torso human
+028C,black construction piece? olthoi acid
+028D,none
+028E,black construction piece? white aura
+028F,sign with notes attached
+0290,steps
+0291,wooden circular structure
+0292,jar with leaf
+0293,jar
+0294,jar
+0295,none
+0296,none
+0297,none
+0298,none
+0299,none
+029A,none
+029B,none
+029C,none
+029D,none
+029E,none
+029F,none
+02A0,none
+02A1,none
+02A2,none
+02A3,none
+02A4,none
+02A5,none
+02A6,none
+02A7,none
+02A8,none
+02A9,none
+02AA,none
+02AB,none
+02AC,none
+02AD,none
+02AE,none
+02AF,none
+02B0,none
+02B1,none
+02B2,none
+02B3,none
+02B4,none
+02B5,none
+02B6,none
+02B7,none
+02B8,none
+02B9,none
+02BA,none
+02BB,none
+02BC,none
+02BD,none
+02BE,none
+02BF,none
+02C0,none
+02C1,none
+02C2,none
+02C3,none
+02C4,none
+02C5,none
+02C6,none
+02C7,none
+02C8,none
+02C9,none
+02CA,none
+02CB,none
+02CC,none
+02CD,none
+02CE,none
+02CF,none
+02D0,none
+02D1,none
+02D2,"tree, large"
+02D3,none
+02D4,none
+02D5,none
+02D6,"tree, large"
+02D7,"tree, large"
+02D8,"tree, large"
+02D9,"tree, large"
+02DA,"tree, large"
+02DB,"tree, large"
+02DC,none
+02DD,none
+02DE,none
+02DF,none
+02E0,none
+02E1,none
+02E2,none
+02E3,none
+02E4,none
+02E5,none
+02E6,none
+02E7,none
+02E8,none
+02E9,none
+02EA,none
+02EB,none
+02EC,none
+02ED,"Llifestone, current style"
+02EE,wooden steps
+02EF,wooden steps
+02F0,"tree, small"
+02F1,"tree, small"
+02F2,"tree, small"
+02F3,"tree, small"
+02F4,"tree, small"
+02F5,"tree, small"
+02F6,wooden steps
+02F7,wooden steps
+02F8,red triangle
+02F9,healing kit
+02FA,"wooden table, large rectangle"
+02FB,"wooden table, small circle"
+02FC,wooden podium
+02FD,"steps, platform, steps"
+02FE,monouga
+02FF,"4 steps, wooden"
+0300,2 tier wooden steps
+0301,none
+0302,"8 steps, wooden"
+0303,none
+0304,skeleton skull
+0305,portal space....
+0306,blue tailsmen
+0307,blue spell poweder
+0308,blue spell liquod
+0309,white jewel
+030A,silver scarab
+030B,"steps, platform, steps"
+030C,none
+030D,none
+030E,none
+030F,sho door
+0310,wooden door
+0311,sho door
+0312,sho door
+0313,Auroch
+0314,none
+0315,steps with platforms
+0316,steps with platforms
+0317,none
+0318,none
+0319,none
+031A,none
+031B,stone with fire
+031C,standing stone (frore)
+031D,noen
+031E,"lever, dungeon"
+031F,none
+0320,none
+0321,apple tree?
+0322,none
+0323,none
+0324,large tree
+0325,none
+0326,none
+0327,none
+0328,none
+0329,none
+032A,"cactus, one arm"
+032B,"cactus, tall"
+032C,none
+032D,too small
+032E,too small
+032F,pre patch heaume
+0330,red pennant
+0331,ladder steps
+0332,2 tier ladder steps with platform
+0333,none
+0334,none
+0335,none
+0336,none
+0337,none
+0338,none
+0339,none
+033A,none
+033B,stone forge
+033C,"2 wood steps, platform"
+033D,2 wood steps
+033E,2 tier ladder steps with platform
+033F,2 tier ladder steps with platform
+0340,2 tier ladder steps with platform
+0341,none
+0342,none
+0343,stone piece
+0344,hanging pot to cook food
+0345,lava light
+0346,lava chandelire
+0347,lava chandelire
+0348,lava chandelire
+0349,lava chandelire
+034A,"lava pot, fire effect"
+034B,"lava pot, fire effect"
+034C,stone structure
+034D,altar of asheron
+034E,"corpse, hanging, arms spread"
+034F,Metal / Lava piece of dungeon
+0350,Lava stove with Bread?
+0351,None
+0352,none
+0353,lava rock pit
+0354,lava chandelire
+0355,lava chandelire
+0356,lava chandelire
+0357,lava chandelire
+0358,BZ PK Altar
+0359,none
+035A,stone pot
+035B,none
+035C,skeleton skull
+035D,stone pot
+035E,large stone with bush
+035F,none
+0360,none
+0361,none
+0362,none
+0363,none
+0364,none
+0365,none
+0366,none
+0367,padded stool?
+0368,padded stool?
+0369,blue crystal
+036A,blue crystal
+036B,blue crystal
+036C,blue crystal
+036D,stone pot
+036E,archway stone
+036F,archway stone
+0370,archway stone
+0371,forge?
+0372,none
+0373,"stone column, tumerok bells?"
+0374,"stone column, tumerok bells?"
+0375,corpse hanging by arms
+0376,none
+0377,corpse hanging by arms
+0378,corpse on ground
+0379,"corpse on ground, laid out, face up"
+037A,"corpse on ground, laid out, face down"
+037B,"corpse on ground, laid out, face down"
+037C,none
+037D,2 doors
+037E,none
+037F,none
+0380,none
+0381,wood construction piece
+0382,none
+0383,stone arch piece
+0384,none
+0385,none
+0386,none
+0387,none
+0388,none
+0389,something invisible? weird effect
+038A,"long wooden steps, ladder"
+038B,"medium wooden steps, ladder"
+038C,none
+038D,none
+038E,none
+038F,none
+0390,none
+0391,none
+0392,none
+0393,none
+0394,empyrean 3 arches
+0395,ladder steps
+0396,temple of enlight statue
+0397,temple of enlight statue (larger)
+0398,none
+0399,none
+039A,temple of enlight statue
+039B,"temple of enlight statue, flame and light effect"
+039C,temple of enlight statue (smaller)
+039D,none
+039E,none
+039F,none
+03A0,"tree, large"
+03A1,"tree, snow covered"
+03A2,"tree, snow covered"
+03A3,"tree, snow covered"
+03A4,wooden construction piece
+03A5,none
+03A6,"tree, snow covered"
+03A7,none
+03A8,none
+03A9,none
+03AA,none
+03AB,none
+03AC,none
+03AD,none
+03AE,none
+03AF,none
+03B0,large empyrean head (skill temple entrance)
+03B1,large empyrean head on side (skill temple entrance)
+03B2,wooden planks
+03B3,wooden stake
+03B4,wooden fence
+03B5,"lifestone, crystal only"
+03B6,part of broken lifestone
+03B7,part of broken lifestone
+03B8,part of broken lifestone
+03B9,wooden table
+03BA,none
+03BB,none
+03BC,none
+03BD,none
+03BE,none
+03BF,none
+03C0,none
+03C1,none
+03C2,none
+03C3,"steps, stone"
+03C4,Large White Glow affect
+03C5,Green Gas buble affect
+03C6,Roundish Pillar with top and bottom
+03C7,Roundish Pillar with bottom only
+03C8,Base of Pillar Green top
+03C9,Half Pillar with Green top
+03CA,none
+03CB,none
+03CC,pile of bones
+03CD,pile of bones
+03CE,"melee staff, fire"
+03CF,none
+03D0,lillypad
+03D1,lillypad with flower
+03D2,grass
+03D3,"arrow pointg up, fire effect"
+03D4,sword
+03D5,axe
+03D6,"hammer, lightning"
+03D7,none
+03D8,fire shield
+03D9,green landscape
+03DA,none
+03DB,none
+03DC,green landscape
+03DD,tree stump
+03DE,tree stump
+03DF,rock
+03E0,none
+03E1,rock
+03E2,rock
+03E3,waterfall effect
+03E4,"windmill, spinning"
+03E5,"windmill, pole"
+03E6,none
+03E7,none
+03E8,none
+03E9,huge tree
+03EA,medium tree
+03EB,large spiraling stairs
+03EC,short tree
+03ED,HUGE tree
+03EE,HUGE tree
+03EF,lightning bolts
+03F0,none
+03F1,huge hurved stairs
+03F2,bolt animating
+03F3,frost bolt spinning
+03F4,blue taper
+03F5,acid bolt
+03F6,tall grass patch
+03F7,yellow flowers
+03F8,yellow flowers
+03F9,animating white ring
+03FA,stairs
+03FB,slash bolt
+03FC,thick fog
+03FD,none
+03FE,light fog or mist
+03FF,none
+0400,white smoke effect
+0401,white smoke effect
+0402,none
+0403,none
+0404,none
+0405,too small
+0406,too small
+0407,"skeleton, half armored"
+0408,"skeleton, chest armor"
+0409,naked human male with unded mask on
+040A,half of large pillar
+040B,none
+040C,none
+040D,none
+040E,large hay stack
+040F,empyrean pillar
+0410,empyrean pillar
+0411,empyrean pillar
+0412,empyrean pillar
+0413,empyrean pillar
+0414,empyrean pillar
+0415,empyrean pillar
+0416,carving stone
+0417,stacked stones
+0418,"olthoi, old model"
+0419,emprean stone
+041A,"olthoi, old model"
+041B,emprean stone
+041C,none
+041D,"olthoi, old model"
+041E,"olthoi, old model"
+041F,"olthoi, old model"
+0420,empyrean stones
+0421,2 wooden doors
+0422,none
+0423,none
+0424,none
+0425,none
+0426,none
+0427,none
+0428,"stone floor, large"
+0429,none
+042A,"bz statue, beige stone"
+042B,none
+042C,none
+042D,none
+042E,none
+042F,none
+0430,none
+0431,none
+0432,none
+0433,none
+0434,none
+0435,none
+0436,none
+0437,none
+0438,none
+0439,none
+043A,shadow smoke on ground
+043B,roudn stone pot
+043C,none
+043D,none
+043E,blue crystal
+043F,blue crystal
+0440,"blue crystals,  large"
+0441,blue crystal
+0442,none
+0443,none
+0444,none
+0445,none
+0446,none
+0447,none
+0448,none
+0449,none
+044A,none
+044B,none
+044C,none
+044D,none
+044E,none
+044F,stone floor tile?
+0450,"post, flag?"
+0451,olthoi style dungeon piece
+0452,none
+0453,none
+0454,none
+0455,none
+0456,none
+0457,none
+0458,none
+0459,none
+045A,none
+045B,none
+045C,none
+045D,none
+045E,none
+045F,none
+0460,none
+0461,none
+0462,none
+0463,none
+0464,none
+0465,none
+0466,"fountain, stone"
+0467,none
+0468,"metal grate, smoke coming up (sewer)"
+0469,sewer pipe with bars
+046A,serer pipe with bars
+046B,none
+046C,none
+046D,none
+046E,none
+046F,none
+0470,none
+0471,none
+0472,none
+0473,none
+0474,none
+0475,none
+0476,none
+0477,none
+0478,buliding piece??
+0479,dungeon piece
+047A,"rabbit, black"
+047B,none
+047C,none
+047D,none
+047E,none
+047F,none
+0480,none
+0481,none
+0482,none
+0483,none
+0484,none
+0485,something on fire too small to see
+0486,"tiny mattekar, white"
+0487,none
+0488,none
+0489,log? metal pieces
+048A,none
+048B,none
+048C,none
+048D,none
+048E,none
+048F,none
+0490,none
+0491,none
+0492,none
+0493,none
+0494,none
+0495,none
+0496,none
+0497,scalvus
+0498,none
+0499,zeifer
+049A,zeifer
+049B,none
+049C,none
+049D,none
+049E,none
+049F,none
+04A0,none
+04A1,none
+04A2,none
+04A3,none
+04A4,none
+04A5,none
+04A6,none
+04A7,none
+04A8,none
+04A9,"knath, green"
+04AA,"knath, blue"
+04AB,knath clear
+04AC,"knath, yellow"
+04AD,"knath, white"
+04AE,"knath, red"
+04AF,"water skimmer bug, animated"
+04B0,"palm tree, tall"
+04B1,"palm tree, short"
+04B2,none
+04B3,none
+04B4,"lever, dungeon"
+04B5,weird lifestone thing from swank mansion
+04B6,mana stone
+04B7,mana stone
+04B8,mana stone
+04B9,none
+04BA,"tree,, small"
+04BB,"tree,, small"
+04BC,chainmail something??
+04BD,"tree, tall"
+04BE,stones
+04BF,none
+04C0,"flowers, tall"
+04C1,"flowers, tall"
+04C2,tree man?
+04C3,none
+04C4,none
+04C5,"aegis, blue"
+04C6,"tree, no leaves"
+04C7,wood steps and platform
+04C8,wood steps and platform
+04C9,wood steps and platform
+04CA,none
+04CB,none
+04CC,none
+04CD,none
+04CE,none
+04CF,none
+04D0,none
+04D1,none
+04D2,none
+04D3,olthoi grub??
+04D4,none
+04D5,"tentacle, fallen over"
+04D6,none
+04D7,none
+04D8,none
+04D9,none
+04DA,none
+04DB,none
+04DC,pyreal bar
+04DD,wooden steps
+04DE,wooden steps
+04DF,"wall, stone"
+04E0,"wall, moldy stone"
+04E1,"wall, stone"
+04E2,"wall, olthoi"
+04E3,"wall, stone"
+04E4,none
+04E5,none
+04E6,"2 sided axe, frost"
+04E7,"2 sided axe, acid"
+04E8,"1 sided axe, fire"
+04E9,"arrow, frost"
+04EA,"1 sided axe, acid"
+04EB,"2 sided axe, fire"
+04EC,"1 sided axe, cold"
+04ED,"quarrel, frost"
+04EE,"quarrel, lightning"
+04EF,"quarrel, acid"
+04F0,knife? lightning
+04F1,fire club
+04F2,fire.... thing?
+04F3,acid.. thing? I think its a dart..
+04F4,Lightning sword
+04F5,Acid axe
+04F6,1 sided axe lightning
+04F7,1 sided axe lightning
+04F8,1 sided axe frost
+04F9,"dagger, acid"
+04FA,"dagger, lightning"
+04FB,"dagger, fire"
+04FC,"arrow, lightning"
+04FD,"dagger, acid"
+04FE,"2 sided axe, lightning"
+04FF,"dagger, frost"
+0500,very small weapon with acid effect
+0501,"1 sided axe, fire"
+0502,"club, lightning"
+0503,"dagger, fire"
+0504,"dagger, fire"
+0505,"dagger, frost"
+0506,"dart, lightning"
+0507,"arrow, acid, standing up"
+0508,"dagger, frost"
+0509,"club, frost"
+050A,"arrow, lightning, standing up"
+050B,"dart, frost"
+050C,"arrow, fire, standing up"
+050D,"jittie, acid"
+050E,"club, acid"
+050F,"dagger, lightning"
+0510,"mace, acid"
+0511,"sword, acid"
+0512,"sword, lightning"
+0513,"sword, fire"
+0514,"jittie, fire"
+0515,"dagger, frost"
+0516,"mace, fire"
+0517,"mace, fire"
+0518,spear? frost
+0519,"knife, acid"
+051A,"katar, acid"
+051B,"katar, fire"
+051C,"mace, spiked, frost"
+051D,"mace, spiked, acid"
+051E,"knife, frost"
+051F,"mace, spiked, lightning"
+0520,H? lightning
+0521,"knife, acid"
+0522,"mace, lightning"
+0523,"dagger, lightning"
+0524,"mace, lightning"
+0525,"mace, frost"
+0526,"knife, fire"
+0527,"mace, lightning"
+0528,"jittie, lightning"
+0529,"tachi, frost"
+052A,"mace, fire"
+052B,"mace, fire"
+052C,"mace, acid"
+052D,"mace, frost"
+052E,"mace, acid"
+052F,"katar, frost"
+0530,"mace, frost"
+0531,"mace, frost"
+0532,"melee staff, frost"
+0533,"melee staf, lightning (tremblants staff model?)"
+0534,"ninja star, frost"
+0535,"ninja star, fire"
+0536,"sword, acid"
+0537,"sword, frost"
+0538,"dagger, fire"
+0539,"melee staff, acid"
+053A,"sword, fire"
+053B,"ninja star, acid"
+053C,"1 sided axe, acid"
+053D,"sword, frost"
+053E,"sword, acid"
+053F,"1 sided axe, fire"
+0540,"sword, fire"
+0541,electric dagger
+0542,"1 sided axe, frost"
+0543,"spear, acid"
+0544,"1 sided axe, lightning"
+0545,"sword, lightning"
+0546,sword
+0547,"sword, fire"
+0548,sword
+0549,"sword, fire"
+054A,"arrow, acid"
+054B,"sword, frost"
+054C,"spear?, lightning"
+054D,"sword, acid"
+054E,"sword, acid"
+054F,"sword, frost"
+0550,"sword, acid"
+0551,"sword, frost"
+0552,"sword, lightning"
+0553,"sword, frost"
+0554,"sword, fire"
+0555,"knife, lightning"
+0556,"ninja star, lightning"
+0557,sword
+0558,"1 sided axe, acid"
+0559,"sword, fire"
+055A,"sword, fire"
+055B,"sword, acid"
+055C,"1 sided axe, lightning"
+055D,"sword, lightning"
+055E,"sword, lightning"
+055F,"sword, lightning"
+0560,"axe, frost"
+0561,"tachi, frost"
+0562,"axe, fire"
+0563,"tachi, lightning"
+0564,hammer acid
+0565,"sword, acid"
+0566,"hammer, fire"
+0567,"spear, fire"
+0568,"hammer, fire"
+0569,"sword, fire"
+056A,sword
+056B,"hammer, frost"
+056C,spear? frost
+056D,spear? frost
+056E,spear? frost
+056F,"spear, lightning"
+0570,"spear, acid"
+0571,"hammer, frost"
+0572,"hammer, acid"
+0573,"sword, acid"
+0574,"hammer, lightning"
+0575,"aegis, blue w/ black star aura"
+0576,"aegis, blue with blue aura"
+0577,"aegis, blue with green aura"
+0578,"aegis, blue with yellow aura"
+0579,"aegis, blue with purple aura"
+057A,"aegis, blue with orange aura"
+057B,"aegis, blue with white star aura"
+057C,none
+057D,none
+057E,none
+057F,none
+0580,none
+0581,none
+0582,tall grass 
+0583,"cone, brown/green filled white aura"
+0584,"cone, brown/green filled green aura"
+0585,"cone, brown/green filled yellow aura"
+0586,none
+0587,none
+0588,none
+0589,none
+058A,sand auta (limited time)
+058B,none
+058C,none
+058D,sand auta (limited time)
+058E,"aegis, blue with blue aura"
+058F,none
+0590,lightning aura
+0591,none
+0592,"small object, huge lightning effect"
+0593,none
+0594,none
+0595,none
+0596,rock?
+0597,arrow on ground
+0598,"wisp, blue, old"
+0599,"wisp, teal, old"
+059A,"wisp, pink, old"
+059B,"wisp, green, old"
+059C,"wisp, red, old"
+059D,wooden stake
+059E,wooden stake
+059F,part of a building with stained glass and archway
+05A0,chicken
+05A1,part of a building with window and archway
+05A2,none
+05A3,part of a gharu building
+05A4,part of a sho building
+05A5,none
+05A6,"streth, brown"
+05A7,"cone, brown"
+05A8,too small
+05A9,too small
+05AA,too small
+05AB,too small
+05AC,"asheron?? or human in asheron robe, no textures"
+05AD,"bright fire effect, campfire?"
+05AE,wooden torch
+05AF,none
+05B0,light effect
+05B1,light effect
+05B2,none
+05B3,none
+05B4,"lantern, large, acid effect"
+05B5,"lantern, large, frost effect"
+05B6,green light effect
+05B7,blue light effect
+05B8,green light effect
+05B9,blue light effect
+05BA,blue light effect
+05BB,green light effect
+05BC,green light effect
+05BD,green light effect
+05BE,"asheron?? or human in asheron robe, some textures"
+05BF,"green lantern, weird"
+05C0,"blue lantern, weird"
+05C1,"blue lantern, weird"
+05C2,"green lantern, weird"
+05C3,"streth, bigger"
+05C4,merchant sign
+05C5,"wooden stairs, ladder"
+05C6,"wooden stairs, ladder"
+05C7,none
+05C8,"rock, white"
+05C9,"rock, tan"
+05CA,"rock, white"
+05CB,"rock, tan"
+05CC,"rock, white"
+05CD,"rock, tan"
+05CE,"rock, tan"
+05CF,"rock, white"
+05D0,none
+05D1,"portal, blue"
+05D2,"portal, green"
+05D3,"portal, orage"
+05D4,"portal, red"
+05D5,"portal, yellow"
+05D6,"sword of lost light, OLD!"
+05D7,candle on stick
+05D8,candle on stick
+05D9,"2 metal doors with arch, half open"
+05DA,invisible
+05DB,invisible
+05DC,too small
+05DD,too small
+05DE,too small
+05DF,too small
+05E0,too small
+05E1,too small
+05E2,too small
+05E3,too small
+05E4,too small
+05E5,too small
+05E6,too small
+05E7,too small
+05E8,too small
+05E9,too small
+05EA,too small
+05EB,too small
+05EC,too small
+05ED,too small
+05EE,too small
+05EF,too small
+05F0,"2 metal doors with metal arch, half open"
+05F1,"olthoi dungen door, half open"
+05F2,arrow on ground
+05F3,wooden block
+05F4,none
+05F5,none
+05F6,none
+05F7,none
+05F8,none
+05F9,alchemy knife?
+05FA,alblemic
+05FB,alchemy stuff
+05FC,"liquid comp, blue"
+05FD,alch/cooking something?
+05FE,"liquid comp, blue"
+05FF,food
+0600,food
+0601,cooking utensil?
+0602,"food, jar"
+0603,cooking utensil?
+0604,cooking pot
+0605,cooking utensil?
+0606,food
+0607,food
+0608,cooking pan
+0609,honey jar
+060A,pizza
+060B,cooking something stirrer?
+060C,cooking something red jar
+060D,cooking white and yellow
+060E,none
+060F,honey jar
+0610,road sign sho?
+0611,bamboo sign with asian writing
+0612,none
+0613,"neokde, acid"
+0614,"nekode, fire"
+0615,"neokde, frost"
+0616,"neokde, lightning"
+0617,"cestus, acid"
+0618,"cestus, fire"
+0619,"cestus, frost"
+061A,"cestus, fire"
+061B,neokde
+061C,cestus
+061D,"table, broken"
+061E,wand
+061F,"wand, crooked"
+0620,"wood steps, stone case"
+0621,"wood steps, stone case"
+0622,"wood steps, stone case"
+0623,torch with flame
+0624,"fire pit, red flame"
+0625,"fire pit, blue flame"
+0626,"fire pit, red flame"
+0627,"fire pit, blue flame"
+0628,"fire pit, green flame"
+0629,"fire pit, green flame"
+062A,"tree, autum colored leaves"
+062B,tree
+062C,poduim with questionmark and paper
+062D,sign with question mark
+062E,blue crystal
+062F,blue crystal
+0630,blue crystal
+0631,green crystal
+0632,green crystal
+0633,green crystal
+0634,red crystal
+0635,red crystal
+0636,red crystal
+0637,red ball
+0638,apple
+0639,none
+063A,none
+063B,metal gate siver
+063C,metal gate black
+063D,spear?
+063E,fish?
+063F,choc chip cookie
+0640,cooking? pink jar
+0641,festival stone with blue aura
+0642,none
+0643,none
+0644,none
+0645,none
+0646,none
+0647,none
+0648,none
+0649,none
+064A,none
+064B,none
+064C,none
+064D,none
+064E,none
+064F,none
+0650,none
+0651,none
+0652,none
+0653,none
+0654,none
+0655,none
+0656,none
+0657,none
+0658,none
+0659,none
+065A,none
+065B,none
+065C,none
+065D,none
+065E,none
+065F,none
+0660,none
+0661,none
+0662,none
+0663,none
+0664,none
+0665,none
+0666,none
+0667,none
+0668,none
+0669,none
+066A,none
+066B,none
+066C,none
+066D,none
+066E,none
+066F,none
+0670,none
+0671,none
+0672,none
+0673,none
+0674,none
+0675,none
+0676,none
+0677,none
+0678,none
+0679,too small
+067A,blue aura
+067B,green aura
+067C,yelow aura
+067D,red aura
+067E,dungeon piece
+067F,blue aura
+0680,blue aura
+0681,green aura
+0682,green aura
+0683,white smoke
+0684,white smoke
+0685,red aura
+0686,red aura
+0687,white aura
+0688,Ground up lighting
+0689,yellow aura
+068A,rocks
+068B,rocks (DI)
+068C,blue crystals
+068D,none
+068E,lava pool
+068F,Pink aura (wisp like)
+0690,Orange aura (wisp like)
+0691,Light blue fog
+0692,Light green fog
+0693,Orange fog
+0694,Pink fog
+0695,red fog
+0696,purple fog
+0697,light aura? turns with you?
+0698,purple aura
+0699,purple aura
+069A,purple aura
+069B,yellow aura
+069C,Orange aura
+069D,Orange aura
+069E,red aura
+069F,red aura
+06A0,red aura
+06A1,red aura
+06A2,fire elemental (red)
+06A3,flame up from ground
+06A4,flame up from ground
+06A5,none
+06A6,flame up from ground
+06A7,flame up from ground
+06A8,flame up from ground
+06A9,flame up from ground
+06AA,none
+06AB,lightning elemental (purple)
+06AC,none
+06AD,none
+06AE,none
+06AF,none
+06B0,too small
+06B1,all of these are for the nightclub disco
+06B2,all of these are for the nightclub disco
+06B3,all of these are for the nightclub disco
+06B4,all of these are for the nightclub disco
+06B5,all of these are for the nightclub disco
+06B6,all of these are for the nightclub disco
+06B7,all of these are for the nightclub disco
+06B8,all above are for the nightclub disco
+06B9,all above are for the nightclub disco
+06BA,all above are for the nightclub disco
+06BB,all above are for the nightclub disco
+06BC,all above are for the nightclub disco
+06BD,all above are for the nightclub disco
+06BE,"banderling, old, dancing"
+06BF,none
+06C0,"drudge, old, dancing"
+06C1,"tusker, old, dancing"
+06C2,none
+06C3,"lugian, flexing"
+06C4,mushroom
+06C5,mushroom
+06C6,mushroom
+06C7,desert stones
+06C8,desert stones
+06C9,"rock, tall"
+06CA,desert stones
+06CB,"rock, white"
+06CC,"rock, tall"
+06CD,"rock, tall"
+06CE,"rock, white"
+06CF,"rock, tall"
+06D0,"rock, tall"
+06D1,hands/wrists
+06D2,none
+06D3,none
+06D4,none
+06D5,armor of some kind?
+06D6,"town sign, baishi"
+06D7,"town sign, hebian to"
+06D8,"town sign, lin"
+06D9,"town sign, nanto"
+06DA,"town sign, mayoi"
+06DB,"town sign, sawato"
+06DC,"town sign, shoushi"
+06DD,"town sign, tou tou"
+06DE,"town sign, yanshi"
+06DF,none
+06E0,gharu town sign al-aquaras
+06E1,town sign al jalima
+06E2,gharu town sign khayyaban
+06E3,gharu town sign qualabar
+06E4,gharu town sign samsur
+06E5,gharu town sign tufa
+06E6,gharu town sign uziz
+06E7,"town sign, yaraq"
+06E8,"town sign, zaikhail"
+06E9,"town sign, arwic"
+06EA,"town sign, cragstone"
+06EB,"town sign, dryreach"
+06EC,"town sign, eastham"
+06ED,"town sign, glendon woods"
+06EE,"town sign, holtburg"
+06EF,"town sign, lyelthorpe"
+06F0,"town sign, rithwic"
+06F1,orange bunny
+06F2,weird white aura with blue/orange
+06F3,"portal, white (gateway)"
+06F4,town/dungeon piece
+06F5,town/dungeon piece
+06F6,town/dungeon piece
+06F7,none
+06F8,many fire strams coming up from ground
+06F9,3 logs roaring fire
+06FA,none
+06FB,carrot
+06FC,snowman
+06FD,snowman
+06FE,food
+06FF,blue sentient fragment
+0700,green ????
+0701,blue dual fragment
+0702,none
+0703,pink ???
+0704,sho lantern post
+0705,candle post
+0706,sho lantern post
+0707,red triangle
+0708,pink ???
+0709,apple
+070A,hat with tassle
+070B,kasa
+070C,hood
+070D,none
+070E,none
+070F,mining wheelbarrow
+0710,tiny fragment blue
+0711,none
+0712,tiny fragment blue
+0713,too small to see -- seems to have a large lighting effect
+0714,none
+0715,"ubmrean male char, human top half"
+0716,none
+0717,none
+0718,small lantern post
+0719,lantern
+071A,"ubmrean femalechar, human top half"
+071B,stone pilar
+071C,rocks stacked / stonehenge~
+071D,stone pilar
+071E,"rotting tree, falling over"
+071F,atlan mace? standing up blue stone
+0720,atlan dagger standing up blue stone
+0721,too small to see
+0722,"atlan staff, standing up, blue stone"
+0723,"atlan spear, standing up, blue stone"
+0724,"atlan staff, standing up, blue stone"
+0725,"atlan sword, standing up, blue stone"
+0726,"arrow, shadow on back end, laying down"
+0727,none
+0728,none
+0729,none
+072A,"quarrel, fire"
+072B,none
+072C,none
+072D,none
+072E,none
+072F,none
+0730,none
+0731,none
+0732,none
+0733,none
+0734,"katar, shadow aura"
+0735,none
+0736,none
+0737,none
+0738,none
+0739,none
+073A,none
+073B,none
+073C,none
+073D,none
+073E,none
+073F,none
+0740,none
+0741,none
+0742,none
+0743,none
+0744,none
+0745,none
+0746,none
+0747,none
+0748,none
+0749,none
+074A,"spear, black aura"
+074B,none
+074C,none
+074D,atlan axe
+074E,atlan axe
+074F,atlan axe
+0750,atlan axe
+0751,atlan axe
+0752,atlan axe
+0753,atlan axe
+0754,atlan dagger
+0755,atlan dagger
+0756,atlan dagger
+0757,none
+0758,atlan dagger
+0759,atlan dagger
+075A,none
+075B,"arrow heads,"
+075C,"arrow heads,"
+075D,"arrow heads,"
+075E,"arrow heads,"
+075F,"arrow heads,"
+0760,"arrow heads,"
+0761,"arrow heads,"
+0762,atlan mace
+0763,atlan mace
+0764,atlan mace
+0765,atlan mace
+0766,atlan mace
+0767,atlan mace
+0768,atlan mace
+0769,atlan spear
+076A,atlan spear
+076B,atlan spear
+076C,atlan spear
+076D,atlan spear
+076E,atlan spear
+076F,atlan spear
+0770,atlan staff
+0771,atlan staff
+0772,atlan staff
+0773,atlan staff
+0774,atlan staff
+0775,atlan staff
+0776,atlan staff
+0777,atlan sword
+0778,atlan sword
+0779,atlan sword
+077A,atlan sword
+077B,atlan sword
+077C,atlan sword
+077D,atlan sword
+077E,"atlan axe, acid"
+077F,"atlan axe, lightning"
+0780,"atlan axe, fire"
+0781,"atlan axe, frost"
+0782,"atlan dagger, acid"
+0783,"atlan dagger, lightning"
+0784,"atlan dagger, fire"
+0785,none
+0786,acid atlan claw
+0787,lightning atlan claw
+0788,fire atlan claw
+0789,ice atlan claw
+078A,"atlan mace, acid"
+078B,"atlan mace, lightning"
+078C,"atlan mace, fire"
+078D,"atlan mace, frost"
+078E,"atlan spear, acid"
+078F,"atlan spear, lightning"
+0790,"atlan spear, fire"
+0791,"atlan spear, frost"
+0792,"atlan staff, acid"
+0793,"atlan staff, lightning"
+0794,"atlan staff, fire"
+0795,"atlan staff, frost"
+0796,"atlan sword, acid"
+0797,"atlan sword, lightning"
+0798,"atlan sword, fire"
+0799,"atlan sword, frost"
+079A,"atlan axe, acid"
+079B,"atlan axe, lightning"
+079C,"atlan axe, fire"
+079D,"atlan axe, frost"
+079E,"atlan spear, frost"
+079F,atlan staff frost
+07A0,"atlan sword, frost"
+07A1,flowers
+07A2,flowers
+07A3,flowers
+07A4,flower
+07A5,flower
+07A6,acid pit
+07A7,none
+07A8,none
+07A9,none
+07AA,none
+07AB,none
+07AC,none
+07AD,none
+07AE,none
+07AF,none
+07B0,none
+07B1,none
+07B2,none
+07B3,none
+07B4,none
+07B5,none
+07B6,none
+07B7,none
+07B8,none
+07B9,none
+07BA,none
+07BB,none
+07BC,none
+07BD,none
+07BE,none
+07BF,none
+07C0,none
+07C1,none
+07C2,red BZ model from pk altar
+07C3,flies effect
+07C4,lightning pillar effect
+07C5,lightning pillar effect
+07C6,windmill spinning piece
+07C7,windmill gear
+07C8,none
+07C9,"golem model, new"
+07CA,"golem model, magma new"
+07CB,"golem model, vr"
+07CC,none
+07CD,none
+07CE,none
+07CF,none
+07D0,none
+07D1,none
+07D2,none
+07D3,none
+07D4,none
+07D5,"standing stone, frore"
+07D6,"golem model, ice"
+07D7,"golem model, obsidian"
+07D8,tree
+07D9,palm tree tall
+07DA,tree
+07DB,none
+07DC,"drudge, new"
+07DD,"portal, purple, flat"
+07DE,none
+07DF,none
+07E0,"tree, ice"
+07E1,"tree, ice"
+07E2,tree ice
+07E3,tree ice
+07E4,"golem model, new, water"
+07E5,none
+07E6,none
+07E7,shadow spire aura
+07E8,shadow spire aura
+07E9,shadow spire aura
+07EA,shadow spire aura
+07EB,shadow spire aura
+07EC,shadow spire aura
+07ED,none
+07EE,none
+07EF,shadow effect
+07F0,too small
+07F1,dungeon piece
+07F2,dungeon piece
+07F3,none
+07F4,none
+07F5,none
+07F6,none
+07F7,none
+07F8,none
+07F9,none
+07FA,too small to see
+07FB,too small to see
+07FC,too small to see
+07FD,too small to see
+07FE,too small to see
+07FF,too small to see
+0800,too small to see
+0801,too small to see
+0802,too small to see
+0803,too small to see
+0804,too small to see
+0805,too small to see
+0806,too small to see
+0807,too small to see
+0808,too small to see
+0809,too small to see
+080A,too small to see
+080B,too small to see
+080C,too small to see
+080D,too small to see
+080E,too small to see
+080F,too small to see
+0810,too small to see
+0811,too small to see
+0812,too small to see
+0813,too small to see
+0814,too small to see
+0815,too small to see
+0816,too small to see
+0817,too small to see
+0818,too small to see
+0819,too small to see
+081A,too small to see
+081B,too small to see
+081C,too small to see
+081D,too small to see
+081E,too small to see
+081F,too small to see
+0820,too small to see
+0821,too small to see
+0822,too small to see
+0823,too small to see
+0824,too small to see
+0825,too small to see
+0826,too small to see
+0827,too small to see
+0828,too small to see
+0829,too small to see
+082A,too small to see
+082B,too small to see
+082C,too small to see
+082D,too small to see
+082E,too small to see
+082F,too small to see
+0830,too small to see
+0831,too small to see
+0832,too small to see
+0833,too small to see
+0834,too small to see
+0835,too small to see
+0836,too small to see
+0837,too small to see
+0838,too small to see
+0839,too small to see
+083A,shadow spire piece?
+083B,shadow spire piece?
+083C,shadow spire piece?
+083D,ice crystals?
+083E,too small to see
+083F,behemeth spawn point smoke
+0840,ice crystals?
+0841,ice crystals?
+0842,ice crystals?
+0843,ice crystals?
+0844,none
+0845,none
+0846,dead tree
+0847,"banderling, dead"
+0848,yellow silifi of crimson stars
+0849,atlan hilt?
+084A,none
+084B,none
+084C,"female char, naked"
+084D,"male char, naked"
+084E,ice crystals?
+084F,ice crystals?
+0850,ice crystals?
+0851,tree stump?
+0852,"female char, upper half only"
+0853,"male char, upper half only"
+0854,none
+0855,none
+0856,none
+0857,none
+0858,waterfall effect?
+0859,waterfall effect?
+085A,none
+085B,none
+085C,"stone pillar, white"
+085D,"stone pillar, white"
+085E,stone pieces
+085F,stone pieces
+0860,empyrean stone pyramid
+0861,"stone pillar, white"
+0862,"partial stone pillar, white"
+0863,"partial stone pillar, white"
+0864,"partial stone pillar, white"
+0865,"corpse, cowering in fear"
+0866,"corpses, cowering in fear"
+0867,"corpse, face down, covering head"
+0868,none
+0869,none
+086A,water/smoke effects?
+086B,sword
+086C,purple olthoi sword
+086D,multiple ice trees
+086E,none
+086F,none
+0870,none
+0871,none
+0872,weird xbow
+0873,weird xbow
+0874,weird xbow
+0875,weird xbow
+0876,part of a bow
+0877,weird bow
+0878,weird bow
+0879,totem?
+087A,none
+087B,rock
+087C,"sword, on ground"
+087D,???
+087E,none
+087F,lightning effect
+0880,fire effect on ground
+0881,acid effect on ground
+0882,frost effect on ground
+0883,lightning effect on ground
+0884,bludg effect on ground?
+0885,effect on ground
+0886,pierce effect on ground
+0887,none
+0888,"corpse, on ground, leg up"
+0889,corpse on ground
+088A,"corpse on ground, face down"
+088B,"corpse on ground, face down"
+088C,wood plank
+088D,too small to see
+088E,too small to see
+088F,too small to see
+0890,too small to see
+0891,too small to see
+0892,spiked weapon
+0893,too small to see
+0894,too small to see
+0895,staff of aerfalle
+0896,"large steel grate, ala orig olthoi queen quest"
+0897,"large steel grate, on ground"
+0898,"fire aura, red"
+0899,"shadow aura, black smoke"
+089A,none
+089B,fire elemental (blue)
+089C,fire elemental (blue)
+089D,board with nail
+089E,stick with nails
+089F,none
+08A0,trident type weapon
+08A1,white smoke effect
+08A2,white smoke effect
+08A3,lightning effect
+08A4,"sword, hollow"
+08A5,"spear, hollow"
+08A6,"staff, hollow"
+08A7,H?
+08A8,"mace, hollow"
+08A9," daggar, hollow"
+08AA,"1 side axe, hollow"
+08AB,staff
+08AC,spear
+08AD,mace
+08AE,H?
+08AF,daggar
+08B0,1 side axe
+08B1,sword
+08B2,"stick with star, lightning"
+08B3,"trident, shadow effect"
+08B4,"trident, fire"
+08B5,"stick with star, shadow"
+08B6,"spear, frost"
+08B7,"spear, lightning"
+08B8,"spear, fire"
+08B9,"spear, shadow"
+08BA,"trident, frost"
+08BB,"trident, lightning"
+08BC,"stick with star, frost"
+08BD,"spear, acid"
+08BE,"stick with star, acid"
+08BF,"stick with star, fire"
+08C0,"trident, standing up"
+08C1,"white smoke effect, HUGE"
+08C2,none
+08C3,none
+08C4,"yellow portal, flat"
+08C5,cooking?
+08C6,"grinder, cooking"
+08C7,cheeseburger
+08C8,clamp?
+08C9,red translucent something
+08CA,none
+08CB,none
+08CC,none
+08CD,none
+08CE,none
+08CF,none
+08D0,none
+08D1,none
+08D2,white smoke effect
+08D3,white smoke effect
+08D4,none
+08D5,none
+08D6,white smoke effect
+08D7,yellow light effect
+08D8,yellow light effect
+08D9,"Greivver, silver"
+08DA,"gray spike, down"
+08DB,"cone, brown"
+08DC,"cone, brown"
+08DD,"cone, brown"
+08DE,"gray spike, down"
+08DF,"cone, white"
+08E0,"gray spike, down"
+08E1,"cone, gray/purple"
+08E2,none
+08E3,none
+08E4,none
+08E5,none
+08E6,none
+08E7,none
+08E8,none
+08E9,none
+08EA,none
+08EB,none
+08EC,"female char, corpse on ground"
+08ED,"female char, corpse on ground"
+08EE,"female char, corpse on ground"
+08EF,"male char, corpse on ground"
+08F0,"male char, corpse on ground"
+08F1,"male char, corpse on ground"
+08F2,blue crystal
+08F3,blue crystal
+08F4,blue crystal
+08F5,blue crystal
+08F6,blue crystal
+08F7,blue crystal
+08F8,"fragment, blue, purple aura"
+08F9,"dual fragment, blue, purple aura"
+08FA,"fragment, blue, purple aura"
+08FB,"sentient shard, blue, purple aura"
+08FC,"portal, shadow"
+08FD,stone piece
+08FE,stone piece
+08FF,"too small to see, just hear some noise"
+0900,"too small to see, just hear some noise"
+0901,"too small to see, just hear some noise"
+0902,black structure piece
+0903,black structure piece
+0904,black smoke aura
+0905,none
+0906,none
+0907,structure rubble
+0908,arrow
+0909,"arrow, blue"
+090A,"arrow, blue, fire"
+090B,"quarrel, blue, fire"
+090C,"arrow heads, blue"
+090D,"plant, brown?"
+090E,dye
+090F,plant pod
+0910,dye pot
+0911,pile of stucture rubble
+0912,pile of stucture rubble
+0913,pile of stucture rubble
+0914,pile of stucture rubble
+0915,pile of stucture rubble
+0916,pile of stucture rubble
+0917,pile of stucture rubble
+0918,pile of stucture rubble
+0919,pile of stucture rubble
+091A,"cow, dead, white smoke"
+091B,pyramid rubble
+091C,pyramid rubble
+091D,pyramid rubble
+091E,portal gem? green
+091F,portal gem green
+0920,portal gem blue
+0921,pile of stucture rubble
+0922,pile of stucture rubble
+0923,pile of stucture rubble
+0924,urusin
+0925,nifflis
+0926,none
+0927,none
+0928,none
+0929,none
+092A,none
+092B,none
+092C,none
+092D,none
+092E,blue and lightning effect moving across ground
+092F,none
+0930,stone chair
+0931,pile of stucture rubble
+0932,stone and green stone
+0933,stone bench
+0934,stone table
+0935,stone table
+0936,none
+0937,hollow minion
+0938,lugian chest
+0939,none
+093A,chair
+093B,fireworks
+093C,none
+093D,none
+093E,none
+093F,none
+0940,none
+0941,none
+0942,none
+0943,none
+0944,none
+0945,none
+0946,none
+0947,bowl
+0948,pumpkin
+0949,too small to see
+094A,table
+094B,pumpkin with effect
+094C,table
+094D,broken table
+094E,table
+094F,"large bowl, off white stone"
+0950,map? painting? rug?
+0951,map? painting? rug?
+0952,none
+0953,map? painting? rug?
+0954,small table
+0955,banderling mask
+0956,drudge masks
+0957,mosswart mask
+0958,skeleton mask
+0959,tusker mask
+095A,virindi mask
+095B,"pot, broken"
+095C,map? painting? rug?
+095D,map? painting? rug?
+095E,map? painting? rug?
+095F,map? painting? rug?
+0960,map? painting? rug?
+0961,map? painting? rug?
+0962,none
+0963,tusker
+0964,"chair, stone"
+0965,"bench, stone"
+0966,Cultist Altar
+0967,Cultist Altar
+0968,Cultist Altar
+0969,table
+096A,pot
+096B,book case
+096C,pool of water
+096D,pool of water
+096E,fountain
+096F,"table, off white stone"
+0970,"bench, off white stone"
+0971,none
+0972,blue clear thing with red clear knatch inside it
+0973,circular thing
+0974,keg with tap?
+0975,beer mug
+0976,"olthoi helm, new style"
+0977,armert
+0978,none
+0979,flaming jack o lantern
+097A,none
+097B,King's Helm
+097C,Shadow's Garb
+097D,Ogre Mask
+097E,bed
+097F,none
+0980,Xarabydun Gharun'dim Town Sign
+0981,olthoi head (old style)
+0982,hollow minion
+0983,hollow minion
+0984,"black/blue cloud aura, spinning"
+0985,black rabbit with lightning effect
+0986,Hollow Minion with pumpkin
+0987,Texture for olthoi dungeon - Cone
+0988,same as 988 but diff color
+0989,Texture for olthoi dungeon 
+098A,Texture for olthoi dungeon 
+098B,Texture for olthoi dungeon 
+098C,Texture for olthoi dungeon 
+098D,Texture for olthoi dungeon 
+098E,blue aura from ground
+098F,none
+0990,none
+0991,moarsman
+0992,"heaume, post patch"
+0993,acid effect from ground
+0994,Smoke and blue aura spinning counter clockwise
+0995,Looks the smae as 996 but with lightning
+0996,same as above but minus the smoke
+0997,none
+0998,"smoke, looks like the black breath"
+0999,wooden arrow sign
+099A,idol
+099B,"idol, red eyes"
+099C,"idol, yellow eyes"
+099D,"BZ, orange"
+099E,none
+099F,none
+09A0,sanc steps
+09A1,sanc steps
+09A2,blue tiki torch
+09A3,acid ground effects
+09A4,spear
+09A5,"arrow head, blue"
+09A6,blue gem
+09A7,"town sign, kryst"
+09A8,two doors
+09A9,npk altar
+09AA,"coffin, sanc"
+09AB,"coffin, sanc"
+09AC,"green, pulsing red"
+09AD,none
+09AE,none
+09AF,none
+09B0,smoke black
+09B1,smoke black
+09B2,none
+09B3,skeleton bone pile
+09B4,skeleton bone pile
+09B5,paper on ground
+09B6,Hollow Minion with pumpkin
+09B7,Texture for olthoi dungeon - Cone
+09B8,same as 988 but diff color
+09B9,wood piece
+09BA,Emissary of Asheron
+09BB,green something blue aura
+09BC,blue gem purple aura
+09BD,blue gem red aura
+09BE,blue gem red aura
+09BF,blue gem purple aura
+09C0,"book, purple"
+09C1,blue gem blue aura
+09C2,blue gem blue aura
+09C3,blue gem blue aura
+09C4,green something blue aura
+09C5,green something blue aura
+09C6,green something blue aura
+09C7,"Asheron, blue"
+09C8,"bow, brown green aura"
+09C9,"corpse, hands up"
+09CA,none
+09CB,BZ Staff
+09CC,"Helm of the Lightbringer, all silver"
+09CD,urisin mask
+09CE,green something purple aura
+09CF,focusing stone maker
+09D0,none
+09D1,none
+09D2,green something yellow aura
+09D3,lightning aura on ground moving
+09D4,sword of lost hope OLD! PP
+09D5,corpse on pedastal
+09D6,none (edit: long sword handle that falls through ground)
+09D7,none (edit: long sword handle that falls through ground)
+09D8,thistledown memorial statue
+09D9,red wisp w/ drippings
+09DA,red wisp
+09DB,none
+09DC,"blue aura, mana renewal but bigger"
+09DD,"blue aura, mana renewal but smaller"
+09DE,white aura
+09DF,white aura
+09E0,weird cube
+09E1,blue crystals
+09E2,blue crystals
+09E3,"blue liquid, green aura"
+09E4,Hieromancer's Orb
+09E5,mosswart
+09E6,Auberean Globe Orb
+09E7,none
+09E8,"sword, virindi slayer, blue"
+09E9,"2 sided axe, virindi slayer blue"
+09EA,"mace, vinridi slayer, blue"
+09EB,"spear, virindi slayer, blue"
+09EC,Police Box (textureless)
+09ED,remorian pack doll??
+09EE,table? blue aura
+09EF,green something yellow aura
+09F0,"human feet, lowerleg armor"
+09F1,none (edit: leg and foot below knee)
+09F2,"wisp, purple"
+09F3,none
+09F4,none
+09F5,"virindi, blue, sparkling"
+09F6,"arrowheads, acid"
+09F7,"arrowheads, lightning"
+09F8,"arrowheads, fire"
+09F9,"arrow, acid"
+09FA,"arrow, lightning"
+09FB,"arrow, fire"
+09FC,"quarrel, acid"
+09FD,"quarrel, lightning"
+09FE,"quarrel, fire"
+09FF,armor piece?/
+0A00,pick axe?
+0A01,purpel shine
+0A02,"undead floating, portal auras (Marionette?)"
+0A03,doll
+0A04,none
+0A05,myenosome top
+0A06,myenosome with top off
+0A07,virindi key? blue
+0A08,"chest, virindi, blue"
+0A09,horned helm?
+0A0A,lugian brown armor test model
+0A0B,armor? lugian?
+0A0C,casino key
+0A0D,"casino chip, blue"
+0A0E,no idea
+0A0F,spear of some sort?
+0A10,spear of some sort?
+0A11,staff of clarity
+0A12,staff of clarity
+0A13,Lugian Forge from Linvak Tukal
+0A14,staff of clarity
+0A15,none
+0A16,none
+0A17,none
+0A18,piece of armor?
+0A19,piece of armor?
+0A1A,"char, male, blue aegis, HUGE aura"
+0A1B,"char, male, hand on hip"
+0A1C,painting?
+0A1D,painting?
+0A1E,painting?
+0A1F,piece of a wall
+0A20,none
+0A21,piece of a wall
+0A22,open chest
+0A23,puzzle piece?
+0A24,dropper? dagger?
+0A25,none
+0A26,bundle of arrows on ground
+0A27,bundle of arrows on ground
+0A28,blue wisp
+0A29,none
+0A2A,Fletcher's Cap
+0A2B,Alchemist's Hat
+0A2C,casino hat
+0A2D,none
+0A2E,none
+0A2F,none
+0A30,casino piece
+0A31,food? green
+0A32,shield? aegis?
+0A33,nifflis shell?
+0A34,very large tree
+0A35,olthoi eviserator
+0A36,flower
+0A37,tree
+0A38,purple glowing?
+0A39,"green something, purple aura"
+0A3A,none
+0A3B,none
+0A3C,none
+0A3D,none
+0A3E,"pot green inside, stiring"
+0A3F,tumerok barrier
+0A40,rat on spike
+0A41,none
+0A42,blue sirriclan (bird)
+0A43,none
+0A44,totem
+0A45,doll (monster)
+0A46,doll (monster)
+0A47,none
+0A48,none
+0A49,"wooden steps, ladder"
+0A4A,sicle
+0A4B,"wisp, green"
+0A4C,olthoi soldier?
+0A4D,"chest, half open"
+0A4E,none
+0A4F,tumerok tent
+0A50,tumerok tent
+0A51,"wooden steps, ladder"
+0A52,"bz statue, red, virindi mask, caul"
+0A53,"bz statue, red, broken"
+0A54,tumerok tent
+0A55,none
+0A56,none
+0A57,none
+0A58,bush
+0A59,none
+0A5A,none
+0A5B,none
+0A5C,none
+0A5D,none
+0A5E,none
+0A5F,none
+0A60,none
+0A61,lightning aura huge
+0A62,none
+0A63,virindi tower spinning caul
+0A64,none
+0A65,none
+0A66,tree
+0A67,none
+0A68,"rift, blue/red with virindi mask"
+0A69,"rift, green/orange with virindi mask"
+0A6A,"rift, green/orange with virindi mask"
+0A6B,"rift, yellow/purple with virindi mask"
+0A6C,"rift,purple/orange with virindi mask"
+0A6D,"rift,blue/yellow with virindi mask"
+0A6E,none
+0A6F,Axe of the Quiddity
+0A70,Dagger of the Quiddity
+0A71,Blade of the Quiddity
+0A72,Stave of the Quiddity
+0A73,Lance of the Quiddity
+0A74,??
+0A75,Mace of the Quiddity Stave of the Quiddity Quintessence Sickle
+0A76,Bow of the Quiddity
+0A77,Balister of the Quiddity
+0A78,too small -- audio effect? Crickets?
+0A79,too small -- another audio effect
+0A7A,Eye of the Quiddity
+0A7B,"golem, aetheria/crafting"
+0A7C, Purple Aun Tumerok?
+0A7D,"wall, tumerok"
+0A7E,"chest, orange"
+0A7F,nothing
+0A80,nothing
+0A81,nothing
+0A82,nothing
+0A83,nothing
+0A84,nothing
+0A85,nothing
+0A86,nothing
+0A87,nothing
+0A88,nothing
+0A89,Green Seeds
+0A8A,????? -- audio effect
+0A8B,Nail or Spike (buried shield?)
+0A8C,Piece of armor (SHield?)
+0A8D,same as above
+0A8E,Piece of wall art?
+0A8F,Olthoi Queen
+0A90,??? Small -- audio effect
+0A91,Stone Stairs w/ 1/2 turn
+0A92,Small ursuin rug (Greeling's?)
+0A93,Small ursuin rug  
+0A94,Light Brown Carenzi
+0A95,something invisible
+0A96,Open Brown Chest
+0A97,Garden Gnome Statue
+0A98,Nothing
+0A99,Nothing
+0A9A,Straight flight of stone stairs
+0A9B,Olthoi Queen Trophy Head
+0A9C,Totem laying on back
+0A9D,Mapof Dereth (light colored house item)
+0A9E,Large olthoi type statue
+0A9F,Aun pole in ground
+0AA0,Horn of Vigilance
+0AA1,Olthoi Door
+0AA2,Fountain
+0AA3,Olthoi Door
+0AA4,Olthoi Door
+0AA5,Olthoi Door
+0AA6,Olthoi Door
+0AA7,Olthoi Door
+0AA8,Olthoi Drone
+0AA9,Olthoi Noble (wrong color)
+0AAA,Olthoi Nymph full size
+0AAB,Olthoi Noble Nymph?
+0AAC,Young Olthoi Queen
+0AAD,Arcane Pedestal
+0AAE,House Stone Door
+0AAF,Aun Light Post
+0AB0,Part of Tusker Statue
+0AB1,Tusker Post/Pillar
+0AB2,"dungeon pieces, olthoi"
+0AB3,"dungeon pieces, olthoi"
+0AB4,Nothing
+0AB5,Large Dead Multi Branching Tree
+0AB6,Purple Aun
+0AB7,Nothing
+0AB8,Aun Torch
+0AB9,Aun Map Table
+0ABA,Aun Chair
+0ABB,Large Turquoise Obelisk
+0ABC,Large Green Obelisk
+0ABD,Large Brown Obelisk
+0ABE,Giant Mushroom
+0ABF,Giant thin Mushroom
+0AC0,Giant flat top mushroom
+0AC1,Giant Cap Mushroom
+0AC2,Giant Cap Mushroom
+0AC3,Giant Cap Mushroom
+0AC4,Giant Cap Mushroom
+0AC5,Giant Cap Mushroom
+0AC6,Olthoi PLant ?
+0AC7,Olthoi plant larger than 6
+0AC8,olthoi plant smaller than 6
+0AC9,purple flower 
+0ACA,pink flower
+0ACB,orange flower
+0ACC,nothing
+0ACD,olthoi queen head
+0ACE,large anthill
+0ACF,atlan axe
+0AD0,atlan bow
+0AD1,atlan weapon
+0AD2,atlan weapon
+0AD3,atlan weapon
+0AD4,atlan weapon
+0AD5,atlan weapon
+0AD6,atlan weapon
+0AD7,atlan crossbow
+0AD8,atlan orb
+0AD9,nothing
+0ADA,Aun Cauldron Purple
+0ADB,Aun Cauldron Orange
+0ADC,Thorsten's Armor
+0ADD,Aun Cauldron Green
+0ADE,Pyreal Bell
+0ADF,jewlery? butterfly?
+0AE0,Small black square?
+0AE1,???
+0AE2,Nothing
+0AE3,Staff???
+0AE4,Nothing?
+0AE5,Nothing
+0AE6,flesh lump?
+0AE7,Pyreal Mace
+0AE8,Panaq (Putiputipuh's Onga)
+0AE9,Crop
+0AEA,Ebon Spine Harpoon
+0AEB,Elari Wood Bow
+0AEC,Siraluun Matihao
+0AED,Pyreal Mace
+0AEE,Virindi Scalpel
+0AEF,Raeta's Necklace Icon?
+0AF0,Palenqual's Tewhate of the Heights
+0AF1,Okane
+0AF2,Waaika (Palenqual's Living Weapons)
+0AF3,Taiaha
+0AF4,Taiaha different texture
+0AF5,Stave of Palenqual (Base)?
+0AF6,Banner weapon part?
+0AF7,Seal weapon part?
+0AF8,haft+banner part?
+0AF9,Just haft part?
+0AFA,banner and haft?
+0AFB,just a haft?
+0AFC,banner + haft?
+0AFD,another haft?
+0AFE,Tip of banner weapons
+0AFF,forked tip of banner weapon
+0B00,haflted falcon banner w/ crest
+0B01,nothing?
+0B02,none
+0B03,Baudren/Drum
+0B04,"banner, haft and crest"
+0B05,"falcon banner, haft and tri crest"
+0B06,falcon banner haft and split crest
+0B07,falcon banner haft and round crest
+0B08,falcon banner haft and tri crest
+0B09,falcon banner haft and split crest
+0B0A,falcon banner haft and split crest
+0B0B,falcon banner haft and tri crest
+0B0C,falcon banner haft and split crest
+0B0D,Statue sign?
+0B0E,small bluish pedestal with face etching?
+0B0F,totem
+0B10,totem
+0B11,totem
+0B12,totem
+0B13,totem
+0B14,totem
+0B15,totem
+0B16,totem
+0B17,totem
+0B18,totem
+0B19,totem
+0B1A,totem
+0B1B,totem
+0B1C,totem
+0B1D,ua weapon?
+0B1E,some potion pot bhut no idea wich one
+0B1F,coin??
+0B20,green acid cloud on ground
+0B21,red fire cloud on ground
+0B22,white frost cloud on ground
+0B23,seems to geneate floating olthoi and tumerok heads
+0B24,olthi queen back end
+0B25,othoi dungeon item?
+0B26,none
+0B27,tumerok item?
+0B28,virindi impant
+0B29,dark stones
+0B2A,short dark stones
+0B2B,tall dark stones
+0B2C,pink exotic flower
+0B2D,purple exotic flower
+0B2E,red exotic flower
+0B2F,none
+0B30,awakener
+0B31,smoke on ground generator
+0B32,flame on ground generator
+0B33,blue/red fire on ground
+0B34,none
+0B35,wood block
+0B36,wood block
+0B37,very large mushroom
+0B38,"Enormous mushroom, Marescent Plateau style"
+0B39,"Enormous mushroom, Marescent Plateau style"
+0B3A,Tumerok banner staff head?
+0B3B,Wooden pole
+0B3C,Tumerok banner staff?
+0B3D,"Green sparkly axe, Ultimate Singularity?"
+0B3E,"Green sparkly bow, Ultimate Singularity?"
+0B3F,"Green sparkly xbow, Ultimate Singularity?"
+0B40,"Green sparkly dagger, Ultimate Singularity?"
+0B41,"Green sparkly katar, Ultimate Singularity?"
+0B42,"Green sparkly mace, Ultimate Singularity?"
+0B43,"Green sparkly staff, Ultimate Singularity?"
+0B44,"Green sparkly spear, Ultimate Singularity?"
+0B45,"Green sparkly sword, Ultimate Singularity?"
+0B46,"Blue sparkly staff, Singularity?"
+0B47,"Blue sparkly xbow, Singularity?"
+0B48,"Blue sarkly dagger, Singularity?"
+0B49,"Blue sparkly katar, Singularity?"
+0B4A,"Blue sparkly bow, Singularity?"
+0B4B,Waterfall splash
+0B4C,Waterfall splash
+0B4D,"Mosswart - Protector, except no blue aura"
+0B4E,"Chandelier, iron, 6 candles"
+0B4F,"Small human bone, leg?"
+0B50,Nothing?
+0B51,Nothing?
+0B52,Nothing?
+0B53,Nothing?
+0B54,Parchment with red stamp
+0B55,Crude hatchet with obsidian head
+0B56,"Small obsidian chunk, rocket shape"
+0B57,"Crown, 8 pieces of segmented crystal"
+0B58,"Staff shaped like cobra, blue and orange"
+0B59,Dark Sorcerer's Phylactery
+0B5A,"Tall wooden triangular column, orange top"
+0B5B,Sword with blue trim
+0B5C,Painting - olthoi/human slaves
+0B5D,Painting - olthoi/human slaves
+0B5E,Painting - Welcome to Dereth
+0B5F,Painting - Studying
+0B60,"Portal base (blue, red, green spire)"
+0B61,Soul Staff
+0B62,Nothing?
+0B63,Round Shield?
+0B64,tumerok tent?
+0B65,tumerok tent 2?
+0B66,tumerok tent 3?
+0B67,tumerok tent 4?
+0B68,Asteliary Orb
+0B69,Imbued Asteliary Orb
+0B6A,Locks camera in fpv
+0B6B,portal storm
+0B6C,none
+0B6D,none
+0B6E,lightning effect
+0B6F,skull
+0B70,jack o lantern
+0B71,sclavus head
+0B72,undead head
+0B73,doll face
+0B74,ursuin head
+0B75,flaming skele skull on ground
+0B76,pyreal stack on ground
+0B77,banderling wand
+0B78,drudge wand
+0B79,monster head wands
+0B7A,monster head wands
+0B7B,monster head wands
+0B7C,
+0B7D,PP Energy Crystal (blue)
+0B7E,none
+0B7F,green undead necklace
+0B80,skull mace
+0B81,big green egg
+0B82,big green egg
+0B83,small green egg
+0B84,purple glowing egg
+0B85,meat cleaver
+0B86,some type of food
+0B87,pwylls crown
+0B88,veil of darkness
+0B89,kojis beast
+0B8A,Writ of Refuge
+0B8B,Nothing?
+0B8C,Candelabra
+0B8D,Arcanum sign
+0B8E,"Atlan Axe, Blackfire Smoldering?"
+0B8F,Atlan Dagger? Blackfire Smoldering?
+0B90,"Unknown Atlan Weapon, Blackfire Smoldering?"
+0B91,"Atlan Wand, Blackfire Smoldering?"
+0B92,"Atlan Spear, Blackfire Smoldering?"
+0B93,"Atlan Staff, Blackfire Smoldering?"
+0B94,"Atlan Sword, Blackfire Smoldering?"
+0B95,"Atlan Axe, Blackfire Smoldering?"
+0B96,Atlan Dagger? Blackfire Smoldering?
+0B97,Atlan Dagger? Blackfire Smoldering?
+0B98,"Unknown Atlan Weapon, Blackfire Smoldering?"
+0B99,"Unknown Atlan Weapon, Blackfire Smoldering?"
+0B9A,"Atlan Axe, Blackfire Smoldering?"
+0B9B,"Atlan Wand, Blackfire Smoldering?"
+0B9C,"Atlan Spear, Blackfire Smoldering?"
+0B9D,"Atlan Spear, Blackfire Smoldering?"
+0B9E,"Atlan Sword, Blackfire Smoldering?"
+0B9F,"Atlan Staff, Blackfire Smoldering?"
+0BA0,"Atlan Staff, Blackfire Smoldering?"
+0BA1,"Atlan Wand, Blackfire Smoldering?"
+0BA2,"Atlan Sword, Blackfire Smoldering?"
+0BA3,Nothing?
+0BA4,"Large column, slowly spinning human on top"
+0BA5,none
+0BA6,none
+0BA7,none
+0BA8,none
+0BA9,none
+0BAA,injured Olthoi (blue with purple eyes)
+0BAB,dead small tree
+0BAC,dead medium tree
+0BAD,dead small wide tree
+0BAE,full bookshelf
+0BAF,Bookshelf 3 rows
+0BB0,Bookshelf 3 rows
+0BB1,Wooden chair
+0BB2,Wooden chair
+0BB3,Wooden chair
+0BB4,Wooden Bench
+0BB5,Wooden Bench
+0BB6,Broken Stone Fragment
+0BB7,Wooden Doors Broken on ground
+0BB8,Atlaytl Thrown Weapons Weapon
+0BB9,arrows on ground
+0BBA,bunny slippers
+0BBB,bunny slipper (single)
+0BBC,Dead wood golem
+0BBD,Dead wood golem
+0BBE,safe zone (floating orange marked pillars
+0BBF,Sho Paper Bamboo Privacy Wall
+0BC0,Holiday Giant Peppermint Candy
+0BC1,Holiday Small Peppermint Candy 
+0BC2,Holiday Snowman wearing Fez Cap
+0BC3,Holiday Snowman wearing Top Hat
+0BC4,Holiday Snowman with No Head
+0BC5,Holiday Snowman with No Arms
+0BC6,Holiday Snowman
+0BC7,Fireplace with Burning Flame
+0BC8,Holiday Christmas Tree Snow Flocked
+0BC9,Holiday Christmas Wreath with Purple Flowers
+0BCA,Holiday 2 Headed Snowman
+0BCB,Tumerok Spear ?
+0BCC,Flames effect Green
+0BCD,Swirling Green Cloud Effect with Storm Clouds Lightning
+0BCE,none
+0BCF,Holiday Christmas Wreath with Purple Flowers
+0BD0,Holiday Christmas Tree Snow Flocked Medium Size
+0BD1,Sound Effect Cold Wind
+0BD2,none
+0BD3,Sound Effect Hollow Cavern Wind Gust
+0BD4,Sound Effect Spooky Scary Screams
+0BD5,Sound Effect Spring Birds Chirping
+0BD6,Sign post with Spinning Cube
+0BD7,Sho Entry Gate Black
+0BD8,Flame Effect on ground
+0BD9,Sho Entry Gate Black Broken
+0BDA,Stone Tablet Question Mark with Writing 1
+0BDB,Stone Tablet Question Mark with Writing 2
+0BDC,Stone Tablet Question Mark with Writing 3
+0BDD,Huge Stone Fireplace with Burning Flame
+0BDE,none
+0BDF,Stone Post Pointed Dark Green
+0BE0,Stone Post Pointed Bright Green
+0BE1,Parchment Paper Red Seal
+0BE2,Human Body Part White Male Chest Torso
+0BE3,Dead Human Body Standing
+0BE4,Dead Human Body on ground
+0BE5,Wood Floor Door Hatch
+0BE6,Wood Floor Tile
+0BE7,Human Body Part
+0BE8,Candlestick Burning Wall Hanger
+0BE9,"snowman, 2 headed"
+0BEA,Stone Fountain
+0BEB,"golem, new, ice"
+0BEC,none
+0BED,human size acid elemental
+0BEE,frost elemental (hight up to chest)
+0BEF,Primative Hammer
+0BF0,Dead Ice Golem
+0BF1,"cyrstal, spinning, prismatic"
+0BF2,horizontal yellow portal
+0BF3,water surface
+0BF4,none
+0BF5,Cold Air Particle Shroud
+0BF6,Acidic Air Particle Shroud
+0BF7,Lightning Particle Shroud
+0BF8,Human Shaped Cookie Cutter
+0BF9,Slice of Bread
+0BFA,Two Slices of Bread
+0BFB,Gingerbread Man/Drudge/Lugian
+0BFC,Top Half of a Brimstone-cap Mushroom
+0BFD,Rotating Aun Tumerok with a Spear
+0BFE,none
+0BFF,A lantern/cage with a chunk of magma
+0C00,"A lantern/cage with a chunk of magma, as above"
+0C01,none
+0C02,none
+0C03,Helm of the Elements Plume Only
+0C04,Helm of the Elements
+0C05,2 doors whit small opening in between
+0C06,quiddity fluxing energy purple
+0C07,quiddity fluxing energy orange
+0C08,quiddity fluxing energy blue
+0C09,quiddity fluxing energy yellow
+0C0A,quiddity fluxing energy white
+0C0B,quiddity fluxing energy red
+0C0C,quiddity fluxing energy green
+0C0D,Apostate Rift Aggressor (body)
+0C0E,quiddity rift (body)
+0C0F,
+0C10,shallow rift (body)
+0C11,Vibrant Virindi Energy Cluster
+0C12,green doll energy
+0C13,orange doll energy
+0C14,yellow doll energy
+0C15,blue horizontal portal
+0C16,blue horizontal portal
+0C17,green horizontal portal
+0C18,green horizontal portal
+0C19,purpel horizontal portal
+0C1A,orange horizontal portal
+0C1B,orange horizontal portal
+0C1C,red horizontal portal
+0C1D,red horizontal portal
+0C1E,white horizontal portal
+0C1F,white horizontal portal
+0C20,white uprising quiddity energy (wide)
+0C21,red uprising quiddity energy (wide)
+0C22,orange uprising quiddity energy (wide)
+0C23,yellow uprising quiddity energy (wide)
+0C24,green uprising quiddity energy (wide)
+0C25,blue uprising quiddity energy (wide)
+0C26,white uprising quiddity energy (small)
+0C27,red uprising quiddity energy (small)
+0C28,orange uprising quiddity energy (small)
+0C29,yellow uprising quiddity energy (small)
+0C2A,green uprising quiddity energy (small)
+0C2B,blue uprising quiddity energy (small)
+0C2C,large grating horizontal
+0C2D,large grating vertical
+0C2E,"lever, blue crystal, caul dungeons"
+0C2F,"audio file, moaning off..."
+0C30,Tree Stump
+0C31,none
+0C32,none
+0C33,desert wind
+0C34,lightning effect block
+0C35,none
+0C36,audio file crying woman
+0C37,audio file crying woman
+0C38,Drop point marker
+0C39,Drop point marker
+0C3A,Drop point marker
+0C3B,Drop point marker
+0C3C,Drop point marker
+0C3D,Drop point marker
+0C3E,Drop point marker
+0C3F,Drop point marker
+0C40,Drop point marker
+0C41,Drop point marker
+0C42,Drop point marker
+0C43,Drop point marker
+0C44,Drop point marker
+0C45,Drop point marker
+0C46,Drop point marker
+0C47,Drop point marker
+0C48,horizontale purpel portal
+0C49,horizontale blue portal
+0C4A,horizontale green portal
+0C4B,horizontale orange portal
+0C4C,horizontale red portal
+0C4D,horizontale white portal
+0C4E,horizontale yellow portal
+0C4F,none
+0C50,none
+0C51,none
+0C52,Paradox-touched Olthoi Slasher
+0C53,Tsuric OR Maelstrom
+0C54,Theral OR Sirroco
+0C55,Double Bookcase
+0C56,Single Bookcase
+0C57,jaleh's sacrifice stone
+0C58,model of Jaleh himself (in underwear)
+0C59,Podium with open book
+0C5A,Lilithas Arrow
+0C5B,Arrow with red glow at tail
+0C5C,Arrow with green glow at tail
+0C5D,Lightning Arrow
+0C5E,Frost Arrow
+0C5F,Fire Arrow
+0C60,Arrow with black droplets at tail
+0C61,Acid Arrow
+0C62,Arrowshaft
+0C63,Pile of three Arrowshafts
+0C64,Small Pine Tree
+0C65,none
+0C66,Taller Pine Tree
+0C67,"Giant Olthoi Mushroom, Tall"
+0C68,"Giant Olthoi Mushroom, Wide"
+0C69,"Giant Olthoi Mushroom, Domed"
+0C6A,"Giant Olthoi Mushroom, Round"
+0C6B,"Emblem of Marriage Shield, Blue"
+0C6C,Symbol of Marriage
+0C6D,Single Red Wedding Flower
+0C6E,Wedding Flower Bouquet without Stems
+0C6F,Simple Wedding Flower Bouquet without Stems
+0C70,flowered wedding cake
+0C71,Elegant Flower Bouquet
+0C72,Simple Flower Bouquet
+0C73,Wedding Cake Figures
+0C74,wedding pressure plate
+0C75,Greed
+0C76,Jealousy
+0C77,Anger
+0C78,Wedding invitation
+0C79,none
+0C7A,Plain Lever
+0C7B,Skull Lever
+0C7C,a red line whit borders...
+0C7D,Doors to Timaru ?
+0C7E,Cragstone's Axe
+0C7F,Thorsten Cragstone's Axe
+0C80,Pedestal
+0C81,Crystal Vase
+0C82,Crystal Vase Small version that comes ontop of pedestal
+0C83,Pedestal whit a Vase
+0C84,Sunflower
+0C85,Pedestal with a Floral Arrangement
+0C86,Crystal Vase with Sunflowers (Bouquet)
+0C87,Crystal Vase with a Sunflower
+0C88,Crystal Vase with Sunflowers (Pair)
+0C89,Crystal Vase with Sunflowers (Trio)
+0C8A,Crystal Vase with Sunflowers (Quartet)
+0C8B,Pedestal with a Floral Arrangement (Sunflower)
+0C8C,"Pedestal with a Floral Arrangement (Sunflowers, Pair)"
+0C8D,"Pedestal with a Floral Arrangement (Sunflowers, Trio)"
+0C8E,"Pedestal with a Floral Arrangement (Sunflowers, Quartet)"
+0C8F,none
+0C90,Housing Banner (Caerna Dwellings)
+0C91,Housing Banner (Illsin Veranda)
+0C92,Housing Banner (Alvan Court)
+0C93,Housing Banner (Martin Court)
+0C94,Housing Banner (Senmai Court)
+0C95,Housing Banner (Sanctum Residential Halls)
+0C96,Housing Banner (Ruadnar Court)
+0C97,Housing Banner (Sorveya Court)
+0C98,Housing Banner (Sigil Veranda)
+0C99,Housing Banner (Treyval Veranda)
+0C9A,Housing Banner (Sylvan Dwellings)
+0C9B,"statue, green with human spinning around on top (Settlement Portals Statue)"
+0C9C,"2 doors, half open"
+0C9D,none
+0C9E,none
+0C9F,none
+0CA0,
+0CA1,none
+0CA2,Used in Hotel Swank
+0CA3,olthoi egg thing (red/medium)
+0CA4,Olthoi egg thing (green/small)
+0CA5,Big olthoi pod (orange)
+0CA6,none
+0CA7,none
+0CA8,Isparian wand base?
+0CA9,none
+0CAA,Small white mist w/ lightning
+0CAB,Small white mist w/ lightning
+0CAC,Small green mist w/ fire
+0CAD,Small green mist w/ fire
+0CAE,Copper Bolt with Nut?
+0CAF,
+0CB0,Gear...
+0CB1,Small Mechanical Spring
+0CB2,Housing Banner (Allain Court)
+0CB3,Housing Banner (Autumn Moon Gardens)
+0CB4,Housing Banner (White Lotus Gate)
+0CB5,Housing Banner (Trellyn Gardens)
+0CB6,Housing Banner (Endara Gate)
+0CB7,Housing Banner (Syrah Dwellings)
+0CB8,Housing Banner (Vindalan Dwellings)
+0CB9,Housing Banner (Forsythian Gardens)
+0CBA,Housing Banner (Maru Veranda)
+0CBB,Housing Banner (Sorac Gate)
+0CBC,Housing Banner (Hasina Gardens)
+0CBD,Housing Banner (Alphus Court)
+0CBE,Housing Banner (Ivory Gate)
+0CBF,Housing Banner (Heartland Yard)
+0CC0,Housing Banner (Gajin Dwellings)
+0CC1,Housing Banner (Vesper Gate)
+0CC2,Housing Banner (Mellas Court)
+0CC3,Housing Banner (Larkspur Gardens)
+0CC4,Housing Banner (Winthur Gate)
+0CC5,Housing Banner (Oriel Residential Halls)
+0CC6,Housing Banner (Atrium Residential Halls)
+0CC7,Housing Banner (Valorya Gate)
+0CC8,Small Brown Statue Pedestal
+0CC9,big black cobwebs
+0CCA,big black cobwebs
+0CCB,Big black cobwebs
+0CCC,Big black cobwebs
+0CCD,Big black cobwebs
+0CCE,not sure...
+0CCF,Auroch in a Web Cocoon
+0CD0,White rock
+0CD1,Auroch bull head
+0CD2,skeleton hand
+0CD3,skeleton hand
+0CD4,skeleton torso
+0CD5,skeleton ribs
+0CD6,Olthoi head (blue)
+0CD7,Olthoi body (blue)
+0CD8,Olthoi tail (blue)
+0CD9,White rock
+0CDA,Green flag
+0CDB,Nothing?
+0CDC,Nothing?
+0CDD,Nothing?
+0CDE,Nothing?
+0CDF,Nothing?
+0CE0,Isparian Bow (Base)
+0CE1,Isparian Crossbow (Base)
+0CE2,Isparian Wand (Base)
+0CE3,Isparian Dagger (Base)
+0CE4,
+0CE5,
+0CE6,
+0CE7,
+0CE8,
+0CE9,
+0CEA,
+0CEB,
+0CEC,
+0CED,
+0CEE,
+0CEF,
+0CF0,Isparian atlan
+0CF1,
+0CF2,
+0CF3,
+0CF4,
+0CF5,
+0CF6,
+0CF7,
+0CF8,
+0CF9,
+0CFA,
+0CFB,
+0CFC,
+0CFD,
+0CFE,
+0CFF,
+0D00,Isparian bow
+0D01,Isparian xbow
+0D02,
+0D03,
+0D04,
+0D05,Isparian xbow
+0D06,Isparian xbow
+0D07,Isparian xbow
+0D08,Isparian xbow
+0D09,Isparian xbow
+0D0A,Isparian xbow
+0D0B,Isparian xbow
+0D0C,Isparian xbow
+0D0D,Isparian xbow
+0D0E,Isparian xbow
+0D0F,Isparian xbow
+0D10,Isparian xbow
+0D11,Isparian xbow
+0D12,Nether-attuned isparian wand
+0D13,Isparian wand
+0D14,Frost Ispariand wand
+0D15,Isparian wand
+0D16,Acid Isparian wand
+0D17,Acid Isparian wand (no animation)
+0D18,Isparian wand (gold)
+0D19,Lightning Isparian wand
+0D1A,Lightning Isparian wand (no animation)
+0D1B,Fire Isparian wand 
+0D1C,Fire Isparian wand (no animation)
+0D1D,Frost Ispariand wand
+0D1E,Isparian wand
+0D1F,Isparian atlan
+0D20,Isparian atlan
+0D21,Isparian atlan
+0D22,Isparian atlan
+0D23,Isparian atlan
+0D24,Isparian atlan
+0D25,Isparian atlan
+0D26,Isparian atlan
+0D27,Isparian atlan
+0D28,Isparian atlan
+0D29,Isparian atlan
+0D2A,Isparian atlan
+0D2B,Isparian atlan
+0D2C,Isparian atlan
+0D2D,Isparian atlan
+0D2E,Isparian UA
+0D2F,Isparian UA
+0D30,INether-attuned sparian xbow
+0D31,INether-attuned sparian xbow
+0D32,INether-attuned sparian xbow
+0D33,Large black cobwebs
+0D34,Lava kiln
+0D35,Rope gear thing?
+0D36,ice cream cone?
+0D37,none
+0D38,Bronze Coil from a Statue
+0D39,seeds?
+0D3A,gear?
+0D3B,gear?
+0D3C,small cup?
+0D3D,small cup?
+0D3E,Loom
+0D3F,Blue field of energy
+0D40,Male human w/ hands at side
+0D41,Horn of....
+0D42,Horn of....
+0D43,Horn of....
+0D44,Horn of Vigilance
+0D45,Horn of Vigilance
+0D46,Horn of Vigilance
+0D47,none
+0D48,Horn of Vigilance
+0D49,Upper Pipe Three
+0D4A,Upper Pipe Two
+0D4B,Upper Pipe One
+0D4C,Grievver Tibia
+0D4D,Sharp Tusker Slave Tusk
+0D4E,ant hill?
+0D4F,none
+0D50,purple aura moving across ground
+0D51,red aura moving across ground
+0D52,Renegade's Token
+0D53,gigantic king/vr tatue
+0D54,pedastal wak spot
+0D55,"asheron, blue robe, white aura, acid hands"
+0D56,"asheron, blue robe, white aura, acid hands"
+0D57,Various Sounds?
+0D58,Golem Sound?
+0D59,Nothing?
+0D5A,Arcane Pedestal
+0D5B,small tool
+0D5C,"human, green acid aura"
+0D5D,"human, red fire aura"
+0D5E,"human, white frost aura"
+0D5F,"human, purple lightning aura"
+0D60,thrown weapon
+0D61,"human, green acid aura,laying down"
+0D62,"human, red fire aura,laying down"
+0D63,"human, white frost aura,laying down"
+0D64,"human, purple lightning aura,laying down"
+0D65,black obsidian pillar
+0D66,black obsidian pillar
+0D67,black obsidian pillar
+0D68,
+0D69,
+0D6A,
+0D6B,
+0D6C,
+0D6D,
+0D6E,
+0D6F,"pillar, colo style"
+0D70,"pillar, colo style"
+0D71,"pillar, colo style, half"
+0D72,"pillar, colo style"
+0D73,gem
+0D74,"staff, casting, new model"
+0D75,Covenant Shield
+0D76,prismatic crystals
+0D77,
+0D78,http://asheron.wikia.com/wiki/Crystal_of_Tumult
+0D79,
+0D7A,
+0D7B,Rock?
+0D7C,
+0D7D,Swirling Acid Effect
+0D7E,Swirling Flame Effect
+0D7F,Swirling Frost  Effect
+0D80,Swirling Lightning Effect
+0D81,
+0D82,"statue, vr, leaning"
+0D83,"statue, vr, leaning"
+0D84,"statue, vr, leaning"
+0D85,"statue, empyrean head"
+0D86,Housing Banner - Jade Gate
+0D87,Housing Banner - Pavson Place
+0D88,Housing Banner - Crescent Moon Veranda
+0D89,Housing Banner - Trothyr Hollow
+0D8A,Housing Banner - Celcynd Grotto
+0D8B,Housing Banner (Xao Wu Gardens)
+0D8C,Housing Banner - Haven Residential Halls
+0D8D,Housing Banner - Cedraic Court
+0D8E,Housing Banner - Jojii Gardens
+0D8F,Housing Banner (Dulok Court)
+0D90,Housing Banner (Ben Ten Lodge)
+0D91,Housing Banner (Ispar Yard)
+0D92,Big green rock
+0D93,Moss Covered Rock
+0D94,Moss Covered Rock
+0D95,Moss Covered Rock
+0D96,Moss Covered Rock
+0D97,Moss Covered Rock
+0D98,Moss Covered Rock
+0D99,Moss Covered Rock
+0D9A,Large green monolith
+0D9B,Really really huge green rock
+0D9C,Really huge green rock
+0D9D,Huge green rock
+0D9E,Large green rock
+0D9F,Green rock
+0DA0,Medium green rock
+0DA1,Small green rock
+0DA2,Large green rock
+0DA3,Tiny green rock
+0DA4,Green pillar
+0DA5,Gaerlan's Sword
+0DA6,Harbinger (Easy)?
+0DA7,Lava Square
+0DA8,Acid Square
+0DA9,"Staircase, East to North (2 storey L-shaped)"
+0DAA,"Staircase, East (3 steps)"
+0DAB,"Staircase, East (7 steps)"
+0DAC,"Staircase, East (11 steps)"
+0DAD,"Staircase, East (6 steps and platform at top)"
+0DAE,"Staircase, North (8 steps)"
+0DAF,"Staircase, East (7 steps and platform at top)"
+0DB0,"Staircase, 90 degrees to floor"
+0DB1,"Staircase Platform, 90 degrees"
+0DB2,Staircase Platform
+0DB3,Levitating Candlestick
+0DB4,Levitating Candlestick
+0DB5,Levitating Candlestick
+0DB6,Levitating Candlestick
+0DB7,Levitating Candlestick
+0DB8,Levitating Candlestick
+0DB9,Levitating Candlestick
+0DBA,"attackable door, half open"
+0DBB,martine's mask
+0DBC,Large Ice Symbol (Gaerlan)
+0DBD,Small Ice Symbol (Gaerlan)
+0DBE,Small Ice Symbol (Gaerlan)
+0DBF,Large Fire Symbol (Gaerlan)
+0DC0,Small Fire Symbol (Gaerlan)
+0DC1,Large Acid Symbol (Gaerlan)
+0DC2,Large Lightning Symbol (Gaerlan)
+0DC3,Small Lightning Symbol (Gaerlan?)
+0DC4,Habraeloi (Atlatl)
+0DC5,Shauraloi (Finesse Axe)
+0DC6,Lautaloi (Bow)
+0DC7,Gauraloi (Heavy Cestus)
+0DC8,Sacraloi (Light Dagger)
+0DC9,Dauloi (Finesse Mace)
+0DCA,Taulandoi (War Wand)
+0DCB,Dauloirae (Shield)
+0DCC,Tauraloi (Light Spear)
+0DCD,Falauloi (Finesse Staff)
+0DCE,Raudaloi (Heavy Sword)
+0DCF,Saulandoi (Life Wand)
+0DD0,Palauloi (Crossbow)
+0DD1,"Reinforced Wooden Doors, Partially Open"
+0DD2,Seal Fragment (Blue)
+0DD3,Seal Fragment (Blue-Orange)
+0DD4,Ornate Seal
+0DD5,Seal Fragment (Orange)
+0DD6,Seal Fragment (Green)
+0DD7,Seal Fragment (Green-Purple)
+0DD8,Seal Fragment (Purple)
+0DD9,Gaerlan's Phylacteric Prison (Blue Alien-like Tower)
+0DDA,
+0DDB,Rolling Ball of Death (Red)
+0DDC,Rolling Ball of Death (Red)
+0DDD,Rolling Ball of Death (Red)
+0DDE,Rolling Ball of Death (Red)
+0DDF,
+0DE0,Pile of Three Poles
+0DE1,Pile of Four Poles
+0DE2,Three-Pole Scaffold with Winch
+0DE3,
+0DE4,Dark Stone with Shoes in front of it
+0DE5,Dark Stone Brick
+0DE6,Brown Stone Brick
+0DE7,Pillow
+0DE8,Pillow
+0DE9,Pillow
+0DEA,Circlet
+0DEB,
+0DEC,
+0DED,
+0DEE,Sclavus Torso
+0DEF,Sclavus Torso with Right Arm
+0DF0,Sclavus Torso with Arms
+0DF1,Sclavus Torso with Arms and Right Leg
+0DF2,Sclavus Guise
+0DF3,Skeleton Torso
+0DF4,Skeleton Torso with Right Arm
+0DF5,Skeleton Torso with Arms
+0DF6,Skeleton Torso with Arms and Right Leg
+0DF7,Skeletal Guise
+0DF8,Undead Torso
+0DF9,Undead Torso with Right Arm
+0DFA,Undead Torso with Arms
+0DFB,Undead Torso with Arms and Right Leg
+0DFC,Undead Guise
+0DFD,human male torso
+0DFE,human male torso w/ right arm
+0DFF,human male torso w/ both arms
+0E00,human male standing w/o head
+0E01,human male torso with zombie head
+0E02,human male torso w/ right arm and zombie head
+0E03,human male torso w/ both arms and zombie head
+0E04,human male standing w/ zombie head and w/o left leg
+0E05,human male standing w/ zombie head reverse facing
+0E06,human male standing w/o left leg right facing
+0E07,Banderling
+0E08,Olthoi Eviscerator Head
+0E09,Banderling Head
+0E0A,Harbinger Arm?
+0E0B,Human Arm
+0E0C,Sclavus Arm
+0E0D,Skeleton Arm
+0E0E,Zombie Arm
+0E0F,Human Leg
+0E10,Sclavus Leg
+0E11,Skeleton Leg
+0E12,Zombie Leg
+0E13,
+0E14,Invisible?
+0E15,"Wooden Torch Wall Prop, Unlit"
+0E16,evil couch
+0E17,skeleton skull
+0E18,housing items flying around in a cuircle
+0E19,painting
+0E1A,
+0E1B,"thrown weapon, hollow"
+0E1C,"arrow, hollow"
+0E1D,"quarrel, hollow"
+0E1E,Housing Sign
+0E1F,Housing Sign
+0E20,Housing Sign
+0E21,Housing Sign
+0E22,Housing Sign
+0E23,Housing Sign
+0E24,Housing Sign
+0E25,Housing Sign
+0E26,Housing Sign
+0E27,Housing Sign
+0E28,Housing Sign
+0E29,Housing Sign
+0E2A,Housing Sign
+0E2B,Housing Sign
+0E2C,Housing Sign
+0E2D,Housing Sign
+0E2E,"staff, melee"
+0E2F,"staff, melee"
+0E30,"staff, melee"
+0E31,"staff, melee fire"
+0E32,"staff, melee, hollow"
+0E33,"staff, melee, lightning"
+0E34,"staff, melee frost"
+0E35,"staff, melee, acid"
+0E36,"staff, melee fire"
+0E37,"staff, melee, acid"
+0E38,"staff, melee frost"
+0E39,"staff, melee, hollow"
+0E3A,"staff, melee, lightning"
+0E3B,"staff, melee fire"
+0E3C,"staff, melee, acid"
+0E3D,"staff, melee frost"
+0E3E,"staff, melee, lightning"
+0E3F,"staff, melee, hollow"
+0E40,Pwyll's Guard
+0E41,Shroud of Night
+0E42,Koji's Fiend
+0E43,Gaerlan Token
+0E44,olthoi evisc head?
+0E45,red rug?
+0E46,floating blue gem... NPK altar like?
+0E47,floating blue gem... NPK altar like?
+0E48,dagger
+0E49,dagger lightning
+0E4A,dagger frost
+0E4B,dagger acid
+0E4C,dagger fire
+0E4D,"pillar, wood?"
+0E4E,"half open chest, wooden planks around it"
+0E4F,bamboo?
+0E50,bamboo?
+0E51,bamboo?
+0E52,bamboo?
+0E53,bamboo?
+0E54,bamboo?
+0E55,rope bridge piece?
+0E56,none?
+0E57,rope bridge piece?
+0E58,tropical drink
+0E59,bunch of nanners
+0E5A,rope bridge piece?
+0E5B,tusker poo with flys
+0E5C,tusker poo with flys
+0E5D,"invisible something, white star aura when you move with it"
+0E5E,"invisible something, lightning when you move with it"
+0E5F,"invisible something, frost when you move with it"
+0E60,"invisible something, fire when you move with it"
+0E61,"invisible something, acid when you move with it"
+0E62,skull banner?
+0E63,"statue, temples of enlight/forget"
+0E64,
+0E65,Chittick
+0E66,tusker token
+0E67,"lava, floor, moving"
+0E68,tusker sign
+0E69,tusker poo
+0E6A,tusker poo
+0E6B,tusker shrine
+0E6C,tusker island shirt
+0E6D,lava tile
+0E6E,empty?
+0E6F,black rabbit
+0E70,"tree, tusker island"
+0E71,"tree, tusker island"
+0E72,
+0E73,present gift box
+0E74,snow globe on stand
+0E75,
+0E76,Silver Pole?
+0E77,Coconut Tusker
+0E78,Mowen Udaun
+0E79,Bobo
+0E7A,Tusker Painting (Legend of the Tusker King)
+0E7B,Tusker King Throne
+0E7C,Log Table
+0E7D,Log Chair
+0E7E,Fabled Tusker Paw (1 Finger)
+0E7F,Fabled Tusker Paw (2 Fingers)
+0E80,Fabled Tusker Paw (3 Fingers)
+0E81,
+0E82,
+0E83,
+0E84,
+0E85,
+0E86,
+0E87,
+0E88,
+0E89,
+0E8A,
+0E8B,
+0E8C,
+0E8D,
+0E8E,
+0E8F,
+0E90,
+0E91,
+0E92,
+0E93,
+0E94,
+0E95,
+0E96,
+0E97,
+0E98,
+0E99,
+0E9A,
+0E9B,
+0E9C,
+0E9D,
+0E9E,
+0E9F,
+0EA0,
+0EA1,
+0EA2,translucent diagonal board?
+0EA3,spear or atlatl?
+0EA4,spear or atlatl mastery stone?
+0EA5,translucent partial arch
+0EA6,green dagger?
+0EA7,long thin sword
+0EA8,
+0EA9,Skeletal Atlatl
+0EAA,acid mouth cow
+0EAB,yellow bell on a pole
+0EAC,lugian lifestone
+0EAD,tusker fist
+0EAE,quiddity atlatl
+0EAF,quiddity atlatl
+0EB0,singularity atlatl
+0EB1,light blue crystal
+0EB2,dart shafts
+0EB3,dart shafts
+0EB4,dart
+0EB5,Scored Shard (Green Crystal Trophy)
+0EB6,Brilliant Shard (Dark Grey Crystal Trophy)
+0EB7,Seared Shard (Red Crystal Trophy)
+0EB8,Hardened Shard (Yellow Crystal Trophy)
+0EB9,Charged Shard (Purple Crystal Trophy)
+0EBA,Plated Shard (Silver Crystal Trophy)
+0EBB,Solid Shard (White Crystal Trophy)
+0EBC,assault atlatl
+0EBD,assault bow
+0EBE,assault UA?
+0EBF,assault dagger
+0EC0,assault sword
+0EC1,assault crossbow
+0EC2,assault orb
+0EC3,pile of gold
+0EC4,
+0EC5,
+0EC6,
+0EC7,
+0EC8,frothing stein
+0EC9,lightning dart
+0ECA,acid dart
+0ECB,frost dart
+0ECC,flaming dart
+0ECD,black rat
+0ECE,sclavus boots?
+0ECF,broom handle?
+0ED0,blue glowy olthoi axe
+0ED1,purple glowy olthoi axe?
+0ED2,
+0ED3,white and purple wand
+0ED4,translucent rug standing up
+0ED5,translucent barrel laying down
+0ED6,training wand?
+0ED7,
+0ED8,
+0ED9,
+0EDA,
+0EDB,
+0EDC,
+0EDD,
+0EDE,Blue Orb (Hieromancer's Halls)
+0EDF,"white and red wand, black crystal"
+0EE0,
+0EE1,silver cup
+0EE2,silver goblet laying down
+0EE3,silver mug laying down
+0EE4,stein laying down
+0EE5,stein
+0EE6,red rug
+0EE7,smoking object
+0EE8,wood board?
+0EE9,wood board?
+0EEA,big double sided axe
+0EEB,big hammer
+0EEC,straight up purple book
+0EED,straight up book
+0EEE,diagonal purple book
+0EEF,diagonal book
+0EF0,smoking wand
+0EF1,niffis pearl or drudge orb
+0EF2,
+0EF3,
+0EF4,Sword of Frozen Fury
+0EF5,purple/blue portal?
+0EF6,Sword of Frozen Fury Holder/Altar
+0EF7,Dagger of Frozen Fury
+0EF8,Scepter of Thunderous Might
+0EF9,Auroric Runic Helm
+0EFA,Crescent Moons
+0EFB,portal platform (asheron's castle)
+0EFC,3/4 of a broken empyrean portalbase
+0EFD,book shelf
+0EFE,none
+0EFF,none
+0F00,wooden table
+0F01,Half a wooden table? (See 0F25)
+0F02,Golden Treasure
+0F03,Gambling Token??? Probably not 
+0F04,Acid Rock w/ Flies ???
+0F05,Tree
+0F06,Unknown Black object 
+0F07,Unknown Tentacle Object 
+0F08,Unkown Blue Object
+0F09,Unkown Blue Object
+0F0A,Fiery Wand Object
+0F0B,Acid Wand Object
+0F0C,Blue FIsh
+0F0D,none
+0F0E,Grey Object
+0F0F,none
+0F10,Colorful bubbles
+0F11,Weeping Atlatl
+0F12,Weeping Claw or Axe
+0F13,Weeping Bow
+0F14,Weeping Dagger
+0F15,Weeping Object (tiny) Heart of the Innocent?????
+0F16,Weeping Mace
+0F17,Weeping Spear
+0F18,Weeping Staff
+0F19,Weeping Sword
+0F1A,Weeping Xbow
+0F1B,Weeping Wand
+0F1C,none
+0F1D,none
+0F1E,none
+0F1F,none
+0F20,none
+0F21,Wooden Ramp
+0F22,none
+0F23,none
+0F24,Half a wooden table? (See 0F02)
+0F25,Blue Fish?
+0F26,Red Fish?
+0F27,Green Fish?
+0F28,Light Blue Fish?
+0F29,Fish
+0F2A,Red Fish
+0F2B,Green Fish
+0F2C,Blue Fish
+0F2D,Broken Portal?
+0F2E,Human Corpse
+0F2F,Green/Yellow Chest
+0F30,"Not sure, need someone to see"
+0F31,Small Wood Plank
+0F32,Exploration Marker?
+0F33,Legendary Chest
+0F34,Fancy Dagger
+0F35,Olthoi Spikes?
+0F36,Olthoi Limbs?
+0F37,Broken Olthoi Limb?
+0F38,Axe with Acid (similar to 0F52)
+0F39,Olthoi Limbs?
+0F3A,Small Acid Thing
+0F3B,Unknown small object
+0F3C,Olthoi Grub
+0F3D,Small Diamond Object
+0F3E,Broken Wing?
+0F3F,Olthoi Egg Nest Wall Prop
+0F40,none
+0F41,Olthoi Egg Nest Wall Prop
+0F42,White Olthoi Egg Floor Prop
+0F43,Wai Jhou Sign
+0F44,Olthoi Corpse
+0F45,Candeth Keep Small Banner on Two Poles
+0F46,Virindi Profatrix
+0F47,Jojii Shrine
+0F48,Paradox Shadow (Human-textured)
+0F49,none
+0F4A,none
+0F4B,none
+0F4C,none
+0F4D,none
+0F4E,none
+0F4F,none
+0F50,Olthoi Limb?
+0F51,Olthoi Axe (similar to 0F39)
+0F52,none
+0F53,Olthoi Limb?
+0F54,none
+0F55,Unkown Olthoi Object?
+0F56,none
+0F57,none
+0F58,none
+0F59,none
+0F5A,none
+0F5B,none
+0F5C,none
+0F5D,none
+0F5E,Sparkling Human Male
+0F5F,Pumpkin
+0F60,Miner's Hat
+0F61,Trapper's Hat
+0F62,Timberman's Hat
+0F63,Small telescope
+0F64,Small Blue Scroll
+0F65,Bamboo or a fence
+0F66,none
+0F67,Green/Wood Bow
+0F68,Green/Wood Xbow
+0F69,Floating Book over pedastal
+0F6A,Small Double sided axe???
+0F6B,Unkown Object
+0F6C,none
+0F6D,none
+0F6E,none
+0F6F,none
+0F70,Large Blue Wall
+0F71,none
+0F72,none
+0F73,none
+0F74,Tall Treehouse
+0F75,Small White Mound
+0F76,Floating Olthoi Spout
+0F77,none
+0F78,Treasure
+0F79,Open Chest
+0F7A,Small Glowing Tree
+0F7B,Skeleton Mob
+0F7C,Large Rock Mound
+0F7D,Purple Sack
+0F7E,Blue Sack
+0F7F,Brown Sack
+0F80,Green Sack
+0F81,Red Sack
+0F82,White Sack
+0F83,Wooden Poles
+0F84,Large L-shaped Ramp
+0F85,Stone Wall
+0F86,"Small ""up"" ramp"
+0F87,none
+0F88,Large Bone
+0F89,Candeth Keep Banner Sign
+0F8A,Tree Lamp?
+0F8B,Double tree Lamp?
+0F8C,Small Buried Shield?
+0F8D,Large Tree
+0F8E,Small Unkown Object
+0F8F,Small Sword
+0F90,Large Stone Object with spiral walkway and entrance
+0F91,none
+0F92,Helmet
+0F93,Bloody Sword
+0F94,Olthoi Piercer
+0F95,Rooster
+0F96,Large Olthoi Egg
+0F97,Helmet
+0F98,none
+0F99,Demon Swarm Matron
+0F9A,Demon Swarm Matron Remains
+0F9B,Lugian Corpse
+0F9C,Lugian Corpse Sitting
+0F9D,Lugian Corpse Sitting
+0F9E,Tumerok Corpse
+0F9F,Tumerok Corpse
+0FA0,Small Wooden Crate
+0FA1,Medium Stone Rubble
+0FA2,Glowy Blue Thing
+0FA3,Filinuvekta Emissary ??
+0FA4,Filinuvekta Emissary ??
+0FA5,Acid Wand Thing
+0FA6,Small Blue THing
+0FA7,Greaves
+0FA8,Olthoi Ramp
+0FA9,Small Purple Triangle
+0FAA,Bloody Book On a Pedastal
+0FAB,Glowy Sword
+0FAC,Small Copper Item
+0FAD,Half of a Helmet?
+0FAE,Bull Helmet ?
+0FAF,Ice head?
+0FB0,Skeleton Mob
+0FB1,Large Olthoi Ramp
+0FB2,Green Olthoi Primordial
+0FB3,Brown Pack
+0FB4,Steel Double Doors
+0FB5,Acid landblock
+0FB6,Lugian Axe ?
+0FB7,Lugian Mace?
+0FB8,Acid Ground Spout
+0FB9,Red Ground Spout w/ animation
+0FBA,Lightning Ground Spout
+0FBB,Green fountain spout
+0FBC,Green Fountain thing
+0FBD,weeping claw
+0FBE,weeping sword
+0FBF,weeping mace
+0FC0,weeping spear
+0FC1,weeping axe
+0FC2,weeping staff
+0FC3,acid weeping dagger
+0FC4,frost weeping axe
+0FC5,acid weeping axe
+0FC6,lightning weeping sword
+0FC7,frost weeping sword
+0FC8,acid weeping sword
+0FC9,lightning weeping staff
+0FCA,frost weeping staff
+0FCB,acid weeping staff
+0FCC,lightning weeping spear
+0FCD,frost weeping spear
+0FCE,acid weeping spear
+0FCF,lightning weeping mace
+0FD0,frost weeping mace
+0FD1,acid weeping mace
+0FD2,lightning weeping claw
+0FD3,frost weeping claw
+0FD4,acid weeping claw
+0FD5,lightning weeping dagger
+0FD6,frost weeping dagger
+0FD7,lightning weeping axe
+0FD8,
+0FD9,
+0FDA,
+0FDB,
+0FDC,
+0FDD,
+0FDE,
+0FDF,
+0FE0,
+0FE1,
+0FE2,
+0FE3,
+0FE4,
+0FE5,
+0FE6,
+0FE7,
+0FE8,
+0FE9,
+0FEA,
+0FEB,
+0FEC,
+0FED,
+0FEE,
+0FEF,
+0FF0,
+0FF1,
+0FF2,
+0FF3,
+0FF4,
+0FF5,
+0FF6,melted snowman
+0FF7,
+0FF8,
+0FF9,
+0FFA,
+0FFB,
+0FFC,
+0FFD,
+0FFE,
+0FFF,Table w/ Arrows
+1000,Table w/ cooking supplies
+1001,Chalk Board
+1002,Tree
+1003,Lantern
+1004,Lantern
+1005,None
+1006,hanging rug texture
+1007,Vase
+1008,Small Round Vase
+1009,
+100A,
+100B,
+100C,
+100D,
+100E,
+100F,red doll monster
+1010,red doll monster purple face
+1011,red doll monster
+1012,None
+1013,Baby Face Monster
+1014,Aerbax Mask Glowing Yellow
+1015,Aerbax Mask Glowing Red
+1016,Aerbax Mask Glowing Pink
+1017,Aerbax Mask Glowing Green
+1018,carenzi
+1019,margul
+101A,
+101B,Diamond Shield ?
+101C,Fragment of a Mask ?
+101D,Skull with Red Eyes
+101E,Tumerok-style Bone Weapon ?
+101F,Curved Small Sword
+1020,Small Spikes
+1021,Curved Staff
+1022,Blue Crystal Fountain
+1023,Pile of Rocks
+1024,flaming Brazier
+1025,red clear circle
+1026,Font of Jojii
+1027,virindi weapon
+1028,Portal (Rynthid or Caul)
+1029,"Portal (Orange, unsure)"
+102A,"homecoming pennant, red"
+102B,Wand (White flame tip)
+102C,Full Helm looks similar to heaume
+102D,Heavy war hammer
+102E,platform (unknown quest)
+102F,armored skeleton
+1030,royal white crown
+1031,prismatic Golem
+1032,REALLY Tiny Undead
+1033,Nothing
+1034,Envoy Shield/Aura
+1035,Burun
+1036,"Weapon, virindi sickle"
+1037,"Weapon, dagger"
+1038,"Weapon, dagger"
+1039,Stick
+103A,Mace?
+103B,Dagger ?
+103C,Spear
+103D,Small drum
+103E,Sunglasses/Visor ?
+103F,Sword
+1040,Red Melee Wep
+1041,Spear wep
+1042,Tiny object
+1043,Long Wand?
+1044,Pedastal
+1045,1040 Sword on Pedastal
+1046,1041 on Pedastal
+1047,1042 on pedastal
+1048,1044 on pedastal
+1049,103F on pedastal
+104A,NEED HELP TO SEE IT
+104B,NEED HELP TO SEE IT
+104C,Platform thing
+104D,Monkey pillar?
+104E,Altar with objects
+104F,Vase with bones next to it
+1050,Coffin
+1051,NEED HELP TO SEE IT
+1052,NEED HELP TO SEE IT
+1053,NEED HELP TO SEE IT
+1054,NEED HELP TO SEE IT
+1055,NEED HELP TO SEE IT
+1056,none
+1057,NEED HELP TO SEE IT
+1058,Long bone thing
+1059,Eye wall mount thing
+105A,pile of bones?
+105B,black book with red symbols
+105C,dead mosswart
+105D,dead mosswart
+105E,dead mosswart
+105F,dead mosswart
+1060,"vine monster, like vr tendrils"
+1061,"red glowing knife, (from the king spells)"
+1062,small fern
+1063,big fern
+1064,large rock with fern
+1065,"human, naked with flies around him"
+1066,fern
+1067,chicken / egg launcher?
+1068,Bladed Bow of Impaling
+1069,Vein-Thirst Kukri
+106A,Fist of Massacre
+106B,Vile Scourge
+106C,Blood-stained Scroll on Pedestal (Fellowship Spells?)
+106D,Bow on Pedatal
+106E,Vile Scourge on Pedestal
+106F,Vein-Thirst Kukri on Pedestal
+1070,Fist of Massacre on Pedestal
+1071,Small blue/yellow item
+1072,Small green/yellow item
+1073,Small faded item
+1074,NEED HELP TO SEE IT
+1075,Tall tree house
+1076,Green Stew Pot
+1077,Vegi Stew Pot
+1078,Purple Stew Pot
+1079,Brown Stew Pot
+107A,Sharpt stick from ground with fish on the end
+107B,Fancy coffee table
+107C,NEED HELP TO SEE IT
+107D,Single small brick
+107E,none
+107F,Mite Snippet
+1080,Mite Snippet
+1081,Mite Snippet
+1082,Black Rabbit
+1083,Voodoo Wand
+1084,none
+1085,Fancy Bow
+1086,none
+1087,Fireworks hat ?
+1088,none
+1089,Long dagger
+108A,none
+108B,Fancy xbow
+108C,none
+108D,Small Drum
+108E,none
+108F,none
+1090,Large wooden double doors with chains
+1091,Tusker head on stick
+1092,Rock w/ red writing around it
+1093,small totem pole
+1094,Type of Drudge
+1095,Blue glowing chalice
+1096,silver belt or bowl
+1097,Mixture of an idol and a banderling
+1098,blue glowing sword
+1099,Arrow
+109A,Arrow
+109B,Arrow
+109C,Golden Chest
+109D,Half of a painting
+109E,Idol head
+109F,Mansion Portal devise possibly Ixixi
+10A0,Clawed Hand or foot
+10A1,Large prismatic shard?
+10A2,Table with writs on it
+10A3,Table or small building
+10A4,Stone building block with Green girder
+10A5,Large Tumerok drom on wheels
+10A6,Viamontian spiked barricade
+10A7,Large double-doored gate
+10A8,Small store pillar
+10A9,Small store pillar
+10AA,Small carved stone rabbit head
+10AB,Bindstone
+10AC,Large log doors for a high fort wall
+10AD,Stone head from a skill temple
+10AE,Rynthid Virindi Statue with Wings
+10AF,Atmosphere smoke like Ba'el Zharon
+10B0,Possible Black Breath
+10B1,More Atmosphere smoke
+10B2,Atmosphere electricity
+10B3,Nothing
+10B4,Nothing
+10B5,sky model? cloudy? - do it and sky flashes
+10B6,Nothing
+10B7,Nothing
+10B8,Nothing
+10B9,none
+10BA,none
+10BB,none
+10BC,none
+10BD,none
+10BE,none
+10BF,none
+10C0,none
+10C1,none
+10C2,none
+10C3,Cattail weed
+10C4,NEED HELP TO SEE IT
+10C5,Thick Cattail weed
+10C6,NEED HELP TO SEE IT
+10C7,tentacle from ground
+10C8,tall flower
+10C9,swamp brush
+10CA,brown brush
+10CB,Red brush
+10CC,NEED HELP TO SEE IT
+10CD,tip of tentacle
+10CE,small flower thing
+10CF,Swamp brush (reeds)
+10D0,none
+10D1,none
+10D2,none
+10D3,none
+10D4,SMall curved object possibly shield with skull attached
+10D5,Full Helm with Horns
+10D6,"Carved stone object, looks like a large hat"
+10D7,Carved stone mosswart head
+10D8,Carved stone mosswart head with jewel eye
+10D9,Carved stone mosswart head with jewel eyes
+10DA,Burun (possibly Shaman)
+10DB,Partially Unrolled Map
+10DC,Vertical Unrolled Map
+10DD,"Fancy Axe, possibly Tumerok"
+10DE,Small table with 4 bladed axe
+10DF,Small Table with 2 bladed axe
+10E0,"Fancy 4 Bladed Axe, possible Tumerok"
+10E1,Blood fountain from AA Quest
+10E2,Floor from AA Quest
+10E3,Floating Jump PLatform from AA Quest
+10E4,Fading Floating jump platform from AA Quest
+10E5,Random Fading platform
+10E6,Small stone tablet
+10E7,AA Quest Sun Pedestal
+10E8,AA Quest Star Pedestal
+10E9,AA Quest Pedestal
+10EA,AA Quest Pedestal
+10EB,AA Quest Pedestal
+10EC,AA Quest Pedestal
+10ED,AA Quest Pedestal
+10EE,AA Quest Pedestal
+10EF,nothing?
+10F0,AA Quest Pedestal
+10F1,AA Quest stone tablet Sun
+10F2,AA Quest Stone tablet Star
+10F3,AA Quest Stone table Symbol
+10F4,AA Quest Stone table Symbol
+10F5,AA Quest Stone table Symbol
+10F6,AA Quest Stone table Symbol
+10F7,AA Quest Stone table Symbol
+10F8,AA Quest Stone table Symbol
+10F9,Plant leaves
+10FA,Small wood golem
+10FB,Small ice golem
+10FC,Plant leaves
+10FD,Vitriol infusion bottle
+10FE,Tall object
+10FF,Tall object
+1100,Red/Purple Rock with Tan Moss/Foliage
+1101,Huge Dagger?
+1102,Bound Singularity Weapon - Atlatl
+1103,Bound Singularity Weapon - Axe
+1104,Bound Singularity Weapon - Bow
+1105,Bound Singularity Weapon - Crossbow
+1106,Bound Singularity Weapon - Dagger
+1107,Bound Singularity Weapon - Ua
+1108,Bound Singularity Weapon - Mace
+1109,Singularity Weapon - Wand
+110A,Bound Singularity Weapon - Wand
+110B,Ultimate Singularity Weapon - Wand
+110C,Bound Singularity Weapon - Spear
+110D,Bound Singularity Weapon - Staff
+110E,Bound Singularity Weapon -  Sword
+110F,Acid Tipped Spear - Weeping?
+1110,Green Hand holding Rock? Wand
+1111,Bloodshot Eyeball Wand?
+1112,Purple Base With Gem For 111B
+1113,Nothing?
+1114,Nothing?
+1115,1113-111B Make This
+1116,Green Gem for 111B
+1117,Green Gem for 111B
+1118,Green Bronze Pedestal
+1119,Purple Base For 111B
+111A,Green Gem on Purple Base ?
+111B,Ice / Diamond Crystals
+111C,Upright Sarcophagus
+111D,Undead / Bondage Outfit
+111E,Wall Mounted Dungeon Torch
+111F,NPC - Ghost
+1120,Red Phyntos Wasp
+1121,Red Phyntos Swarm
+1122,NPC - ?
+1123,Rainbow / Spectral Wisp
+1124,Freebooter Phyntos Hive
+1125,Red Crystal Dagger
+1126,Flaming Sword - Weeping?
+1127,Mosswart Statue
+1128,Burun Plans?
+1129,Giant Stone Burun
+112A,Small Stone Burun
+112B,Gold Short Sword?
+112C,Dagger?
+112D,Gold and Wood UA?
+112E,Purple Crystal UA
+112F,Gromnie Hide Helm No Wings
+1130,Gromnie Hide Helm with Wings
+1131,Sclavus Corpse
+1132,Sclavus Corpse
+1133,Sclavus Corpse
+1134,Burun Tree Open
+1135,Burun Tree Closed
+1136,Multiple Purple and Orange Mushrooms
+1137,Single Blue Mushroom
+1138,Multiple Purple and Orange Mushrooms
+1139,Multiple Purple and Orange Mushrooms
+113A,Multiple Purple and Orange Mushrooms
+113B,Multiple Purple and Orange Mushrooms
+113C,Multiple Purple and Orange Mushrooms
+113D,Single Blue Mushroom
+113E,Single Blue Mushroom
+113F,Single Blue Mushroom
+1140,Single Blue Mushroom
+1141,Single Blue Mushroom
+1142,Giant Burun Rock
+1143,Small Burun Rock
+1144,Stone Olthoi Egg
+1145,Burun Head
+1146,Burun Head on a Spear
+1147,Burun Head on a Plaque
+1148,Burun Ornate Treasure Chest with Carrying Poles
+1149,Multiple Purple and Orange Mushrooms
+114A,Single Blue Mushroom
+114B,Noble Sword (Old)?
+114C,Noble War Maul
+114D,Noble Bow
+114E,Noble Crossbow
+114F,Burun Slaying Dagger
+1150,Burun Slaying UA
+1151,Burun Slaying Mace
+1152,Burun Slaying Swordstaff
+1153,Burun Slaying Staff
+1154,Burun Slaying Sword 
+1155,Burun Slaying Sceptre
+1156,Large Burun Rock
+1157,Large Round Sigil
+1158,BM4 Charred Wood
+1159,?
+115A,BM4 Solidified Blood
+115B,?
+115C,Blackmire Blood Spikes
+115D,Blood Bracers
+115E,Blood Bracers on a small table
+115F,Blackmire Blood Spikes on a small table
+1160,Blackmire Shell Game?
+1161,Burun King?
+1162,Burun King Staff?
+1163,Nothing?
+1164,Nothing?
+1165,Nothing?
+1166,BM / BK Switch - Different Art
+1167,BM / BK Switch - No Glow
+1168,BM / BK Switch - Red Glow
+1169,BM / BK Switch - Shadow Glow
+116A,BM / BK Switch - Green Glow
+116B,BM / BK Switch - Green Glow
+116C,BM / BK Switch - No Glow
+116D,BM / BK Switch - Red - Red Glow
+116E,BM / BK Switch - Brown - Red Glow
+116F,BM / BK Switch - Shadow Glow
+1170,BM / BK Switch - Light Green - Green Glow
+1171,BM / BK Switch - Green - Green Glow
+1172,BM / BK Switch - Blue - Blue Glow
+1173,BM / BK Switch - Blue Glow
+1174,Burun Door - Palatte Missing
+1175,Burun Statue - Red - Face Down - Full
+1176,Burun Statue - Red - Face Down - Full
+1177,Burun Statue - Red - Face Down - Headless
+1178,Burun Statue - Red - Face Down - Full
+1179,Burun Statue - Red - Face Up - Full
+117A,Burun Statue - Red - Face Up - Full
+117B,Burun Statue - Red - Face Up - Headless
+117C,Burun Statue - Red - Face Up - Full
+117D,Burun / Sclavus Sarcophagus - On Side
+117E,Unsure
+117F,Unsure on Set - Spear
+1180,Mace
+1181,Sword
+1182,Axe
+1183,Orb
+1184,Atlatl
+1185,Crossbow
+1186,Bow
+1187,Staff
+1188,UA
+1189,Noble Crossbow
+118A,Noble Dagger
+118B,Noble UA
+118C,Noble Mace
+118D,Noble Swordstaff
+118E,Noble Greatstaff
+118F,Noble Sword
+1190,Noble Sceptre
+1191,Noble Short Sword?
+1192,Noble War Maul
+1193,Noble Bow
+1194,Nothing?
+1195,Nothing?
+1196,Nothing?
+1197,Nothing?
+1198,Nothing?
+1199,Nothing?
+119A,Nothing?
+119B,Nothing?
+119C,Nothing?
+119D,Blackmire/Burun Statue
+119E,Burun Statue - Green - Face Up - Full
+119F,Nothing?
+11A0,Burun Statue - Green - Face Up - Headless
+11A1,Burun Statue - Green - Face Up - Full
+11A2,Burun Statue - Green - Face Down - Half Head
+11A3,Burun Statue - Green - Face Down - Full
+11A4,Burun Statue - Green - Face Down - Torso
+11A5,Nothing?
+11A6,Burun Statue - Green - Upright - Full
+11A7,Burun Statue - Green - Upright - Full
+11A8,Burun Statue - Green - Upright - Headless
+11A9,Burun Statue - Green - Upright - Full
+11AA,Burun Statue - Green - Upright - Full - Infront of Door/Wall
+11AB,Nothing?
+11AC,Nothing?
+11AD,Burun Portal Device Holder
+11AE,Nothing?
+11AF,Nothing?
+11B0,Nothing?
+11B1,Nothing?
+11B2,Nothing?
+11B3,Nothing?
+11B4,Nothing?
+11B5,Nothing?
+11B6,Nothing?
+11B7,Blackmire Quick Fading In/Out Grey Tile
+11B8,Blackmire Slow Fading In/Out Grey Tile
+11B9,Blackmire Static Jump Grey Tile
+11BA,Nothing?
+11BB,Nothing?
+11BC,"Blackmire - Blood ""Fountain"" (Fill Wineskin from)"
+11BD,Blackmire Sarcophagus On its Side
+11BE,Blackmire Sarcophagus Upright
+11BF,Blackmire Urn and Bones
+11C0,"Blackmire ""Altar"""
+11C1,Blackmire Book on Bedestal - Blue Particle Effects
+11C2,Blackmire Slow Fading In/Out Green Tile
+11C3,Blackmire Green Book on Floor
+11C4,Blackmire/Burun Doors Partially Open
+11C5,Guruk Brute / Boor
+11C6,Bald Head Statue on Dais
+11C7,Short Hair Head Statue on Dais
+11C8,Long Hair Head Statue on Dais
+11C9,Geraine IV Painting
+11CA,Bael'zharon Painting
+11CB,Asheron Painting
+11CC,Gromnietross? Statue on Dais
+11CD,"Green ""wall"" Light Effect"
+11CE,Yellow Moarsman Corpse
+11CF,Yellow Moarsman Corpse
+11D0,Mite Head
+11D1,Burun Head
+11D2,Guruk Head
+11D3,Hollow Minion - Arm
+11D4,Hollow Minion - Torso and Right Arm
+11D5,Hollow Minion - Torso and Both Arms
+11D6,Hollow Minion - Legs
+11D7,Hollow Minion - Minus Left Arm
+11D8,Hollow Minion - Complete
+11D9,Undead - Torso and Right Arm
+11DA,Undead - Torso and Both Arms
+11DB,Undead - Minus Left Arm
+11DC,Undead - Legs
+11DD,Undead - Complete
+11DE,Undead - Arm
+11DF,Undead - Minus left arm
+11E0,Undead- Eveyrting above waist
+11E1,Undead - Minus left arm
+11E2,Undead - Legs
+11E3,Undead
+11E4,Undead - Arm
+11E5,Chittick Head
+11E6,Small object
+11E7,none
+11E8,Small Hook
+11E9,small orange glowing ball
+11EA,small yellow glowing ball
+11EB,small blue glowing ball
+11EC,small red glowing ball
+11ED,small purple glowing ball
+11EE,small white glowing ball
+11EF,small green glowing crystal ball
+11F0,fire bow
+11F1,ice bow
+11F2,piercing bow
+11F3,slashing bow
+11F4,bow with green effect
+11F5,bow with white effect
+11F6,bow with purple effect
+11F7,stone sconce
+11F8,stone sconce
+11F9,
+11FA,
+11FB,
+11FC,
+11FD,
+11FE,
+11FF,Empyrean Painting - Large
+1200,Empyrean Painting - Medium
+1201,
+1202,
+1203,"Thick reinforced door (stone door, metal reinforced?)"
+1204,Empyrean bookcase
+1205,"column of light, swirling green base, blue rising particles, green on top"
+1206,"stone lever, green and black striped handle"
+1207,large double chain mount to green stone pyramidal top lights
+1208,Noble Stilleto
+1209,Noble Katar
+120A,Noble Morning Star
+120B,Noble Swordstaff
+120C,Noble Quarterstaff
+120D,Noble Rapier
+120E,Noble Sceptre
+120F,Noble Brace
+1210,Noble War Maul
+1211,Noble Longbow
+1212,Noble Crossbow
+1213,Mossy medium pedestal with valve wheel
+1214,"Very large steel grating, floor"
+1215,"Hooded Statue, Green & Black Stripe, wall behind"
+1216,"sword, very clean lines"
+1217,spear
+1218,mace
+1219,axe
+121A,"brown bag, white circle"
+121B,"brown bag, white circle (open?), black circle"
+121C,"brown bag, black circle (open)"
+121D,stone altar with 3 containers and banded orb?
+121E,banded stone orb
+121F,floating Burun King?
+1220,Olthoi Lands Portal Device
+1221,Dangerous Portal Device
+1222,Citadels Portal Device
+1223,Outlands Portal Device
+1224,Lesser Direlands Portal Device
+1225,Black Spawn Den Portal Device
+1226,red stone irregular wall
+1227,"tarnished worn helm, on side"
+1228,
+1229,"tarnished worn helm, upright, closed face"
+122A,altar with black crown?
+122B,"Asheron, blue robes, gold trim, grey waist"
+122C,Asheron? tower defense
+122D,olthoi queen  tower defense
+122E,human char  tower defense
+122F,Burun King? animated on ground
+1230,"bz, orange  tower defense"
+1231,
+1232,
+1233,
+1234,"statue, female warrior with sword"
+1235,"statue, male with club and orb"
+1236,
+1237,"wall sconce, blue light"
+1238,light pole
+1239,large ornate fountain
+123A,
+123B,
+123C,
+123D,
+123E,
+123F,Ruschk
+1240,Ruschk spear?
+1241,Ruschk staff?
+1242,Ruschk spear?
+1243,Ruschk mace?
+1244,Ruschk spear?
+1245,Siraluun head
+1246,Siraluun
+1247,Crafting Forge - Lockpick
+1248,Crafting Forge - Fletching
+1249,Crafting Forge - Alchemy
+124A,Crafting Forge - Cooking
+124B,Crafting Forge - ?? molten metal in cauldron
+124C,Parfal Niffis
+124D,tumerok? mace?
+124E,tumerok crossbow
+124F,Steel Chest
+1250,Eater
+1251,Aggressive Penguin?
+1252,"Morel Thrungus, no arms"
+1253,"Fiun, green tabard"
+1254,Viamontian
+1255,"Angree's Angry Ale bottle, facing away"
+1256,"plain single white bottle, no label"
+1257,Tuskerspit bottle
+1258,Sanamar Banner
+1259,Silyun Banner
+125A,Mana Siphon
+125B,bottles
+125C,Golden Bull's Head Wall Prop
+125D,Ice Chest
+125E,Identification Plate
+125F,
+1260,Penguin Wing
+1261,Aluvian Leg
+1262,Sho Brain
+1263,
+1264,Penguin Egg (Cyan)
+1265,Penguin Egg (Sky Blue)
+1266,Viamontian Wooden Chair
+1267,
+1268,
+1269,
+126A,
+126B,
+126C,
+126D,
+126E,
+126F,
+1270,
+1271,Viamontian Stove Pot
+1272,
+1273,
+1274,Ice Key
+1275,marble key ?
+1276,"Iron gibbet cage, closed"
+1277,leather book with buckle
+1278,Mattekar Rug
+1279,Painting - 
+127A,Painting - Viamontian
+127B,Rock? 
+127C,Ice Shard?
+127D,2 Scrolls
+127E,Tapestry - 
+127F,Top of a tall banner
+1280,Stocks
+1281,none
+1282,Stone or Wood Tablet with writing
+1283,"Art, Poster, Banner, Sign"
+1284,"Art, Poster, Banner, Sign"
+1285,"Art, Poster, Banner, Sign"
+1286,Weapons Rack
+1287,Wine Bottle Green
+1288,Bottle Rack
+1289,Yellow Soil Amber Rock Pile
+128A,Cigar ?
+128B,Dead body part of monster 
+128C,Dead body part torso zombie
+128D,Sack of Grain
+128E,Very tiny piece unknown
+128F,"Small, Stone, Tile"
+1290,"Small, Stone, Tile"
+1291,"Grass Bundle, Plant"
+1292,"small tree, plant, shrubbery"
+1293,"small shrubbery, yellow flowers"
+1294,Nothing?
+1295,Nothing?
+1296,Circlet?
+1297,Sanamar Sign
+1298,Nothing?
+1299,Tall evergreen tree
+129A,Tall evergreen tree with moss on trunk
+129B,Icy penguin nest with eggs?
+129C,Ornate wooden table
+129D,Metal machine with gold attachments
+129E,Red & Gold Royal Hall Viamont Throne
+129F,Ornate table with Alchemy items
+12A0,Large Ruschk Totem Pole
+12A1,"Undead Fiun, brown tabard"
+12A2,A Replica of a Tursh Totem
+12A3,Tall brown statue
+12A4,Tall brown statue
+12A5,"small banderling, glowing aura"
+12A6,"stave wand, bronze holder, green gem, green particles"
+12A7,short tree stump (bed raiser?)
+12A8,Nothing?
+12A9,Nothing?
+12AA,Aviator's Cap
+12AB,"3-sided dais, woven appearance, rails"
+12AC,Sterile Sword
+12AD,"green base, two prong whip?  flail?"
+12AE,Insensate Axe
+12AF,Barren Bow
+12B0,"tumerok, purple skin"
+12B1,drudge with swirling butterfly animation
+12B2,Obeloth Lugian
+12B3,small banderling with swirling butterfly animation
+12B4,Fireworks Launcher
+12B5,Dark Green Large Vase
+12B6,Yard Ballons
+12B7,Stocking Cap - white
+12B8,Nothing?
+12B9,"Green Bowl with Orange, Blue, and Green swirls"
+12BA,"Blue head wand with blue particles, bone handle?"
+12BB,"Grey head wand with red particles, bone handle?"
+12BC,"Grey head wand with green particles, bone handle?"
+12BD,"Grey head wand with purple particles, bone handle?"
+12BE,"Grey head wand with white particles, bone handle?"
+12BF,"Grey head wand with yellow particles, bone handle?"
+12C0,"Grey head wand with orange particles, bone handle?"
+12C1,"crossbow, orange aura & particles"
+12C2,"crossbow, yellow aura & particles"
+12C3,"crossbow, blue aura & particles"
+12C4,"crossbow, red aura & particles"
+12C5,"crossbow, purple aura & particles"
+12C6,"crossbow, white aura & particles"
+12C7,"crossbow, green aura & particles"
+12C8,"atlatl, orange aura & particles"
+12C9,"atlatl, yellow aura & particles"
+12CA,"atlatl, blue aura & particles"
+12CB,"atlatl, red aura & particles"
+12CC,"atlatl, purple aura & particles"
+12CD,"atlatl, white aura & particles"
+12CE,"atlatl, green aura & particles"
+12CF,"tall statue?, bat wings, glowing red eyes, flames on head"
+12D0,"tall statue?, as above, zombie strapped, bones on ground"
+12D1,"Horned stone statue, crossed arms, red particlles falling on top"
+12D2,"T'Thun tentacle, green swirl base, glowing red center"
+12D3,Doppledanger Shield
+12D4,Banished Orb
+12D5,Banished Nekode
+12D6,Banished Blade
+12D7,Banished Point
+12D8,Banished Crossbow
+12D9,Banished Bow
+12DA,Banished Spear
+12DB,Banished Staff
+12DC,Banished Atlatl
+12DD,Banished Axe
+12DE,Banished Mace
+12DF,"Black or purple stones/crystals, 5 in spiral array"
+12E0,gold discus on ground
+12E1,red (blood) crystal bracket? single
+12E2,small dark stone pedestal
+12E3,Ancient Reliquary
+12E4,Spear of the Fallen
+12E5,Katar of the Fallen
+12E6,Mace of the Fallen
+12E7,Bow of the Fallen
+12E8,Hammer of the Fallen
+12E9,Crossbow of the Fallen
+12EA,Blade of the Fallen
+12EB,Dirk of the Fallen
+12EC,Atlatl of the Fallen
+12ED,Staff of the Fallen
+12EE,Eye of the Fallen
+12EF,???
+12F0,Nothing?
+12F1,Nothing?
+12F2,Nothing?
+12F3,Nothing?
+12F4,Nothing?
+12F5,Nothing?
+12F6,Nothing?
+12F7,Nothing?
+12F8,Nothing?
+12F9,Nothing?
+12FA,"large, snowy conifer tree"
+12FB,short swamp tree
+12FC,taller swamp tree
+12FD,"tall evergreen tree, red trunk"
+12FE,medium deciduous tree
+12FF,"Fiun corpse, legs pulled in"
+1300,"Fiun corpse, green tabard, laying flat"
+1301,"Fium corpse, green taberd, on side"
+1302,"Fiun corpse, on side"
+1303,"Eater corpse, on side, jaws open"
+1304,"Eater corpse, on side, jaws wide open"
+1305,unstrung composite bow
+1306,unstrung crossbow
+1307,spear with blue tip
+1308,sword with blue guard
+1309,double headed axe
+130A,sword with blue guard
+130B,"Ruschk corpse, on back"
+130C,"Ruschk corpse, on side"
+130D,"Penguin corpse, on back"
+130E,"Penguin corpse, on side"
+130F,"Viamontian corpse, on back"
+1310,"Viamontian corpse, on back rolled towards side"
+1311,"Bright pulsing line light effect, stretches into sky"
+1312,"Greyish white clothing, garments from corpse?"
+1313,???
+1314,Curvey bladed long dagger weapon
+1315,double headed axe
+1316,spear
+1317,wooden spear
+1318,sword 
+1319,wand?
+131A,small rock
+131B,shoes
+131C,boots
+131D,bandana
+131E,Alduressa Helm
+131F,Diforsa Helm
+1320,Alduressa Leggings
+1321,Alduressa Leggings
+1322,Alduressa Leggings
+1323,gaunts?
+1324,Viamont Plate Pants?
+1325,Viamont PLate shoes
+1326,Bracers
+1327,BP?
+1328,breatplate
+1329,coat
+132A,breatplate
+132B,breatplate
+132C,gaunts
+132D,helmet?
+132E,legs
+132F,shoes
+1330,small book
+1331,gaunts
+1332,half of a shield
+1333,gaunts
+1334,half of a shield
+1335,leggings
+1336,purple helmet
+1337,K'nath Lair Portal Device
+1338,Blooded Platinum Invader Lord Helm
+1339,Blooded Copper Invader Lord Helm
+133A,Blooded Gold Invader Lord Helm
+133B,Blooded SilverInvader Lord Helm
+133C,coat
+133D,breastplate
+133E,Two-handed wep
+133F,Spear
+1340,small metal object
+1341,Sword
+1342,Mace
+1343,Dagger
+1344,Leggings
+1345,Bow
+1346,Bow
+1347,Bow
+1348,Xbow
+1349,Xbow
+134A,Xbow
+134B,Xbow
+134C,Xbow
+134D,Dagger
+134E,Dagger
+134F,Dagger
+1350,Mace
+1351,Mace
+1352,Mace
+1353,Dagger
+1354,Dagger
+1355,Dagger
+1356,Spear
+1357,Spear
+1358,Spear
+1359,Spear
+135A,Spear
+135B,Spear
+135C,Spear
+135D,Spear
+135E,Spear
+135F,Spear
+1360,Sword
+1361,Sword
+1362,Sword
+1363,Sword
+1364,Sword
+1365,UA
+1366,UA
+1367,UA
+1368,UA
+1369,UA
+136A,Mace
+136B,Axe
+136C,Axe
+136D,Axe
+136E,Axe
+136F,Axe
+1370,Axe
+1371,Atlatl
+1372,Atlatl
+1373,Atlatl
+1374,Bow
+1375,Bow
+1376,Boots
+1377,Boots
+1378,Boots
+1379,Shield
+137A,Shield
+137B,Shield
+137C,Shield
+137D,wand?
+137E,Wand
+137F,Wand
+1380,Wand
+1381,Wand
+1382,Greaves
+1383,Helmet
+1384,Bracers
+1385,Bracers
+1386,Tassetts
+1387,Tassetts
+1388,Girth
+1389,Girth
+138A,Breastplate
+138B,Breastplate
+138C,Bracers
+138D,Bracers
+138E,Bracers
+138F,small object
+1390,greaves
+1391,greaves
+1392,boots
+1393,leggings
+1394,coat
+1395,coat
+1396,greaves
+1397,Axe
+1398,Axe-Fire
+1399,Axe-Frost
+139A,Axe-Acid
+139B,Axe-Lightning
+139C,Two-sided axe-Fire
+139D,Two-sided axe-Frost
+139E,Two-sided axe-Acid
+139F,Two-sided axe-Lightning
+13A0,Small Sword-Fire
+13A1,Small Sword-Frost
+13A2,Small Sword-Acid
+13A3,Small Sword-Lightning
+13A4,Small Sword-Fire
+13A5,Small Sword-Frost
+13A6,Small Sword-Acid
+13A7,Small Sword-Lightning
+13A8,Big Sword-Fire
+13A9,Big Sword-Frost
+13AA,Big Sword-Acid
+13AB,Big Sword-Lightning
+13AC,Mace
+13AD,Mace-Fire
+13AE,Mace-Frost
+13AF,Mace-Acid
+13B0,Mace-Lightning
+13B1,Mace
+13B2,Mace-Fire
+13B3,Mace-Frost
+13B4,Mace-Acid
+13B5,Mace-Lightning
+13B6,Spear
+13B7,Spear-Frost
+13B8,Spear-Acid
+13B9,Spear-Lightning
+13BA,Dagger
+13BB,Dagger-Fire
+13BC,Dagger-Frost
+13BD,Dagger-Acid
+13BE,Dagger-Lightning
+13BF,Dagger
+13C0,Dagger-Fire
+13C1,Dagger-Frost
+13C2,Dagger-Acid
+13C3,Dagger-Lightning
+13C4,Staff
+13C5,Staff-Fire
+13C6,Staff-Frost
+13C7,Staff-Acid
+13C8,Staff-Lightning
+13C9,UA
+13CA,UA-Fire
+13CB,UA-Frost
+13CC,UA-Acid
+13CD,UA-Lightning
+13CE,Ring?
+13CF,Single reinforced door
+13D0,Gauntlets
+13D1,Small fountaint - House object?
+13D2,Ruschk
+13D3,none
+13D4,none
+13D5,none
+13D6,none
+13D7,none
+13D8,none
+13D9,none
+13DA,none
+13DB,none
+13DC,none
+13DD,Large tree with snow
+13DE,Large tree with snow
+13DF,none
+13E0,Skeleton
+13E1,Skeleton
+13E2,Skeleton
+13E3,Skeleton
+13E4,Skeleton
+13E5,Skeleton
+13E6,Skeleton
+13E7,Skeleton
+13E8,Skeleton
+13E9,Skeleton
+13EA,Skeleton
+13EB,Skeleton
+13EC,Skeleton
+13ED,Skeleton
+13EE,Skeleton
+13EF,Green bubbles coming from ground
+13F0,Void Lord
+13F1,Altar with skeleton and blue light
+13F2,Star shaped object
+13F3,Skeleton
+13F4,Helmet
+13F5,Shield
+13F6,Epic Diamond Golem?
+13F7,Xbow-Fire
+13F8,Staff-Frost
+13F9,small rock
+13FA,small ears?
+13FB,"tumerok, purple"
+13FC,"tumerok, purple"
+13FD,"tumerok, purple"
+13FE,"tumerok, purple"
+13FF,"tumerok, purple"
+1400,"tumerok, purple"
+1401,"tumerok, purple"
+1402,"tumerok, purple"
+1403,"tumerok, purple"
+1404,"tumerok, purple"
+1405,"tumerok, purple"
+1406,"tumerok, purple"
+1407,"tumerok, purple"
+1408,"tumerok, purple"
+1409,"tumerok, purple"
+140A,"tumerok, purple"
+140B,"tumerok, purple"
+140C,"tumerok, purple"
+140D,"tumerok, purple"
+140E,"tumerok, purple"
+140F,"tumerok, purple"
+1410,Pumpkin Pie ?
+1411,Small Blue object
+1412,Bloody Stone Pillar
+1413,Bloody book on two tentacles
+1414,Axe
+1415,wand
+1416,chalice
+1417,sword
+1418,pole
+1419,polearm
+141A,mace
+141B,dagger
+141C,xbow
+141D,bow
+141E,axe
+141F,wand
+1420,sword
+1421,stick
+1422,polearm
+1423,mace
+1424,dagger
+1425,xbow
+1426,small object
+1427,bow
+1428,red book
+1429,Dead Olthoi
+142A,Dead Olthoi
+142B,Dead Olthoi
+142C,Helmet
+142D,Ursin Head Wall Plaque
+142E,Shovel
+142F,none
+1430,Large Ursuin doll?
+1431,"Bandana that says ""Darling"""
+1432,Fertilized Fly Trap
+1433,Fertilized Pitcher Plant
+1434,Venus Fly Trap plant
+1435,Fertilized Sundew
+1436,Plant in Pot
+1437,Small brown rick
+1438,Planter Pot
+1439,Sword
+143A,Sword
+143B,White Feather ?
+143C,Large coral rock
+143D,Red Feather ?
+143E,Yellow Feather ?
+143F,Green Feather ?
+1440,Red SHield
+1441,Red Shield
+1442,gaunts
+1443,tiara w/ red diamonds
+1444,Griever
+1445,wand
+1446,Small wand
+1447,Bear Claw?
+1448,Wooden Staff
+1449,Polearm
+144A,Club
+144B,Dagger
+144C,Xbow
+144D,Bow
+144E,Hammer/Mace
+144F,Wand
+1450,Sword-Lightning
+1451,Sword-Frost
+1452,Sword-Fire
+1453,Sword-Acid
+1454,Sword-No animation
+1455,Wand-Ligthning
+1456,Wand-Frost
+1457,Wand-Fire
+1458,Wand-Acid
+1459,UA-Lightning
+145A,UA-Frost
+145B,UA-Fire
+145C,UA-Acid
+145D,Staff-Lightning
+145E,Staff- Frost
+145F,Staff-Fire
+1460,Staff-Acid
+1461,Polearm-Lightning
+1462,Polearm-Frost
+1463,Polearm-Fire
+1464,Polearm-Acid
+1465,Mace-Lightning
+1466,Mace-Frost
+1467,Mace-Fire
+1468,Mace-Acid
+1469,Dagger-Lightning
+146A,Dagger-Frost
+146B,Dagger-Fire
+146C,Dagger-Acid
+146D,Xbow-Lightning
+146E,Xbow-Frost
+146F,Xbow-Fire
+1470,Xbow-Acid
+1471,Bow-Lightning
+1472,Bow-Frost
+1473,Bow-Fire
+1474,Bow-Acid
+1475,Hammer-Lightning
+1476,Hammer-Frost
+1477,Hammer-Fire
+1478,Hammer-Acid
+1479,Wand-Lightning
+147A,Wand-Frost
+147B,Wand-Fire
+147C,Crystal
+147D,Frozen Tree
+147E,Black Mist
+147F,Reedshark
+1480,Knight Essence
+1481,Knight Essence
+1482,Greaves
+1483,Knight Essence
+1484,Knight Essence
+1485,Knight Essence
+1486,Knight Essence
+1487,Bow-Slash
+1488,Bow-Bludge
+1489,Bow-Pierce
+148A,Xbow-Slash
+148B,Xbow-Bludge
+148C,Xbow-Pierce
+148D,Wand-Slash
+148E,Wand-Pierce
+148F,Wand-Bludge
+1490,Wand-Slash
+1491,Wand-Pierce
+1492,Wand-Bludge
+1493,Big Green Flying Shark thing
+1494,Cow with bloody mouth
+1495,Masonry Golem
+1496,Yellow Fly Swarm
+1497,White Fly Swarm
+1498,Blue Fly Swarm
+1499,Black Fly Swarm
+149A,Green Fly Swarm
+149B,Red Fly Swarm
+149C,Purple Fly Swarm
+149D,Yellow Fly Swarm
+149E,Moar
+149F,Listris Sleech
+14A0,Large black coral rock
+14A1,Large black coral rock
+14A2,Large black coral rock
+14A3,none
+14A4,Very Large red coral tree
+14A5,none
+14A6,Very Large green coral tree
+14A7,Very Large blue coral tree
+14A8,Small green coral rock
+14A9,Small red coral rock
+14AA,Small blue coral rock
+14AB,none
+14AC,none
+14AD,Small blue coral rock
+14AE,Red coral plant
+14AF,Green coral plant
+14B0,Blue coral plant
+14B1,Green rock/plant
+14B2,Red rock/plant
+14B3,Blue rock/plant
+14B4,Black coral rock
+14B5,Blue shell
+14B6,Green Shell
+14B7,Crown
+14B8,Crown
+14B9,Crown
+14BA,Crown
+14BB,Crown
+14BC,Mukkir
+14BD,Mukkir
+14BE,Green Fish
+14BF,Undead
+14C0,Black/White Rug?
+14C1,Green pillar thing
+14C2,Green pillar thing
+14C3,Green pillar thing
+14C4,Altar w/ stabbed skeleton
+14C5,none
+14C6,Glowing Jack o lantern
+14C7,none
+14C8,Pumpkin Golem
+14C9,Pumpkin Golem
+14CA,Jack o lantern
+14CB,pumpkin
+14CC,pumpkin
+14CD,pumpkin
+14CE,Dead vine
+14CF,none
+14D0,black smoking rock
+14D1,Breastplate
+14D2,Bunny ears
+14D3,Small white object
+14D4,Witch Hat
+14D5,small yellow object
+14D6,none
+14D7,none
+14D8,End of a broom?
+14D9,small white object
+14DA,small white object
+14DB,small white object
+14DC,Snowman head
+14DD,Hat
+14DE,none
+14DF,Jack o lantern
+14E0,Jack o lantern
+14E1,small orange object
+14E2,small white object
+14E3,small brown object
+14E4,Nothing?
+14E5,Headless ursuin?
+14E6,small brown object
+14E7,ursuin arm?
+14E8,bottom half or ursuin?
+14E9,part of uruin?
+14EA,part of uruin?
+14EB,small colorful object
+14EC,small red object
+14ED,small teal object
+14EE,arrowheads?
+14EF,arrowheads?
+14F0,small brown object
+14F1,small pumpkin
+14F2,Black platform
+14F3,Helmet
+14F4,Sword
+14F5,wooden Keg
+14F6,ursuin arm?
+14F7,snow globe on a pedastal
+14F8,none
+14F9,Altar with stabbed skeleton
+14FA,simplet grey pillar
+14FB,Spear
+14FC,Axe
+14FD,Mace
+14FE,Diamond wall?
+14FF,Shield of Yanshi
+1500,medium transparent cone
+1501,Abominable Snowman
+1502,Winter Orb
+1503,Altar with Icy Blue Aura
+1504,Count Dardante's Desk
+1505,Desk
+1506,Shield of Strathelar
+1507,none
+1508,"wand with blue crystal, icy blue aura"
+1509,Cold Atlan or Isparian Bow?
+150A,Cold Atlan or Isparian Claw
+150B,Major Chilling Isparian Crossbow
+150C,Cold Atlan or Isparian Dagger
+150D,Cold Atlan or Isparian Mace
+150E,Cold Atlan or Isparian Atlan Spear
+150F,Cold Atlan or Isparian Staff
+1510,Cold Atlan or Isparian Sword
+1511,Major Chilling Isparian Wand?
+1512,Cold Atlan or Isparian Atlan Axe
+1513,"gauntlets, one crossed atop other"
+1514,flaming sword
+1515,"male human, red lights above eyes, white particles"
+1516,Empyrean Notebook
+1517,Strathelar Pennant
+1518,Viamontian Pennant
+1519,Whispering Blade Boots
+151A,Rossu Morta Boots 
+151B,??? 
+151C,brown bag
+151D,"3 large blue-black crystals, on side"
+151E,"3 large purple crystals, on side"
+151F,"3 large green crystals, on side"
+1520,"3 large red crystals, on side"
+1521,The Sword of Bellenesse
+1522,Shield of Silyun 
+1523,Shield of Sanamar
+1524,"shadow head, translucent, red eyes"
+1525,"short Viamontian Knight, black swirling smoke, glowing red dots"
+1526,Spinning Staff of Death 
+1527,bookcase
+1528,Nothing?
+1529,Strathelar Pennant
+152A,Viamontian Pennant of Loyalty
+152B,"mug, smoking, with purple aura"
+152C,"medium black polyhedron, perhaps Dark Monolith related?"
+152D,"stone basin with water, medium"
+152E,"translucent red cylinder, medium"
+152F,runed weapons
+1530,Sword - Blue Runed - Looks like Atlan 
+1531,mukkir with swirling smoke
+1532,
+1533,"wand, red rune, red particles"
+1534,"wand, blue rune, white particles"
+1535,
+1536,"wand, blue rune, yellow particles"
+1537,
+1538,
+1539,
+153A,
+153B,
+153C,
+153D,
+153E,
+153F,
+1540,2 steel doors set in entryway
+1541,"swirling dust animation, disappears"
+1542,Nothing?
+1543,Nothing?
+1544,blue rune Silveran sword
+1545,Black Spear of Mukkir Strength
+1546,purple rune Silveran sword
+1547,purple rune Silveran dagger
+1548,"Humanoid, lava, pulsing blue aura, with undies!"
+1549,"Human, male, pulsing green aura"
+154A,"fire elemental, flame aura"
+154B,"fire elemental, lightning aura"
+154C,orange rune Silveran dagger
+154D,green rune Silveran dagger
+154E,blue rune Silveran dagger
+154F,Red Rune Silveran Dagger
+1550,orange rune Silveran sword
+1551,green rune Silveran sword
+1552,Red Rune Silveran Sword
+1553,purple rune Silveran axe
+1554,blue rune Silveran axe
+1555,green rune Silveran axe
+1556,orange rune Silveran axe
+1557,Red Rune Silveran Axe
+1558,blue rune Silveran spear
+1559,orange rune Silveran spear
+155A,green rune Silveran spear
+155B,purple rune Silveran spear
+155C,Red Rune Silveran Spear
+155D,jagged red and black sword
+155E,"jagged red and black sword, acid"
+155F,"jagged red and black sword, lightning"
+1560,"jagged red and black sword, flaming"
+1561,"jagged red and black sword, frost"
+1562,blue rune Silveran mace
+1563,orange rune Silveran mace
+1564,green rune Silveran mace
+1565,purple rune Silveran mace
+1566,Red Rune Silveran Mace
+1567,blue rune Silveran staff
+1568,orange rune Silveran staff
+1569,green rune Silveran staff
+156A,purple rune Silveran staff
+156B,Red Rune Silveran Staff
+156C,Blue Rune Silveran Wand
+156D,Orange Rune Silveran Wand
+156E,Green Rune Silveran Wand
+156F,Purple Rune Silveran Wand
+1570,Red Rune Silveran Wand
+1571,Helm of Isin Dule
+1572,Shield of Isin Dule
+1573,Pack Harbinger
+1574,skeleton statue with red-tipped black handle spear in stomach
+1575,Harbinger wand (finger)
+1576,Royal Runed Dart Flinger
+1577,Royal Runed War Bow
+1578,Royal Runed Arbalest
+1579,Royal Runed Knuckles
+157A,Royal Runed Dolabra
+157B,Royal Runed Slashing Baton
+157C,Royal Runed Poinard
+157D,Royal Runed Mazule
+157E,Royal Runed Partizan
+157F,Royal Runed Bastone
+1580,Royal Runed Flamberge
+1581,black hole
+1582,large round rock
+1583,UA - Pink Rune
+1584,UA - Orange Rune
+1585,UA - Green Rune
+1586,UA - Blue Rune
+1587,Red Rune Silveran Claw
+1588,purple rune Silveran Bow
+1589,orange rune Silveran Bow
+158A,green rune Silveran Bow
+158B,blue rune Silveran Bow
+158C,Red Rune Silveran Bow
+158D,purple rune Silveran crossbow
+158E,small floating red crystals
+158F,small floating blue crystals
+1590,small floating green crystals
+1591,small floating purple crystals
+1592,orange rune Silveran crossbow
+1593,green rune Silveran crossbow
+1594,blue rune Silveran crossbow
+1595,Red Rune Silveran Crossbow
+1596,purple rune Silveran atlatl
+1597,orange rune Silveran atlatl
+1598,green rune Silveran atlatl
+1599,blue rune Silveran atlatl
+159A,Red Rune Silveran Atlatl
+159B,Arm of the Harmbringer
+159C,"black swirling animation, fades in then off"
+159D,Bone spiral staircase
+159E,Fan spawns above your head
+159F,Bone spiral staircase
+15A0,none
+15A1,Gargoyle looking mob
+15A2,black cloud above your head
+15A3,black cloud on ground
+15A4,Black portal
+15A5,none
+15A6,Ruschk
+15A7,none
+15A8,Large diamond ball with a blue ball in the middle
+15A9,Small black swirl with red dots in it
+15AA,Mukkir Apect of Grael
+15AB,Large black pillar with black swirls around it
+15AC,Small single smoke on the ground
+15AD,Grievver
+15AE,Black boxes with red eyes falling
+15AF,none
+15B0,black smoke
+15B1,black smoke
+15B2,none
+15B3,none
+15B4,none
+15B5,Mukkir
+15B6,Rune with sword
+15B7,Rune with bull
+15B8,Black/pink ground portal
+15B9,small key?
+15BA,claw?
+15BB,claw?
+15BC,claw?
+15BD,claw?
+15BE,tiny black object
+15BF,claw?
+15C0,tiny black object
+15C1,claw?
+15C2,small orange object
+15C3,small orange object
+15C4,small orange object
+15C5,small orange object
+15C6,small orange object
+15C7,small orange object
+15C8,small orange object
+15C9,small orange object
+15CA,small orange object
+15CB,small orange object
+15CC,Ruschk
+15CD,grey pillar
+15CE,coat
+15CF,Alduressa Armor
+15D0,Alduressa Armor
+15D1,Alduressa Armor
+15D2,Alduressa Armor
+15D3,Broken double steel door
+15D4,none
+15D5,purple bubbles
+15D6,blue bubbles
+15D7,floating black coral rock
+15D8,floating black coral rock
+15D9,small sword object
+15DA,none
+15DB,black smoke pillar
+15DC,small black object
+15DD,small black object
+15DE,Mukkir Spear?
+15DF,Stoney eye object
+15E0,Fire pillar
+15E1,none
+15E2,Black Spear of Mukkir Strength
+15E3,Single flash of red lightning on ground
+15E4,Black pillar with red tip
+15E5,Black pillar with red tip and some snow
+15E6,Single flash of green lightning on ground
+15E7,Single flash of red lightning on ground
+15E8,Single flash of yellow lightning on ground
+15E9,Single flash of white lightning on ground
+15EA,Single flash of red lightning on ground
+15EB,Single flash of red lightning on ground
+15EC,Single flash of purple lightning on ground
+15ED,Single flash of white lightning on ground
+15EE,Single flash of red lightning on ground
+15EF,transparent black object
+15F0,none
+15F1,transparent black object
+15F2,transparent black object
+15F3,transparent black object
+15F4,Single flash of green lightning on ground
+15F5,Single flash of orange lightning on ground
+15F6,Single flash of yellow lightning on ground
+15F7,Single flash of white lightning on ground
+15F8,Single flash of white lightning on ground
+15F9,Single flash of blue lightning on ground
+15FA,Single flash of red lightning on ground
+15FB,Red stars coming from ground
+15FC,vein with red lightning
+15FD,Mukkir
+15FE,Shadow mob ?
+15FF,"black cone, only partially stays in view"
+1600,large black boulder
+1601,blue swirling ground effect
+1602,widespread multiple black ground cloud bursting effect
+1603,"tall black pole, red lightning effect, swirling black base"
+1604,"green lighting effect, disappears"
+1605,none
+1606,"white lighting effect, disappears"
+1607,none
+1608,none
+1609,"orange lighting effect, disappears"
+160A,none
+160B,"yellow lighting effect, disappears"
+160C,none
+160D,"white lighting effect, disappears"
+160E,none
+160F,"red lighting effect, disappears"
+1610,none
+1611,"swirling ground based smoke effect, disappears"
+1612,"purple lighting effect, disappears"
+1613,none
+1614,"green lighting effect, disappears"
+1615,"white lighting effect, disappears"
+1616,"red lighting effect, disappears"
+1617,"yellow lighting effect, disappears"
+1618,none
+1619,"red lighting effect, disappears"
+161A,"purple lighting effect, disappears"
+161B,"red lighting effect, disappears"
+161C,Skeleton on altar
+161D,chest piece?  shadowy tendril emblem
+161E,"Black Spear of ??? , tip in ground"
+161F,small black object
+1620,"large straight bone, mottled texture"
+1621,"large straight bone, white texture"
+1622,"large straight bone, white texture"
+1623,Mi Krau Li's Remastered Jitte
+1624,none
+1625,small red object
+1626,Mask of the Hopeslayer
+1627,"Skeleton, armored upper body, oversize cowl on skull"
+1628,Marshmallow Ghost
+1629,The Red Bull
+162A,The Royal Bull of Sanamar
+162B,The Boar of Cinghalle
+162C,The Stag of Bellenesse
+162D,pumpkin headed penguin
+162E,Hollow Minion with pumpkin
+162F,The Dragon of Power
+1630,Old Gravestone
+1631,Floating Candle
+1632,blue Anniversary Sparkler
+1633,green Anniversary Sparkler
+1634,orange Anniversary Sparkler
+1635,purple Anniversary Sparkler
+1636,red Anniversary Sparkler
+1637,white Anniversary Sparkler
+1638,yellow Anniversary Sparkler
+1639,Tremendous Monouga Skull
+163A,wooden crate
+163B,zombie
+163C,Fiun Crown
+163D,Mask of Malik
+163E,The Helm of Golden Flame
+163F,Karlun's Visage
+1640,Through the Portal Years
+1641,Mystical Mug
+1642,"small mystical mug, closed, on ground"
+1643,Ulgrim's Contest Mug
+1644,none
+1645,small blue object w/ flies hovering around it
+1646,small red object w/ flies hovering around it
+1647,small orange object w/ flies hovering around it
+1648,small green object w/ flies hovering around it
+1649,small orange object w/ flies hovering around it
+164A,small orange object w/ flies hovering around it
+164B,pedestal
+164C,none
+164D,white wide ground light effect
+164E,double doors with medium green stone corridor
+164F,black pedestal
+1650,double doors with medium green stone corridor
+1651,Falatacot Trap
+1652,Altar of Urdhinivix
+1653,Penguin Nest
+1654,Portable Igloo
+1655,Tachi of Grace
+1656,Partially-eaten Cookie?  (Pet Penguin)
+1657,Frozen Present
+1658,Hot Coal
+1659,Angry Snowman
+165A,Present
+165B,Mr. P. Holiday Pack Doll
+165C,Scold
+165D,Doll House
+165E,Holiday Lights (Strand)
+165F,Snowmaker
+1660,Orb of Eternal Frost
+1661,Holiday Hearth
+1662,stone altar (bottom of Metos?)
+1663,Northern Pedestal?
+1664,Sclavus with Stocking Cap
+1665,Holiday Feast
+1666,Magic Hat
+1667,Prince's Medal of Bravery
+1668,Shadowy Statue of the Hopeslayer
+1669,Small Statue of the Hopeslayer
+166A,Stone Axe
+166B,none
+166C,Bone Dagger
+166D,Stone Hatchet
+166E,Stone Mace
+166F,Stone Spear
+1670,Repugnant Melee Staff
+1671,Bone Sword
+1672,Decorative Stone Axe
+1673,Decorative Tree Trunk Club
+1674,Decorative Repugnant Staff
+1675,Decorative Bone Sword
+1676,Bone Bow
+1677,Bone Crossbow
+1678,Guruk Fist
+1679,Inflamed Ursuin?
+167A,none
+167B,Golden Egg
+167C,two doors with stone frame
+167D,purple portal
+167E,icy blue aura rising from ground
+167F,green aura rising from ground
+1680,orange aura rising from ground
+1681,purple aura rising from ground
+1682,red aura rising from ground
+1683,green particle effect from ground
+1684,Regugnant Spellcasting Staff?
+1685,purple ball
+1686,spinning purple ball with red effect
+1687,mushroom
+1688,rolling Red Ball of Death
+1689,rolling Red Ball of Death
+168A,rolling Red Ball of Death
+168B,Inert Mucor
+168C,Enahnced Mucor
+168D,mushroom
+168E,mushroom
+168F,mushroom on ground with red effect
+1690,Stone Block
+1691,Stone Block
+1692,None
+1693,Spinning Asheron Stuck in Bubble w/ Blue Effect
+1694,Statue w/ Red Effect
+1695,Colo / Gauntlet Bell
+1696,Statue w/ Blue Effect
+1697,Strange Portal w/ new effect
+1698,Strange Portal w/ new effect
+1699,vault
+169A,"stone chest, open w/ bars on it"
+169B,none
+169C,Strange Portal w/ new effect
+169D,Strange Portal w/ new effect
+169E,Strange Portal w/ new effect
+169F,rock
+16A0,wight
+16A1,"vault, colo/gaunt"
+16A2,none
+16A3,ring of some sort
+16A4,pyre champ
+16A5,pyre skeleton
+16A6,falacot undead with mask visor
+16A7,falacot undead with mask visor red
+16A8,falacot undead with mask visor green
+16A9,falacot undead with mask visor green
+16AA,prismatic golem with blue effect
+16AB,"male char, naked, crowched with sword"
+16AC,"headstone, graveyard"
+16AD,"headstone, graveyard, plain"
+16AE,"headstone, graveyard, plain"
+16AF,"headstone, graveyard, squared"
+16B0,"headstone, graveyard"
+16B1,"headstone, graveyard"
+16B2,"headstone, graveyard"
+16B3,"candle on post, purple"
+16B4,"headstone, graveyard"
+16B5,"headstone, graveyard"
+16B6,"headstone, graveyard"
+16B7,"headstone, graveyard"
+16B8,"headstone, graveyard"
+16B9,"headstone, graveyard"
+16BA,bricks with grass on them
+16BB,bricks with grass on them
+16BC,bricks with grass on them
+16BD,"Pillar, brown, tall"
+16BE,"Pillar, brown, tall"
+16BF,"Pillar, brown, tall"
+16C0,"Pillar, brown, short"
+16C1,none
+16C2,"pillar, brown, med"
+16C3,"pillar, brown, med"
+16C4,none
+16C5,Fiery Skeleton
+16C6,Fiery Skeleton
+16C7,Thunder Chicken
+16C8,Naked human male model
+16C9,Golem
+16CA,ASHERON!
+16CB,none
+16CC,Shield of Perfect Light
+16CD,Bones
+16CE,Transparent White Crystals
+16CF,Gargoyle
+16D0,Alduressa Helm
+16D1,Pancake Golem
+16D2,None
+16D3,Greatsword of Flame and Light
+16D4,Undead
+16D5,small grey object
+16D6,Human male
+16D7,K'noth
+16D8,small grey object
+16D9,Human male
+16DA,Stat redistribution statues
+16DB,Stat redistribution statues
+16DC,Stat redistribution statues
+16DD,Stat redistribution statues
+16DE,Stat redistribution statues
+16DF,Turkey
+16E0,Banderling Boss?
+16E1,Egg
+16E2,Feather-Lightning
+16E3,Feather-Lightning
+16E4,Fire Sword
+16E5,Fire Sword
+16E6,Corrupted Maiden
+16E7,none
+16E8,Corrupted Maiden
+16E9,Pyre Champion (old model?)
+16EA,Bonecrunch
+16EB,Banderling Boss?
+16EC,"Cragstone Drudge ""The Plan"" Map"
+16ED,Burnja's Board with Nails
+16EE,None
+16EF,none
+16F0,Drudge Ballon
+16F1,Narrow Orange ring portal effect with Blue & Purple particles
+16F2,Wide Orange ring portal effect with Blue & Purple particles
+16F3,none
+16F4,"Metal Grate, upright"
+16F5,Cragstone Drudge Fort Walls- 6-pillars curved with gap
+16F6,Cragstone Drudge Fort Walls - 4 pillars straight
+16F7,"Scarab of some sort, red aura"
+16F8,large fire effect
+16F9,paradox olthoi evis/ripper?
+16FA,paradox olthoi grub
+16FB,paradox olthoi flyer
+16FC,Paradox Olthoi Worker?
+16FD,"monouga, small"
+16FE,arrows lightning?
+16FF,"Aerbax, Blue Color"
+1700,Tusker _____
+1701,"VR Flower, Blue"
+1702,"Tusker King, Laying Down?"
+1703,human hands?
+1704,Thrown Weapon with Effect
+1705,"Olthoi Egg, Strange Coloring"
+1706,Paradox Olthoi Worker?
+1707,naked character model holding sword pose
+1708,Large Golden Coin
+1709,"olthoi sentinel, green w/ paradox smoke"
+170A,Paradox Olthoi Worker?
+170B,paradox olthoi related lump
+170C,paradox olthoi queen?
+170D,paradox olthoi queens head?
+170E,olthoi shield
+170F,othoi atlan
+1710,Olthoi Axe
+1711,Olthoi weapon
+1712,Olthoi Spear
+1713,Olthoi Sword
+1714,Olthoi Queen Head
+1715,Poison Square on floor
+1716,Monkey Paw in Rock on pose
+1717,Statue with horned figure
+1718,tusker slayer Wand
+1719,Tusker Skull or Helm
+171A,Tusker Slayer Sword
+171B,Dark Bobo - But Silver Armor
+171C,Bunch of Bananas - Shadow Effect
+171D,Invisible
+171E,Nothing?
+171F,weird stick
+1720,weird stick
+1721,weird stick
+1722,Nothing?
+1723,Nothing?
+1724,Kirienne Palacost in Shield
+1725,Kirienne Palacost not in Shield
+1726,none
+1727,Harbinger Wall Button?
+1728,Red Stone Pyramid missing the top
+1729,Acid Square Tile
+172A,Lava Square Tile
+172B,Blue Square Tile
+172C,Pink/Purple Square Tile
+172D,Aegis of the Golden Flame
+172E,Nothing?
+172F,Nothing?
+1730,Harbinger with Rainbow Effect
+1731,4 Harbinger Stones
+1732,huge green effect
+1733,huge blue effect with snow
+1734,Shadow and Lightning Effect
+1735,Pink Coral Shield
+1736,Blue Coral Shield
+1737,Rift Orb - Green
+1738,Rift Orb - Purple
+1739,Virindi - Red Flashing Stone - Shadow Effects
+173A,Virindi - Red Flashing Stone - Shadow Effects
+173B,Virindi - Red Flashing Stone - Shadow Effects + Lightning
+173C,Virindi - Red Flashing Stone - Shadow Effects + Lightning
+173D,Nothing?
+173E,Nothing?
+173F,BZ Head?
+1740,Mesh Floor Grate
+1741,Hale Human Model - Flaming Head
+1742,Spectral Flame Spell Skull?
+1743,Mukkir Head?
+1744,Claude's Mind Tent?
+1745,Gray Pumpkin on a pedestal
+1746,Brown stone wall
+1747,Chilling Ebony Staff
+1748,Aerbax - Semi-Transparent with Red untextured Mask
+1749,Wand/Staff Wood haft with a Blue Stone on top Glowing
+174A,"""Flat"" Jack-o-lantern with Red Glowing Eyes"
+174B,"Shadowy ""Stone""?"
+174C,Nothing?
+174D,Adolescent Azure Gromnie Walking in a Circle
+174E,Nothing?
+174F,Burun King Statue?
+1750,Glowing Orb/Aura?
+1751,"""Butterfly"" (The ones that are in the overworld randomly)"
+1752,Human Male - Shadow Hands and Effects around - Arms Outstretched
+1753,Sword - Red Crosspiece - Shadow Effects
+1754,Red and White Mint?
+1755,Undead with Pirate Bandanna
+1756,Pirate Bandanna
+1757,Small grey object
+1758,Pirate Hat
+1759,Undead with Pirate Hat
+175A,Green and Stone Column - Lugian?
+175B,Hollow Minion
+175C,Orange Armored Red Eyed Lugian - Shadow/Lightning effects
+175D,Orange Armored Red Eyed Lugian - Red Flame Effects
+175E,Orange Armored Red Eyed Lugian - Base Model
+175F,Store with wood and chains
+1760,Large Stone
+1761,Flat stone platform
+1762,white hexagon of fur texture
+1763,Green Banner
+1764,plant with red bulb
+1765,Furnace with fire burning
+1766,royal bed
+1767,Spinning Snowflake
+1768,Presents
+1769,Christmas Tree With Lights
+176A,Red/Green/Yellow Holiday Rug
+176B,Nothing?
+176C,Mound of Snow
+176D,Blue/White Holiday Rug
+176E,Nothing?
+176F,small rock with effects around it
+1770,snow orb
+1771,"Book Case, ground level"
+1772,Book Case
+1773,Book Case
+1774,Three-eyed Snowman
+1775,Neydisa Snowglobe
+1776,Wall sconce with flame
+1777,Virindi Facemask
+1778,Nothing?
+1779,Obsidian Columns
+177A,"Red Crystal Columns, large, upright"
+177B,"Red Crystal Columns, large, upright"
+177C,"Red Crystal Columns, large, laying on side"
+177D,Nothing?
+177E,Obsidian Columns
+177F,"Red Crystal Columns, medium, upright"
+1780,"Red Crystal Columns, medium, upright"
+1781,"Red Crystal Columns, medium, laying on side"
+1782,"Obsidian Columns, medium, laying on side"
+1783,"Obsidian Columns, large, laying on side"
+1784,"Obsidian Columns, medium upright"
+1785,"Red Crystal Columns, medium, upright"
+1786,"Red Crystal Columns, medium, upright"
+1787,"Red Crystal Columns, medium, laying on side"
+1788,Nothing?
+1789,Nothing?
+178A,"Red Crystal Columns, medium, upright"
+178B,"Red Crystal Columns, medium, upright"
+178C,"Red Crystal Columns, small, laying on side"
+178D,"Obsidian Columns, small, laying on side"
+178E,"Obsidian Columns, medium, laying on side"
+178F,"Obsidian Columns, large, upright"
+1790,"Red Crystal Columns, Large, upright, Obsidian Plains"
+1791,"Red Crystal Columns, Large, upright, Obsidian Plains"
+1792,"Red Crystal Columns, Large, laying on side, Obsidian Plains"
+1793,Nothing?
+1794,Nothing?
+1795,"obsirian spire, red ones on OP"
+1796,"obsirian spire, red ones on OP"
+1797,"obsirian spire, red ones on OP"
+1798,"obsirian spire, black ones on OP"
+1799,"obsirian spire, black ones on OP"
+179A,purple aura moving across floor
+179B,purple aura moving across floor
+179C,purple aura moving across floor
+179D,purple aura moving across floor
+179E,red aura moving across floor
+179F,red aura moving across floor
+17A0,red aura moving across floor
+17A1,red aura moving across floor
+17A2,huge tree stump
+17A3,Nothing?
+17A4,Nothing?
+17A5,black hexagonal plate
+17A6,Red Floor Crystal Large Short
+17A7,none
+17A8,none
+17A9,Red Floor Crystal Medium Tall
+17AA,Red Floor Crystal Medium Short
+17AB,Red Wall Crystal Medium
+17AC,none
+17AD,none
+17AE,Red Floor Crystal Small Tall
+17AF,Red Floor Crystal Small Short
+17B0,Red Wall Crystal Small
+17B1,none
+17B2,none
+17B3,Celestial Hand Flag
+17B4,Eldrytch Web Flag
+17B5,Radiant Blood Flag
+17B6,Red lifestone crystal?
+17B7,none
+17B8,purple cloudlike particles
+17B9,metal floor grate with purple floating purple particles
+17BA,Harmonic Transference Field
+17BB,black cloud
+17BC,none
+17BD,root wall?
+17BE,root floor?
+17BF,root wall?
+17C0,root wall?
+17C1,root floor?
+17C2,root floor?
+17C3,root wall?
+17C4,Celestial Hand Tabard
+17C5,Eldrytch Web Tabard
+17C6,Radiant Blood Tabard
+17C7,Drudge Sneaker
+17C8,mosswart feeder?
+17C9,corner wall brazier
+17CA,corner wall brazier
+17CB,corner wall brazier
+17CC,none
+17CD,none
+17CE,corner wall brazier
+17CF,Font of Jojii base
+17D0,metal door
+17D1,Arcane Pyramid spinning
+17D2,stone block pillar
+17D3,Arcane Pyramid spinning 
+17D4,none
+17D5,player model
+17D6,Arcane Pyramid
+17D7,leyline?
+17D8,Jester's Baton
+17D9,Present
+17DA,Brown Cow
+17DB,empyrean? table
+17DC,red laser?
+17DD,Large Golden Coin
+17DE,fire
+17DF,Ball of Fire
+17E0,unknown
+17E1,Two Cards from the Deck of Hands
+17E2,Eyes Card
+17E3,Hands Card
+17E4,Jester Card
+17E5,copper colored ring
+17E6,Club of Surprising Cunning
+17E7,piece of green coral
+17E8,tall Celestial Hand pole drap banner 
+17E9,tall Eldrytch Web pole drap banner
+17EA,tall Radiant Blood pole drap banner
+17EB,piece of teal coral
+17EC,piece of pink coral
+17ED,"Stone wall, square section"
+17EE,Pillar of Fire
+17EF,House Mhoire wall drape banner
+17F0,Creeping Blight Banner
+17F1,Celestial Hand Banner
+17F2,Eldrytch Web Banner
+17F3,Radiant Blood Banner
+17F4,Aerbax
+17F5,Jester's Marker
+17F6,Jester's Marker
+17F7,tall House Mhoire pole drap banner
+17F8,House Mhoire Shield
+17F9,Soulbound Axe
+17FA,Soulbound Claw
+17FB,Soulbound Dagger
+17FC,Soulbound Mace
+17FD,Soulbound Spear
+17FE,Soulbound Casting Staff
+17FF,Staff with Soulbound effect
+1800,Sword with Soulbound effect
+1801,Atlatl with Soulbound effect
+1802,Bow with Soulbound effect
+1803,Crossbow with Soulbound effect
+1804,Mhoire Key
+1805,Fire from GY Colosseum
+1806,Jester summoning stone
+1807,nothing
+1808,nothing
+1809,nothing
+180A,nothing
+180B,nothing
+180C,nothing
+180D,nothing
+180E,Lord Mhoire summoning effect
+180F,Teal line fading randomly
+1810,Teal line fading randomly
+1811,Teal line fading randomly
+1812,Siessa Sclavus - Freebooter
+1813,Afessa Sclavus Soldier - Various Locations
+1814,Illu Sclavus - Various Locations
+1815,Pillar of Tthuun? Moarsman Isle
+1816,small transparent blue object
+1817,small transparent blue object
+1818,small transparent blue object
+1819,small transparent blue object
+181A,small transparent blue object
+181B,small transparent blue object
+181C,small transparent blue object
+181D,small transparent blue object
+181E,medium-size transparent blue object
+181F,small transparent blue object
+1820,medium-size transparent blue object
+1821,medium-size transparent blue object
+1822,small transparent blue object
+1823,small transparent blue object
+1824,medium-size transparent blue object
+1825,small transparent blue object
+1826,none
+1827,small transparent blue object
+1828,none
+1829,none
+182A,large transparent blue object
+182B,small transparent blue object
+182C,none
+182D,medium-size transparent blue object
+182E,small transparent blue object
+182F,medium-size transparent blue object
+1830,Glowing K'Nath Essence?
+1831,Blue K'Nath Essence?
+1832,Green K'Nath Essence?
+1833,Diamond K'Nath Essence?
+1834,Red K'Nath Essence?
+1835,Transparent K'Nath Essence?
+1836,Yellow K'Nath Essence?
+1837,Large Glowing Ball
+1838,Weeping Object
+1839,Orange (fruit) Tree
+183A,small silver object
+183B,small black object
+183C,Orange Coral Rock
+183D,Moarsman
+183E,none
+183F,Moar
+1840,Large Pink Pillar
+1841,Large Mint Pillar
+1842,Large Blue Pillar
+1843,Large Black Pillar
+1844,Large White Pillar
+1845,Small Coral Mound
+1846,Small Coral Mound
+1847,Small Coral Mound
+1848,Mana Stone on pedastal
+1849,"Acid Staff -same model as Orisis staff, but brown with blue stone"
+184A,Bludge Staff
+184B,Lightning Staff
+184C,Fire Staff
+184D,Frost Staff
+184E,Pierce Staff
+184F,"Slash Staff -same model as Orisis staff, but brown with blue stone"
+1850,Small Coral Mound
+1851,none
+1852,Statue wearing robe
+1853,Kid's hat
+1854,Large Tentacle
+1855,Large Tentacles
+1856,Celestial Hand object
+1857,Eldrytch Web object
+1858,Radiant Blood object
+1859,Human model with burning eyebrows
+185A,Wand
+185B,Axe
+185C,Bow with Soulbound effect
+185D,knuckles?
+185E,xbow?
+185F,dagger?
+1860,mace?
+1861,polearm?
+1862,Staff?
+1863,sword?
+1864,wand?
+1865,Fiery Wooden Golem. Boss?
+1866,small object
+1867,Silver cup on pedastal
+1868,none
+1869,none
+186A,none
+186B,Red Smoke?
+186C,none?
+186D,Small floating ornate tumerok statue with red aura
+186E,Red Pennant Flag on Pole with Two Handle Gold Trophy
+186F,Black Pennant Flag on Pole with Drudge Imprint
+1870,Floating Spinning Pyreamid
+1871,Floating Flaming Disco Balls with red ground particle effect 
+1872,"Large Ornate sword, curved tip"
+1873,"Gold/Brown Moarsman, black aura"
+1874,"Gold/Brown Moarsman, green aura, green particles"
+1875,"Gold/Brown Moarsman, green aura, white particles"
+1876,"Gold/Brown Moarsman, white aura, white particles"
+1877,"Gold/Brown Moarsman, black aura, orange, purple particles"
+1878,Illu Sclavus Soldier?
+1879,none?
+187A,Pillar of T'thuun
+187B,Monster Fights Cage
+187C,Monster Fights Bars
+187D,Tactical Defense Tower
+187E,Exploration Marker
+187F,T'huun Aegis
+1880,Tome of Caustics
+1881,Tome of Flame
+1882,Tome of Chill
+1883,tome of lightning?
+1884,Olthoibane Sword of Lost Light
+1885,Shadowfire Sword of Lost Light
+1886,Skeletonbane Sword of Lost Light
+1887,Barrel
+1888,"Angree's Angry Ale bottle, facing toward"
+1889,White Bottle w/out label
+188A,blue bottle
+188B,green bottle
+188C,beer tap?
+188D,Ice Floor Puzzle Tile
+188E,Spadone - 2H Sword - Fire
+188F,Spadone - 2H Sword - Frost
+1890,Spadone - 2H Sword - Acid
+1891,Spadone - 2H Sword - Lightning
+1892,Quadrelle - 2H Mace - Fire
+1893,Quadrelle - 2H Mace - Frost
+1894,Quadrelle - 2H Mace - Acid
+1895,Quadrelle - 2H Mace - Lightning
+1896,giant tree?
+1897,Tetsubo - 2H Mace - Base (Bludgeoning)
+1898,Tetsubo - 2H Mace - Acid
+1899,Tetsubo - 2H Mace - Lightning
+189A,Tetsubo - 2H Mace - Fire
+189B,Tetsubo - 2H Mace - Frost
+189C,Nothing
+189D,Nothing
+189E,Nothing
+189F,Nothing
+18A0,Nothing
+18A1,Nothing
+18A2,Nothing
+18A3,Nothing
+18A4,Nothing
+18A5,Nothing
+18A6,Nothing
+18A7,Arena Sword
+18A8,Great BloodScorch
+18A9,unfinished great bloodscorch?
+18AA,Derethian Combat Arena Power-up Holder
+18AB,Arena Dagger
+18AC,Arena Spear
+18AD,Arena Staff
+18AE,Arena Mace
+18AF,Arena Wand
+18B0,Arena Atlatl
+18B1,Arena Axe
+18B2,Arena Bow
+18B3,Arena Crossbow
+18B4,Arena Claw
+18B5,Arena Heal
+18B6,Nothing
+18B7,Nothing
+18B8,Arena Max Health
+18B9,Nothing
+18BA,Nodachi - 2H Sword - Base (Slashing)
+18BB,Nodachi - 2H Sword - Acid
+18BC,Nodachi - 2H Sword - Lightning
+18BD,Nodachi - 2H Sword - Fire
+18BE,Nodachi - 2H Sword - Frost
+18BF,Derethian Combat Arena central portal effect
+18C0,Derethian Combat Arena portal base
+18C1,Derethian Combat Arena portal bottom (black portal)
+18C2,stone slab?
+18C3,brick platform?
+18C4,large brick platform?
+18C5,Essence Lock
+18C6,Gearknight Helm on ground
+18C7,Gear Shield?
+18C8,Unstable Mana Stone?
+18C9,Human Male Purple/Orange/Shadow Particle Effects
+18CA,Human Female Purple/Orange/Shadow Particle Effects
+18CB,Thug Hideout - Brick Wall/Door
+18CC,Nothing?
+18CD,Nothing?
+18CE,Nothing?
+18CF,Nothing?
+18D0,Nothing?
+18D1,Nothing?
+18D2,Nothing?
+18D3,Corsesca - 2H Spear  - Base
+18D4,Corsesca - 2H Spear  - Fire
+18D5,Corsesca - 2H Spear  - Frost
+18D6,Corsesca - 2H Spear  - Acid
+18D7,Corsesca - 2H Spear  - Lightning
+18D8,Princely Runed Two Handed Corsesca
+18D9,Royal Runed Two Handed Corsesca
+18DA,Magari Yari - 2H Spear - Base (Piercing)
+18DB,Magari Yari - 2H Spear - Acid
+18DC,Magari Yari - 2H Spear - Shadow?
+18DD,Magari Yari - 2H Spear - Fire
+18DE,Magari Yari - 2H Spear - Frost
+18DF,Magari Yari - 2H Spear - Lightning
+18E0,Staff? Handle?
+18E1,Great Axe - 2H Axe - Base
+18E2,Great Axe - 2H Axe - Acid
+18E3,Great Axe - 2H Axe - Shadow?
+18E4,Great Axe - 2H Axe - Fire
+18E5,Great Axe - 2H Axe - Frost
+18E6,Great Axe - 2H Axe - Lightning
+18E7,Thug Hideout Column and Platform
+18E8,Thug Hideout Column and Platform
+18E9,2H Sword - yellow rune - Same model as Red Runed Greatsword
+18EA,2H Sword - green rune Silveran Greatsword
+18EB,2H Sword -  blue rune Silveran Greatsword
+18EC,2H Sword - pink rune Silveran Greatsword
+18ED,2H Sword - Red Rune Silveran Greatsword
+18EE,Nothing?
+18EF,Nothing?
+18F0,Nothing?
+18F1,Fiona's Cage
+18F2,Green Cloud Effect
+18F3,Fire Cloud Effect
+18F4,Frost Cloud Effect
+18F5,Lightning Cloud Effect
+18F6,Fiona's Cage Door
+18F7,Shashqa - 2H Sword - Base (Slashing)
+18F8,Shashqa - 2H Sword - Fire
+18F9,Shashqa - 2H Sword - Frost
+18FA,Shashqa - 2H Sword - Acid
+18FB,Shashqa - 2H Sword - Lightning
+18FC,Great Star Mace - 2H Mace - Base (Bludgeoning)
+18FD,Great Star Mace - 2H Mace - Fire
+18FE,Great Star Mace - 2H Mace - Frost
+18FF,Great Star Mace - 2H Mace - Acid
+1900,Great Star Mace - 2H Mace - Lightning
+1901,Blackmire Statue - Green - Portal Whirl and Aegis Stars
+1902,Blackmire Statue - Green
+1903,Thug Hideout Red Brick Octagonal Platform
+1904,Bookcase
+1905,Gear Shield - Gearknight Helm and one Gear Pauldron
+1906,Gearknight - Unknown?
+1907,Gearknight - Bronze
+1908,Gearknight - Iron
+1909,Gearknight - Copper
+190A,Gearknight - Gold
+190B,Gearknight - Silver
+190C,Candle on Holder
+190D,1H Gear Sword - Base
+190E,2H Gear Sword - Base
+190F,1H Gear Sword - Acid
+1910,1H Gear Sword - Lightning
+1911,1H Gear Sword - Fire
+1912,1H Gear Sword - Frost
+1913,2H Gear Sword - Acid
+1914,2H Gear Sword - Lightning
+1915,2H Gear Sword - Fire
+1916,2H Gear Sword - Frost
+1917,Gear Knight - Stacked Purple Crystals
+1918,Gear Knight - Iron - Yellow/Orange Particle Effects
+1919,Gear Knight - Bronze - Yellow/Orange Particle Effects
+191A,Gear Knight - Copper - Yellow/Orange Particle Effects
+191B,Nothing?
+191C,Gear Knight - Silver - Yellow/Orange Particle Effects
+191D,Gear Knight - Medium Aetherium Crystal In a Gear
+191E,Gear Knight - Aetherium Chunk on Ground
+191F,Gear Knight - Small Aetherium Crystal In a Gear
+1920,Gear Knight - Iron Blade Overseer
+1921,Nothing?
+1922,Gear Knight - Iron Blade Overseer's Sword
+1923,Assagai - 2H Spear - Base (Piercing)
+1924,Assagai - 2H Spear - Acid
+1925,Assagai - 2H Spear - Shadow?
+1926,Assagai - 2H Spear - Fire
+1927,Assagai - 2H Spear - Frost
+1928,Assagai - 2H Spear - Lightning
+1929,Jeweler's Saw Blade?
+192A,Pike - 2H Spear - Base (Piercing)
+192B,Pike - 2H Spear - Acid
+192C,Pike - 2H Spear - Shadow?
+192D,Pike - 2H Spear - Fire
+192E,Pike - 2H Spear - Frost
+192F,Pike - 2H Spear - Lightning
+1930,wooden stick
+1931,Khanda-handled Mace - 2H Mace - Base (Bludgeoning)
+1932,Khanda-handled Mace - 2H Mace - Fire
+1933,Khanda-handled Mace - 2H Mace - Frost
+1934,Khanda-handled Mace - 2H Mace - Acid
+1935,Khanda-handled Mace - 2H Mace - Lightning
+1936,Lens Wand?  (Exquisite Lens?)
+1937,Wasp
+1938,none
+1939,Moars Isle - Society Jail Cell
+193A,Yellow/Black/Red - Phyntost Something?
+193B,Moars Isle - Society Fort/Outpost Piece
+193C,Moars Isle - Society Fort/Outpost Piece
+193D,Moars Isle - Society Fort/Outpost Piece
+193E,Moars Isle - Society Fort/Outpost Piece
+193F,locked prison door
+1940,Lava baby
+1941,skull
+1942,red sleveless Mhoire tabard (shirt) with gold belt
+1943,large stone blue flame
+1944,blue flame
+1945,stone throne
+1946,"gearknight, yellow"
+1947,"gearknight, gold"
+1948,"gearknight, copper"
+1949,Gearknight - Copper?
+194A,Gearknight - Iron?
+194B,Gearknight - Silver Gold Trim?
+194C,Nothing?
+194D,Gearknight - Copper? Yellow and Orange Particle Effect
+194E,Nothing?
+194F,"Gearknight, with effect, silver"
+1950,small torch
+1951,wood box with hole
+1952,Gear Crossbow
+1953,Gear Crossbow (brown)
+1954,Gear Crossbow (Solid Orange)
+1955,Gear Crossbow (orange)
+1956,Gear Crossbow (Gold)
+1957,Gear Crossbow (Solid Gold)
+1958,Gear Crossbow (Dark Grey)
+1959,Gear Crossbow (Black)
+195A,Gear Crossbow (Grey)
+195B,Gear Crossbow (White)
+195C,Ice Wall/Door
+195D,Ruschk Style Cave Wall/Door
+195E,Big Purple Crystal - Purple Glow - GK Ore Quest?
+195F,gearknight frosen in ice crystal
+1960,large wedding altar
+1961,none
+1962,Stone Bench
+1963,pink flower
+1964,Orange Tulip
+1965,Garden Box
+1966,Shaped Tree
+1967,Gazebo (stone platform)
+1968,Rock (Wedding Preparations)
+1969,Medium Sized Evergreen Tree
+196A,Part of a Viamontian Castle/Building
+196B,Same Shape as 196B But Shadow Themed with a Bael'zharon Picture
+196C,Shadow - Female Human Appearance
+196D,Shadow - Male Human Appearance
+196E,Shadow - Male Human Torso - No Legs
+196F,Umbraen figure male
+1970,naked human male
+1971,naked human male with umbraen effects
+1972,yellow sparkles
+1973,tophat
+1974,Shield of Borelean's Royal Guard
+1975,female hair shape
+1976,Royal Bouquet
+1977,none
+1978,Sign - Yanshi
+1979,Sign - Stonehold
+197A,Sign - Plateau Village
+197B,Sign - Yaraq
+197C,Sign - Samsur
+197D,Sign - Al Arqas
+197E,Sign - Qalaba'r
+197F,Sign - Khayyaban
+1980,Sign - Xarabydun
+1981,Sign - Uziz
+1982,Sign - Zaikhal
+1983,Sign - Tufa
+1984,Sign - Al-Jalima
+1985,Sign - Marketplace
+1986,Sign - Facility Hub
+1987,Sign - Shoushi
+1988,Sign - Tou-Tou
+1989,Sign - Mayoi
+198A,Sign - Nanto
+198B,Sign - Lin
+198C,Sign - Baishi
+198D,Sign - Hebian-To
+198E,Sign - Kara
+198F,Sign - Sawato
+1990,Sign - Sanamar
+1991,Sign - Bluespire
+1992,Sign - Redspire
+1993,Sign - Greenspire
+1994,Sign - Westwatch
+1995,Sign - Ahurenga
+1996,Sign - Linvak Tukal
+1997,Sign - Neydisa
+1998,Sign - Eastwatch
+1999,Sign - Kryst
+199A,Sign - Holtburg
+199B,Sign - Arwic
+199C,Sign - Cragstone
+199D,Sign - Rithwic
+199E,Sign - Lytelthorpe
+199F,Sign - Eastham
+19A0,Sign - Glenden Wood
+19A1,Sign - Dryreach
+19A2,Town Network - Counter around NPCs
+19A3,Town Network Painting - Drudge
+19A4,Town Network Painting - Sclavus
+19A5,Town Network Painting - Skeleton
+19A6,Town Network Painting - Virindi
+19A7,Town Network Painting - Wisp
+19A8,Town Network Painting - Zefir
+19A9,Town Network Painting - Banderling
+19AA,Town Network Painting - Eater
+19AB,Town Network Painting - Fiun
+19AC,Town Network Painting - Mite
+19AD,Town Network Painting - Moar
+19AE,Town Network Painting - Moarsman
+19AF,Town Network Painting - Niffis
+19B0,Town Network Painting - Ruschk
+19B1,Town Network Painting - Sleech
+19B2,Town Network Painting - Wight
+19B3,Town Network Painting - Shreth
+19B4,Town Network Painting - Silithid
+19B5,Town Network Painting - Mukkir
+19B6,Town Network Painting - Remoran
+19B7,Town Network Painting - Wasps
+19B8,Town Network Painting - Golem
+19B9,Town Network Painting - Gromnie
+19BA,Town Network Painting - Mattekar
+19BB,Town Network Painting - Monogua
+19BC,Town Network Painting - Penguin
+19BD,Town Network Painting - Simulcrum
+19BE,Town Network Painting - Siraluun
+19BF,Town Network Painting - Thrungus
+19C0,Town Network Painting - Ursuin
+19C1,Town Network Painting - Auroch
+19C2,Town Network Painting - Carenzi
+19C3,Town Network Painting - Crystal
+19C4,Town Network Painting - Grievver
+19C5,Town Network Painting - Ghost
+19C6,Town Network Painting - Hollow Minion
+19C7,Town Network Painting - Isparian
+19C8,Town Network Painting - Idol
+19C9,Town Network Painting - K'nath
+19CA,Town Network Painting - Lugian
+19CB,Town Network Painting - Margul
+19CC,Town Network Painting - Marionette
+19CD,Town Network Painting - Mosswart
+19CE,Town Network Painting - Olthoi Eviscerator
+19CF,Town Network Painting - Rats
+19D0,Town Network Painting - Rift
+19D1,Town Network Painting - Scarecrow
+19D2,Town Network Painting - Shadow
+19D3,Town Network Painting - Reedshark
+19D4,Town Network Painting - Snowman
+19D5,Town Network Painting - Statue
+19D6,Town Network Painting - Tusker
+19D7,Town Network Painting - Armoredillo
+19D8,Town Network Painting - Burun/Guruk
+19D9,Town Network Painting - Chittick
+19DA,Town Network Painting - Doll
+19DB,Town Network Painting - Ember/Flame
+19DC,Town Network Painting - Gearknight
+19DD,Town Network Painting - Tumerok
+19DE,Town Network Painting - Cow
+19DF,Nothing?
+19E0,Blue Icy Fountain Animated
+19E1,Shadow - Male - Human Apperance - Orange and Purple Particle Effects
+19E2,Town Network Portal Holder
+19E3,unstable portal
+19E4,Sign - Timaru
+19E5,Sign - Freehold
+19E6,Sign - Oolatonga's Refuge
+19E7,Sign - Danby's Outpost
+19E8,Sign - Fort Tethana
+19E9,Sign - Fiun Outpost
+19EA,Sign - Silyun
+19EB,Bronze Gearknight
+19EC,Bronze Gearknight
+19ED,Sign - Sho
+19EE,Sign - Aluvian
+19EF,Sign - Annex
+19F0,Town Network Painting - Chicken
+19F1,Sign - Gharu'ndim
+19F2,Town Network Painting - Bunny/Rabbit
+19F3,Virindi - Blue Mask - Sparkles
+19F4,Virindi - Nexus Crawler's Mask?
+19F5,Paradox Touched Bow
+19F6,Paradox Touched Staff
+19F7,Paradox Touched Two Handed Sword
+19F8,Paradox Touched Wand
+19F9,Paradox Touched Crossbow
+19FA,Paradox Touched Dagger
+19FB,Paradox Touched  Mace
+19FC,Empyrean Potalspace Stabilizer - Normal
+19FD,Empyrean Potalspace Stabilizer - Active/Overloaded?
+19FE,Standard Wooden Door
+19FF,Nothing?
+1A00,Blue Snowflake/Star Effects
+1A01,Yellow Animated Stars Effect
+1A02,Purple Floating Rotating Crystal
+1A03,Orange Floating Rotating Crystal
+1A04,Round White Torus
+1A05,Iron Blade Aegis Shield
+1A06,Melee Gearknight Shield
+1A07,Shield of the Gold Gear
+1A08,Aegis of the Gold Gear
+1A09,Aegis of the Gold Gear
+1A0A,Deewain's - Floating Rock
+1A0B,"flaming human head, skeleton body"
+1A0C,Nothing?
+1A0D,"flaming human head, skeleton body"
+1A0E,"flaming human head, skeleton body"
+1A0F,"female empyrean char, naked"
+1A10,Nothing?
+1A11,Female Lugian
+1A12,Nothing?
+1A13,Female Tumerok
+1A14,Nothing?
+1A15,Male  Empyrean
+1A16,Male Empyrean
+1A17,male lugian char
+1A18,male lugian char
+1A19,tumerok char male
+1A1A,tumerok char male
+1A1B,"red blood aura coming up from ground, large"
+1A1C,"Virindi Face, Blue with Black"
+1A1D,"gigantic indoor wall with floor, Mhoire Pennant"
+1A1E,none
+1A1F,"olthoi, black, flyer"
+1A20,"olthoi, black"
+1A21,black trapazoid on ground
+1A22,Gurog (Henchman?)
+1A23,Accursed Scarecrow
+1A24,Bloodstone (Creature)
+1A25,bloodstone on ground
+1A26,invisible but an aura is made from it
+1A27,invisible???
+1A28,skeleton skull
+1A29,Gurog Henchman
+1A2A,Gurog Minion
+1A2B,Gurog Soldier
+1A2C,"female empyrean char, glowing eyes, lights coming up"
+1A2D,"female empyrean char, blue aura and lights coming up"
+1A2E,"male empyrean char, glowing dots on forehead"
+1A2F,"baton, casting, void, new"
+1A30,"staff, casting, void, new"
+1A31,"scepter, void, new"
+1A32,"tusker, snow, 2 full tusks"
+1A33,"tusker, snow, 1 full tusk, 1 tip missing"
+1A34,"tusker, snow 1 full tusk, 1 short"
+1A35,"undead, blue eyes"
+1A36,"skull, undead"
+1A37,Chitin Cracker
+1A38,Itaka's Naginata
+1A39,Spear of Lost Truths
+1A3A,none
+1A3B,Decapitator's Blade
+1A3C,Revenant's Scythe
+1A3D,none
+1A3E,none
+1A3F,none
+1A40,big rock
+1A41,black wall untextured
+1A42,rock platform
+1A43,rock platform 2
+1A44,rock platform 3
+1A45,spiky rock
+1A46,rock
+1A47,blood bolt
+1A48,bloodstone bolt
+1A49,Sturdy Bloodstone Wand
+1A4A,Nothing?
+1A4B,stone wall
+1A4C,Shadownether Isparian Wand
+1A4D,Bloodstone Crystal Stockpile
+1A4E,Shattered Master Bloodstone Shard?
+1A4F,Bloodstone Fragment
+1A50,Sword of Bellenesse
+1A51,Enchanted Mnemosyne
+1A52,Heart of Darkest Flame
+1A53,"Obsidian stone wall, possibly cliff face, 90 degree"
+1A54,"Obsidian stone wall, possibly cliff face"
+1A55,"Obsidian Dungeon Piece, U-shaped Wall"
+1A56,"Obsidian Dungeon Piece - straight tunnel, partial floor, ceiling"
+1A57,Obsidian Dungeon Piece - 3 sided room with ceiling
+1A58,Obsidian Dungeon Piece - Corner Wall with ceiling
+1A59,Obsidian Dungeon Piece - Wall with middle opening
+1A5A,Obsidian Dungeon Piece
+1A5B,Female Shadow Model - Human Appearance
+1A5C,Male Shadow Model - Human Appearance
+1A5D,"Female Shadow - Human Upper, Shadow Lower"
+1A5E,Male Shadow - No Legs - Top Human (Umbraen)
+1A5F,Obsidian Dungeon Piece - large thick wall
+1A60,Obsidian Dungeon Piece - curved elbow tunnel
+1A61,Obsidian Dungeon Piece - Thick curving wall with ceiling
+1A62,"Obsidian Dungeon Piece - Corner wall, with ceiling, 1 opening"
+1A63,Obsidian Dungeon Piece - Room with ceiling and 1 opening
+1A64,Obsidian Dungeon Piece - Large 3-sided room with 1 opening
+1A65,Obsidian Dungeon Piece - Large straight tunnel
+1A66,Obsidian Dungeon Piece - wall with flat ceiling
+1A67,"Obsidian Dungeon Piece - Corner wall, 1 entry"
+1A68,"Obsidian Dungeon Piece - Large corner wall, 1 entry"
+1A69,"Obsidian Dungeon Piece - Large Corner Room, 1 entry"
+1A6A,Stone tunnel 4 way intersection
+1A6B,"Large stone room, 3 sides, one entry"
+1A6C,Obsidian Stone Square - Flat
+1A6D,Female Shadow - No Legs - Top Huma (Umbraen)
+1A6E,Male Shadow - No Legs - Top Human (Umbraen)
+1A6F,Male Shadow - Legs - Human Appearance (Penumbraen)
+1A70,Female Shadow - Legs - Human Appearance (Penumbraen)
+1A71,Obsidian Dungeon Piece
+1A72,Obsidian Dungeon Piece
+1A73,"Obsidian Dungeon Piece, Floor, inclined"
+1A74,"Obsidian Dungeon Piece, Tunnel, T-Intersection"
+1A75,Obsidian Dungeon Piece
+1A76,Obsidian Dungeon Piece
+1A77,Flowing Lava - Triangles
+1A78,Flowing Lava - Triangles
+1A79,Flowing Lava - Triangles
+1A7A,Flowing Lava - Triangles
+1A7B,Portal - Purple Coming out of Shadow on ground
+1A7C,Wall Sconce - Purple Flame/Glow
+1A7D,Stone Brazier - Purple Flame/Glow
+1A7E,Purple Sphere with Animated Rings
+1A7F,Purple Crystals - Large - Multiple - On Side
+1A80,Purple Crystals - Multiple - Small - Upright
+1A81,Purple Crystal - Single - Tiny - Upright
+1A82,Purple Crystal - Single - Small - Upright
+1A83,Purple Crystals - Multiple - Tall - Upright
+1A84,Purple Crystals - Multiple - Medium - Upright
+1A85,Shadow Dungeon - Purple Crystals - Multiple - Upright
+1A86,Arrow - Glowing Tip
+1A87,Atlatl Arrow? - Glowing Tip
+1A88,Crossbow Bolt - Glowing Tip
+1A89,Virindi - Blue Mask - Sparkling Effect
+1A8A,Virindi - Blue Mask - Black Tattoo
+1A8B,Neftet - Prickly Pear
+1A8C,marionette (curator of torment)
+1A8D,Gauntlet boss marionette
+1A8E,blue rift
+1A8F,blue doll
+1A90,Neftet Structure - Temple
+1A91,Neftet Structure - Large
+1A92,Neftet Structure - Medium - Pillar
+1A93,Neftet structure - Large - Sand temple interior
+1A94,green acid effect on ground
+1A95,Male Skeleton with Muscles - Blue Eyes
+1A96,"spiked doors, sand temple"
+1A97,Neftet wall - 2x2 Square
+1A98,Neftet - Stone Chair/Throne
+1A99,Neftet - Large Stone
+1A9A,"Neftet - Lifestone - ""New""?"
+1A9B,Skeleton - Humanoid - Blue Eyes
+1A9C,Male Skeleton with Muscles - Blue Eyes - Flaming Skull
+1A9D,Skeleton - Humanoid - Blue Eyes
+1A9E,Skeleton - Humanoid - Blue Eyes
+1A9F,Skeleton - Humanoid - Blue Eyes - Flaming Skull
+1AA0,Female Skeleton with Muscles - Blue Eyes - Flaming Skull
+1AA1,Female Skeleton with Muscles - Blue Eyes
+1AA2,Male A'nekshay NPC
+1AA3,Female A'nekshay NPC
+1AA4,Dust Golem Animation
+1AA5,Sand Animation Golem
+1AA6,Neftet - Cracked Stone Tablet
+1AA7,Nothing?
+1AA8,Neftet - Medium Female Anekshay Statue - Full
+1AA9,Small Female A'nekshay Statue - Full
+1AAA,Small Male A'nekshay Statue - Full
+1AAB,Neftet - Medium Male Anekshay Statue - Full
+1AAC,Neftet - Large Anekshay Statue - Leaning Forward
+1AAD,Tall candle stand
+1AAE,Candle on a Stand
+1AAF,Neftet - Half Round Upright
+1AB0,Neftet - Half Round Laying Down
+1AB1,Neftet - Large Fallen Anekshay Statue with Broken Right Arm
+1AB2,"Green ""Campfire"" Effect"
+1AB3,Gold Olthoi Shield
+1AB4,Olthoi Shield
+1AB5,Celestial Hand - Wide Shield - Covenant?
+1AB6,Eldrytch Web - Wide Shield - Covenant?
+1AB7,Radiant Blood - Wide Shield - Covenant?
+1AB8,Celestial Hand - Kite Shield
+1AB9,Eldrytch Web - Kite Shield
+1ABA,Radiant Blood - Kite Shield
+1ABB,Celestial Hand - Kite Shield
+1ABC,Eldrytch Web - Kite Shield
+1ABD,Radiant Blood - Kite Shield
+1ABE,Celestial Hand - Round Shield
+1ABF,Eldrytch Web - Round Shield
+1AC0,Radian Blood - Round Shield
+1AC1,Celestial Hand - Tower Shield
+1AC2,Eldyrtch Web - Tower Shield
+1AC3,Radiant Blood - Tower Shield
+1AC4,Small Blue Crystal
+1AC5,Large Blue Crystal
+1AC6,"blue sentient shard, red aura prple gem"
+1AC7,Black Volcanic Rock
+1AC8,zeifer model with purple pulsation
+1AC9,Tumerok - Early?
+1ACA,Tumerok? head that falls through world (sometimes invis)
+1ACB,Tumerok - Early?
+1ACC,nothing
+1ACD,nothing
+1ACE,nothing
+1ACF,nothing
+1AD0,nothing
+1AD1,nothing
+1AD2,nothing
+1AD3,nothing
+1AD4,nothing
+1AD5,nothing
+1AD6,nothing
+1AD7,nothing
+1AD8,nothing
+1AD9,nothing
+1ADA,nothing
+1ADB,nothing
+1ADC,nothing
+1ADD,nothing
+1ADE,nothing
+1ADF,nothing
+1AE0,nothing
+1AE1,nothing
+1AE2,nothing
+1AE3,nothing
+1AE4,nothing
+1AE5,nothing
+1AE6,nothing
+1AE7,large flaming stone pillar
+1AE8,Town Network Painting - Zefir
+1AE9,Town Network Painting - Armoredillo
+1AEA,Town Network Painting - Auroch
+1AEB,Town Network Painting - Banderling
+1AEC,Town Network Painting - Burun - Gurok
+1AED,Town Network Painting - Carenzi
+1AEE,Town Network Painting - Chicken
+1AEF,Town Network Painting - Chittick
+1AF0,Town Network Painting - Cow
+1AF1,Town Network Painting - Crystal
+1AF2,Town Network Painting - Doll
+1AF3,Town Network Painting - Drudge
+1AF4,Town Network Painting - Eater
+1AF5,Town Network Painting - Ember
+1AF6,Town Network Painting - Fiun
+1AF7,Town Network Painting - Gearknight
+1AF8,Town Network Painting - Ghost
+1AF9,Town Network Painting - Golem - Oak
+1AFA,Town Network Painting - Grievver
+1AFB,Town Network Painting - Gromnie
+1AFC,Town Network Painting - Hollow Minion
+1AFD,Town Network Painting - Hollow Simulacrum
+1AFE,Town Network Painting - Idol
+1AFF,Town Network Painting - K'nath
+1B00,Town Network Painting - Mare Tukal Lugian
+1B01,Town Network Painting - Margul
+1B02,Town Network Painting - Marionette
+1B03,Town Network Painting - Ebon Mattekar
+1B04,Town Network Painting - Mite
+1B05,Town Network Painting - Moar
+1B06,Town Network Painting - Moarsman
+1B07,Town Network Painting - Monogua
+1B08,Town Network Painting - Mosswart
+1B09,Town Network Painting - Mukkir
+1B0A,Town Network Painting - Niffis
+1B0B,Town Network Painting - Olthoi Eviscerator
+1B0C,Town Network Painting - Penguin
+1B0D,Town Network Painting - Rabbit - Black
+1B0E,Town Network Painting - Rats - Red
+1B0F,Town Network Painting - Remoran
+1B10,Town Network Painting - Rift
+1B11,Town Network Painting - Ruschk
+1B12,Town Network Painting - Scarecrow
+1B13,Town Network Painting - Sclavus - Armored
+1B14,Town Network Painting - Shadow
+1B15,Town Network Painting - Reedshark
+1B16,Town Network Painting - Shreth
+1B17,Town Network Painting - Simulcrum
+1B18,Town Network Painting - Siraluun
+1B19,Town Network Painting - Skeleton - Pyre
+1B1A,Town Network Painting - Sleech
+1B1B,Town Network Painting - Silithid
+1B1C,Town Network Painting - Snowman
+1B1D,Town Network Painting - Statue - Margul
+1B1E,Town Network Painting - Thrungus
+1B1F,Town Network Painting - Tumerok - Hea
+1B20,Town Network Painting - Tusker - Armored
+1B21,Town Network Painting - Wight
+1B22,Town Network Painting - Ursuin
+1B23,Town Network Painting - Virindi
+1B24,Town Network Painting - Wasp
+1B25,Town Network Painting - Wisp
+1B26,Mhoire Castle - Flaming Skull
+1B27,Grey Untextured Cube
+1B28,Tachi - Standing Upright
+1B29,Cloak - Plain White
+1B2A,Gurog - Arm
+1B2B,Gurog - Torso with Right Arm
+1B2C,Gurog - Torso with Arms
+1B2D,Gurog - Torso
+1B2E,Gurog - Missing Left Leg
+1B2F,Gurog - Leg
+1B30,Yellow Gear Knight with Strathelar Cloak
+1B31,Ring of Black (Obsidian?) Stones
+1B32,Animated Rolling Large Snowball
+1B33,Seasonal - Gift Box
+1B34,Seasonal - Gift Box
+1B35,Seasonal - Gift Box
+1B36,Seasonal - Gift Box
+1B37,Seasonal - Gift Box
+1B38,Seasonal - Gift Box
+1B39,Seasonal - Gift Box
+1B3A,Seasonal - Gift Box
+1B3B,green gumdrop?
+1B3C,blue gumdrop
+1B3D,red gumdrop
+1B3E,Yellow Gumdrop
+1B3F,Wall / Door Segment
+1B40,Invisible Wall
+1B41,Nothing?
+1B42,UA - Base
+1B43,UA - Lightning
+1B44,UA - Fire
+1B45,Ua - Frost
+1B46,UA - Acid
+1B47,Small Sword - Acid
+1B48,Small Sword - Lightning
+1B49,Small Sword - Fire
+1B4A,Small Sword - Frost
+1B4B,Invisible wall? 
+1B4C,Nothing?
+1B4D,Nothing?
+1B4E,Nothing?
+1B4F,UA
+1B50,Small Hand Axe
+1B51,Blackmire - Bladed Bow of Impaling
+1B52,Crossbow
+1B53,Dagger
+1B54,Mace
+1B55,Sceptre
+1B56,Spear
+1B57,Staff
+1B58,Sword
+1B59,Atlatl
+1B5A,Tetsubo
+1B5B,Small Sword - Plain
+1B5C,Small Sword - Acid
+1B5D,Small Sword - Lightning
+1B5E,Small Sword - Fire
+1B5F,Small Sword - Frost
+1B60,Small Sword - Plain
+1B61,Small Sword - Acid
+1B62,Small Sword - Lighning
+1B63,Small Sword - Fire
+1B64,Small Sword - Frost
+1B65,stone water table?
+1B66,none
+1B67,"housing, closed windows NEW"
+1B68,"housing, open windows NEW"
+1B69,wooden door with frame
+1B6A,Steps - Landing - Steps
+1B6B,Long Steps - Landing Top
+1B6C,Open half Window in Dark Wood Frame
+1B6D,Stone Brick Hearth
+1B6E,Blue Lightning Animaton with Sound
+1B6F,Blue Frozen Lightning?
+1B70,Brown Thorny Roots
+1B71,Pink and Green 3 Flowers
+1B72,Orange Rock
+1B73,Red Patterened Rock
+1B74,Hoshino Fortress Wall Part
+1B75,Hoshino Fortress Wall Part
+1B76,Hoshino Fortress Wall Part
+1B77,Hoshino Fortress Wall Part
+1B78,Hoshino Fortress Wall Part
+1B79,Hoshino Fortress Wall Part
+1B7A,Nothing?
+1B7B,Hoshino Fortress Gate
+1B7C,Hoshino Fortress Door Right
+1B7D,Stone Brazier - Red Fire Effect
+1B7E,Hoshino Fortress - Spectral Bridge / Pagoda
+1B7F,Cave - Stone Column - Slit in it
+1B80,Nothing?
+1B81,Nothing?
+1B82,Nothing?
+1B83,Giant Stone Treasure Chest
+1B84,Giant Stone Coffin / Burial Chamber
+1B85,Spectral Skeleton - Blue Effects
+1B86,Spectral Skeleton - Shadow Effects
+1B87,Stone Castle Entryway with Stairs
+1B88,Massive Stone Room - Cathedral Ceiling - 2 Doors
+1B89,Large Square Stone Room
+1B8A,Massive Stone Room - Cathedral Ceiling - 1 Door
+1B8B,Large Square Stone Room
+1B8C,Spectral Skeleton - Shadow Effects
+1B8D,Spectral Skeleton - Blue Effects
+1B8E,"Stone ""wheel"" but Octagonal with a hole in one side"
+1B8F,Spectral Skeleton - Blue Effects
+1B90,Stone Stairs
+1B91,Hoshino Fortress - Double Doors
+1B92,Large Square Stone Room
+1B93,Large Square Stone Room
+1B94,Spectral Skeleton - Green Effects
+1B95,Spectral Skeleton - Red Effects
+1B96,Spectral Skeleton - Purple Effects
+1B97,Spectral Skeleton - Shadow Effects
+1B98,Spectral Skeleton - Green and Purple Particle Effects
+1B99,Spectral Skeleton Frost and Blue Effets with Blue Particle Effects
+1B9A,Spectral Skeleton Standing - Red Cloud and Particles
+1B9B,Spectral Skeleton Standing - Magenta Cloud and Particles
+1B9C,Large Azure Gromnie Wings Closed
+1B9D,Spectral Tachi?
+1B9E,Spectral Tachi?
+1B9F,Spectral Tachi?
+1BA0,Spectral Tachi?
+1BA1,Spectral UA?
+1BA2,Large Azure Gromnie Wings Open
+1BA3,Nothing
+1BA4,Seed of Morning?
+1BA5,Seed of Morning? Full Plant
+1BA6,Spectral Skeleton in Robe - Blue Effect right hand
+1BA7,Spectral Skeleton in Robe - Blue Effect left hand
+1BA8,Spectral Skeleton in Robe - Blue Effect both hands
+1BA9,Red Thorny Vines - Seed Quests
+1BAA,Bright Particle Effect 
+1BAB,Spectral Skeleton corpse
+1BAC,Spectral Skeleton corpse
+1BAD,Spectral Skeleton corpse
+1BAE,Spectral Skeleton corpse
+1BAF,Purple Hexagon - Single - Flat
+1BB0,Purple Hexagon - Double - Flat
+1BB1,Purple Hexagon - Multiple - Tall
+1BB2,Brown Vines - VR?
+1BB3,Purple Portal on ground - Red Particle Effects
+1BB4,Nothing
+1BB5,Nothing
+1BB6,Silver Grievver - Green accents
+1BB7,Yellow 4 Legged Moars
+1BB8,Green K'nath
+1BB9,Green K'nath - Blue Pulsing Effect
+1BBA,Purple K'nath
+1BBB,Purple K'nath - Blue Pulsing Effect
+1BBC,Red K'nath
+1BBD,Red K'nath - Blue Pulsing Effect
+1BBE,Blue K'nath
+1BBF,Blue K'nath - Blue Pulsing Effect
+1BC0,Spectral Skeleton in Robe - Acid Particle Effect
+1BC1,Spectral Skeleton in Robe - Lighntning Particle Effect
+1BC2,Spectral Skeleton in Robe - Fire Particle Effect
+1BC3,Blue Gem - Medium White Pulsing Effect
+1BC4,Blue Gem - Small White Pulsing Effect
+1BC5,Blue Gem - Large White Pulsing Effect
+1BC6,Purple Effect - Wisp?
+1BC7,Rynthid - Black/Red Robe - At Rest
+1BC8,Small Pile of 3 Gears
+1BC9,Blue K'nath - Blue Pulsing Effect
+1BCA,Rynthid - Head/Chest Only - Tentacles Forward
+1BCB,Rynthid - Black/Red Robe - Tentacles Forward
+1BCC,Same as 1BCC
+1BCD,Rynthid - Black/Red Robe - Tentacles Forward - Portal Effect Underneath
+1BCE,Rynthid - Head/Chest only - Tentacles Forward - Fire Particle Effect
+1BCF,Ice Pillar - Blue Light/Cloud on Top - Frozen Valley
+1BD0,Small Bloodstone - Purple Pulse
+1BD1,Large Bloodstone - Paradox Effect
+1BD2,Large Bloodstone - Purple Particles
+1BD3,Small Bloodstone - Red Pulse
+1BD4,Small Bloodstone - Red Pulse - Paradox Effect
+1BD5,Rynthid - Black Mask - Tentacles Forward - Portal Effect Underneath - BOSS
+1BD6,Rynthid - Black Mask - Tentacles Forward - Portal Effect Underneath - Bright Stone
+1BD7,Rynthid - White Mask - Tentacles Forward - Portal Effect Underneath - Bright Stone
+1BD8,Rynthid - Black Mask - At Rest
+1BD9,Rynthid - Black Mask - Tentacles Forward
+1BDA,Rynthid - Black Mask with Frill - Tentacles Forward
+1BDB,Rynthid - Black Mask - Spikes - Mask Only - Fire Effect
+1BDC,Rynthid - Black Mask - Mask Only - Fire Effect
+1BDD,Rynthid - White Mask - Spikes - Mask Only - Shadow Effect
+1BDE,Rynthid - White Mask - Mask Only - Shadow Effect
+1BDF,Purple Portal - Normal
+1BE0,Nothing
+1BE1,Purple Stone on ground - Harbinger Lightning Effect
+1BE2,Red Rynthid Portal - Purple and Shadow Effects
+1BE3,Large Red Rynthid Landscape Crystals
+1BE4,Large Red Rynthid Landscape Crystals
+1BE5,Large Red Rynthid Landscape Crystals
+1BE6,Large Red Rynthid Landscape Crystals
+1BE7,Large Red Rynthid Landscape Crystals
+1BE8,Small Red Rynthid Landscape Crystals
+1BE9,Small Red Rynthid Landscape Crystals
+1BEA,Small Red Rynthid Landscape Crystals
+1BEB,Small Red Rynthid Landscape Crystals
+1BEC,Small Red Rynthid Landscape Crystals
+1BED,Rynthid Floating Platform - Bottom - Obsidian - Use With 1BF0
+1BEE,Rynthid Floating Platform Ramp - 45
+1BEF,Rynthid Floating Platform - Red Disk
+1BF0,Rynthid Floating Platform - Bottom - Obsidian - Use With 1BF0
+1BF1,Large Red Rynthid Crystals - Animated
+1BF2,Rynthid Floating Platform - Bridge
+1BF3,Rynthid Floating Platform - Obsidian
+1BF4,Rynthid Floating Platform - Obsidian - Part
+1BF5,Rynthid Floating Platform - Obsidian - Part
+1BF6,Rynthid Floating Platform - Obsidian - Part
+1BF7,Rynthid Floating Platform - Obsidian - Part
+1BF8,Rynthid Mask - White - Spikes - On Ground
+1BF9,Rynthid Mask - White - On Ground
+1BFA,Rynthid - White Mask - Shadow/Humanoid
+1BFB,Rynthid - Black Mask - Shadow/Humanoid
+1BFC,Small Red Rynthid Crystal - Red Pulsing Effect
+1BFD,Nothing
+1BFE,rynthid tentacle wand (short)
+1BFF,rynthid tentacle wand (long)
+1C00,rynthid tentacle bow
+1C01,"rynthid tentacle wand (medium, tentacles in flatter circle)"
+1C02,rynthid wand (medium)
+1C03,rynthid tentacle life wand
+1C04,"female with hair, head only"
+1C05,"blue portal, flat"
+1C06,Virindi - Blue Mask - Blue Particle Effect (vr guardians)
+1C07,Pumkin Lord - Flaming
+1C08,Small Pumkin
+1C09,Small Pumpkin - Flaming
+1C0A,Small Pumpkin - Orange Glow
+1C0B,Half Skeleton/Shadow - BZ Wings - Purple Effect
+1C0C,Small Egg
+1C0D,Turkey Drumstick
+1C0E,Nothing
+1C0F,Turkey with Lightning
+1C10,Green Swirling Effect
+1C11,Teal Swirling Effect
+1C12,Swirling Shadow Cloud Effeck with Lightning
+1C13,Turkey with Lightning 
+1C14,Human Male - Naked
+1C15,Nothing
+1C16,Nothing
+1C17,VR Anekshay - Green - Girth Only
+1C18,VR Anekshay - Green - Full Vest
+1C19,VR Green Fog in a Yellow Circle
+1C1A,VR Green Fog
+1C1B,VR Root - Green Glow
+1C1C,VR Root
+1C1D,VR Spikes
+1C1E,Nothing?
+1C1F,Rynthid Attack Red - Animated with Sound
+1C20,Anekshay Sand Animation
+1C21,Nothing?
+1C22,Painters Color Palatte
+1C23,Yellow Lighntning ?
+1C24,VR Anekshay - Red - Girth Only
+1C25,VR Anekshay - Red - Full Vest
+1C26,VR Oak Golem with Green Effects
+1C27,Chimney with Holiday Hat
+1C28,Snow with Reindeer Prints
+1C29,Red and White Stocking
+1C2A,Dredel
+1C2B,Rudolph's Head?
+1C2C,Green Misletoe?
+1C2D,Green Holiday Garland
+1C2E,Nothing?
+1C2F,Nothing?
+1C30,Medium Landscape Tree
+1C31,none
+1C32,invisible wall that blocks passage through VR
+1C33,tall round bush
+1C34,large round bush
+1C35,bush
+1C36,bushes and moss
+1C37,none
+1C38,vr walls
+1C39,vr walls
+1C3A,"Zeifer model, green aura"
+1C3B,"too small to see, shots yellow lightning (VR?)"
+1C3C,"too small to see, shots yellow lightning (VR?)"
+1C3D,Oak Stormwood Atlatl
+1C3E,Oak Stormwood Axe
+1C3F,Oak Stormwood Bow
+1C40,Oak Stormwood Crossbow
+1C41,Oak Stormwood Dagger
+1C42,Oak Stormwood Mace
+1C43,vr weapon
+1C44, vr wand
+1C45,Oak Stormwood Greatsword
+1C46,Oak Stormwood Sword
+1C47,Oak Stormwood Claw
+1C48, vr wand
+1C49,Oak Corrupted Heartwood Wand
+1C4A,Oak Stormwood Wand
+1C4B,small spike
+1C4C,small spike
+1C4D,electric axe
+1C4E,none
+1C4F,none
+1C50,huge tree root
+1C51,stone ramp
+1C52,stone ramp
+1C53,stone arch window
+1C54,wooden arch door
+1C55,marionette (gauntlet boss)
+1C56,nothing past here????
+1C57,nothing past here????
+1C58,nothing past here????
+1C59,nothing past here????
+1C5A,nothing past here????
+1C5B,nothing past here????
+1C5C,nothing past here????
+1C5D,nothing past here????
+1C5E,nothing past here????
+1C5F,nothing past here????
+1C60,nothing past here????
+1C61,nothing past here????
+1C62,nothing past here????
+1C63,nothing past here????
+1C64,nothing past here????
+1C65,nothing past here????

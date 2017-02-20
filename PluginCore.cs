@@ -27,6 +27,8 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 using System;
+using System.Reflection;
+using System.IO;
 using System.Collections.Generic;
 using Decal.Adapter;
 
@@ -35,49 +37,27 @@ namespace PhatACUtil
     [FriendlyName("PhatACUtil")]
     public partial class PluginCore : PluginBase
     {
-        static String LogPath;
+        static string log_path;
+        static string model_path;
 
         internal static Decal.Adapter.Wrappers.PluginHost MyHost;
 
-        internal static Dictionary<string, Int32> monsters;
-        internal static Dictionary<string, Int32> models;
-        internal static Dictionary<string, Int32> items;
+        internal static Dictionary<int, string> models;
 
         protected override void Startup()
         {
-            LogPath = Path.ToString() + "\\error.txt";
+            log_path = Path.ToString() + "\\error.txt";
             MyHost = Host;
-
-            // Init data
-            monsters = new Dictionary<string, Int32>
-            {
-                { "Male Human NPC (Naked)", 0x01 },
-                { "Tusker Guard", 0x02 },
-                { "Olthoi Somethingorother", 0x02 },
-                { "Some Guy", 0x02 },
-                { "Virindi Executionier", 0x02 },
-                { "Drudge Skulker", 0x02 },
-                { "Ash Gromnie", 0x02 },
-                { "Jade Gromnie", 0x02 },
-                { "Brown Gromnie", 0x02 }
-            };
-
-            models = new Dictionary<string, Int32> {
-                { "Male Human NPC (Naked)", 0x02 },
-                { "Old Model Olthoi, Purple", 0x03 },
-                { "Armadillo, Orangeish", 0x04 }
-            }; 
-
-            items = new Dictionary<string, Int32> {
-                { "Drudge Skulker", 0x01 },
-                { "Tusker Guard", 0x02 }
-            };
 
             // Init views etc
             try
-            {   
+            {
+                // Load data
+
+                models = LoadModels();
+
+                // Set up views
                 MainView.ViewInit();
-                LogMessage("Testing logging.");
             }
             catch (Exception ex)
             {
@@ -91,8 +71,6 @@ namespace PhatACUtil
             try
             {
                 MainView.ViewDestroy();
-                monsters = null;
-                items = null;
                 models = null;
             }
             catch (Exception ex)
@@ -147,6 +125,33 @@ namespace PhatACUtil
             {
                 LogError(ex);
             }
+        }
+
+        static Dictionary<int, string> LoadModels()
+        {
+            Assembly assembly = Assembly.GetExecutingAssembly();
+            Dictionary<int, string> models = new Dictionary<int, string>();
+            StreamReader sr = new StreamReader(assembly.GetManifestResourceStream("PhatACUtil.Data.models.csv"));
+
+            String[] tokens;
+            string line;
+            string name;
+
+            try
+            {
+                while ((line = sr.ReadLine()) != null)
+                {
+                    tokens = line.Split(',');
+                    name = tokens[1].Replace("\"", "");
+                    models.Add(int.Parse(tokens[0], System.Globalization.NumberStyles.HexNumber),name );  
+                }
+            }
+            catch (Exception ex)
+            {
+                LogError(ex);
+            }
+           
+            return models;
         }
     }
 }
