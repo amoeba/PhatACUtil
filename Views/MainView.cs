@@ -165,19 +165,19 @@ namespace PhatACUtil
 
             try
             {
-                lstSpawnMonsterSearchList.Clear();
+                lstSpawnModelSearchList.Clear();
 
-                foreach (KeyValuePair<string, Int32> monster in PluginCore.monsters)
+                foreach (KeyValuePair<int, string> model in PluginCore.models)
                 {
-                    if (!(monster.Key.ToLowerInvariant().Contains(searchText.ToLowerInvariant())))
+                    if (!(model.Value.ToLowerInvariant().Contains(searchText.ToLowerInvariant())))
                     {
                         continue;
                     }
                     
-                    IListRow row = lstSpawnMonsterSearchList.Add();
+                    IListRow row = lstSpawnModelSearchList.Add();
 
-                    row[0][0] = monster.Key;
-                    row[1][0] = monster.Value.ToString("X");
+                    row[0][0] = model.Key.ToString("X4");
+                    row[1][0] = model.Value.ToString();
                 }
             }
             catch (Exception ex)
@@ -231,9 +231,10 @@ namespace PhatACUtil
         {
             try
             {
-                Int32 value = Int32.Parse(txtSpawnToolValue.Text);
-                value += 1;
-                txtSpawnToolValue.Text = value.ToString();
+                int value = int.Parse(txtSpawnToolValue.Text, System.Globalization.NumberStyles.HexNumber);
+ 
+                 value += 1;
+                txtSpawnToolValue.Text = value.ToString("X4");
             }
             catch (Exception ex)
             {
@@ -245,9 +246,9 @@ namespace PhatACUtil
         {
             try
             {
-                Int32 value = Int32.Parse(txtSpawnToolValue.Text);
+                int value = int.Parse(txtSpawnToolValue.Text, System.Globalization.NumberStyles.HexNumber);
                 value -= 1;
-                txtSpawnToolValue.Text = value.ToString();
+                txtSpawnToolValue.Text = value.ToString("X4");
             }
             catch (Exception ex)
             {
@@ -271,14 +272,14 @@ namespace PhatACUtil
         {
             try
             {
-                lstSpawnMonsterSearchList.Clear();
+                lstSpawnModelSearchList.Clear();
 
-                foreach (KeyValuePair<string, Int32> monster in PluginCore.monsters)
+                foreach (KeyValuePair<int, string> model in PluginCore.models)
                 {
-                    IListRow row = lstSpawnMonsterSearchList.Add();
+                    IListRow row = lstSpawnModelSearchList.Add();
 
-                    row[0][0] = monster.Key;
-                    row[1][0] = monster.Value.ToString();
+                    row[0][0] = model.Key.ToString("X4");
+                    row[1][0] = model.Value.ToString();
                 }
             }
             catch (Exception ex)
