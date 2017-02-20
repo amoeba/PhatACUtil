@@ -1,20 +1,41 @@
 <?xml version="1.0"?>
-<view icon="4149" title="PhatACUtil" width="400" height="400">
+<view icon="4149" title="PhatACUtil" width="600" height="400">
   <control progid="DecalControls.FixedLayout" clipped="">
-    <control progid="DecalControls.Notebook" name="nbkNotebook" left="0" top="0" width="400" height="400">
+    <control progid="DecalControls.Notebook" name="nbkNotebook" left="0" top="0" width="600" height="400">
       <page label="Spawn">
         <control progid="DecalControls.FixedLayout" clipped="">
-          <control progid="DecalControls.Edit" name="txtSearchText" left="16" top="16" width="200" height="16" />
-          <control progid="DecalControls.List" name="lstSearchList" left="16" top="48" width="200" height="100">
-            <column progid="DecalControls.TextColumn" name="colSearchListName" fixedwidth="100"/>
-            <column progid="DecalControls.TextColumn" name="colSearchListId" fixedwidth="100"/>
+          <control progid="DecalControls.Notebook" name="nbkSpawn" left="0" top="0" width="600" height="400">
+            <page label="Monster">
+              <control progid="DecalControls.FixedLayout" clipped="">
+                <control progid="DecalControls.Edit" name="txtSpawnMonsterSearchText" left="16" top="16" width="200" height="16" />
+                <control progid="DecalControls.List" name="lstSpawnMonsterSearchList" left="16" top="48" width="200" height="100">
+                  <column progid="DecalControls.TextColumn" name="colSpawnMonsterColumnName" fixedwidth="100"/>
+                  <column progid="DecalControls.TextColumn" name="colSpawnMonsterColumnId" fixedwidth="100"/>
+                </control>
+              </control>
+            </page>
+            <page label="Item">
+              <control progid="DecalControls.FixedLayout" clipped="">
+                <control progid="DecalControls.StaticText" name="tmpText" left="10" top="16" width="400" height="20" text="Not implemented yet" />
+              </control>
+            </page>
+            <page label="Model">
+              <control progid="DecalControls.FixedLayout" clipped="">
+                <control progid="DecalControls.StaticText" name="tmpText" left="10" top="16" width="400" height="20" text="Not implemented yet" />
+              </control>
+            </page>
           </control>
         </control>
       </page>
       <page label="Spawn Tool">
         <control progid="DecalControls.FixedLayout" clipped="">
-          <control progid="DecalControls.StaticText" name="stxAtSymbol" left="16" top="16" width="40" height="16" text="@" />
-          <control progid="DecalControls.Edit" name="txtSpawnToolCommand" left="40" top="16" width="100" height="16" />
+          <control progid="DecalControls.StaticText" name="stxAtSymbol" left="10" top="16" width="10" height="20" text="@" />
+          <control progid="DecalControls.Edit" name="txtSpawnToolCommand" left="30" top="16" width="100" height="20" />
+          <control progid="DecalControls.Edit" name="txtSpawnToolValue" left="140" top="16" width="100" height="20" />
+          <control progid="DecalControls.PushButton" name="btnSpawnToolSpawnMinus" left="250" top="16" width="20" height="20" text="-" />
+          <control progid="DecalControls.PushButton" name="btnSpawnToolSpawnPlus" left="280" top="16" width="20" height="20" text="+" />
+          <control progid="DecalControls.PushButton" name="btnSpawnToolSpawn" left="310" top="16" width="40" height="20" text="Spawn" />
+          <control progid="DecalControls.PushButton" name="btnSpawnToolSpawnTenx" left="360" top="16" width="80" height="20" text=" Spawn 10x" />
         </control>
       </page>
     </control>

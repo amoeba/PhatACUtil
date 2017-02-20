@@ -38,17 +38,27 @@ namespace PhatACUtil
         static String LogPath;
 
         internal static Decal.Adapter.Wrappers.PluginHost MyHost;
-        internal static Dictionary<String, Int32> lookup = new Dictionary<string, int> {
-            { "Drudge Skulker", 0x01},
-            { "Tusker Guard", 0xeeef }
-        };
 
+        internal static Dictionary<string, Int32> monsters;
+        internal static List<String> models;
+        internal static List<String> items;
 
         protected override void Startup()
         {
             LogPath = Path.ToString() + "\\error.txt";
             MyHost = Host;
 
+            // Init data
+            monsters = new Dictionary<string, Int32>
+            {
+                { "Drudge Skulker", 0x01 },
+                { "Tusker Guard", 0x02 }
+            };
+
+            models = new List<string> { }; 
+            items = new List<string> { };
+
+            // Init views etc
             try
             {   
                 MainView.ViewInit();
@@ -67,8 +77,10 @@ namespace PhatACUtil
         {
             try
             {
-
                 MainView.ViewDestroy();
+                monsters = null;
+                items = null;
+                models = null;
             }
             catch (Exception ex)
             {
@@ -109,6 +121,18 @@ namespace PhatACUtil
                 sw.Close();
             }
             catch (Exception exc) {
+            }
+        }
+
+        static void Chat(String msg)
+        {
+            try
+            {
+                MyHost.Actions.AddChatText(msg, 0, 1);
+            }
+            catch (Exception ex)
+            {
+                LogError(ex);
             }
         }
     }

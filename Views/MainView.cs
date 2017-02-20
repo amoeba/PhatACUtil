@@ -37,19 +37,19 @@ namespace PhatACUtil
     {
         #region Auto-generated view code
         static IView View;
-        static ITextBox txtSearchText;
-        static IList lstSearchList;
+        static ITextBox txtSpawnMonsterSearchText;
+        static IList lstSpawnMonsterSearchList;
 
         public static void ViewInit()
         {
             //Create view here
             View = ViewSystemSelector.CreateViewResource(PluginCore.MyHost, "PhatACUtil.Views.MainView.xml");
 
-            txtSearchText = (ITextBox)View["txtSearchText"]; 
-            lstSearchList = (IList)View["txtSearchList"];
+            txtSpawnMonsterSearchText = (ITextBox)View["txtSpawnMonsterSearchText"]; 
+            lstSpawnMonsterSearchList = (IList)View["lstSpawnMonsterSearchList"];
 
-            txtSearchText.Change += new EventHandler<MVTextBoxChangeEventArgs>(txtSearchText_Change);
-            lstSearchList.Selected += new EventHandler<MVListSelectEventArgs>(lstSearchList_Selected);
+            txtSpawnMonsterSearchText.Change += new EventHandler<MVTextBoxChangeEventArgs>(txtSpawnMonsterSearchText_Change);
+            lstSpawnMonsterSearchList.Selected += new EventHandler<MVListSelectEventArgs>(lstSpawnMonsterSearchList_Selected);
 
             addAll();
         }
@@ -57,23 +57,34 @@ namespace PhatACUtil
 
         public static void ViewDestroy()
         {
-            txtSearchText.Change -= new EventHandler<MVTextBoxChangeEventArgs>(txtSearchText_Change);
-            lstSearchList.Selected -= new EventHandler<MVListSelectEventArgs>(lstSearchList_Selected);
+            txtSpawnMonsterSearchText.Change -= new EventHandler<MVTextBoxChangeEventArgs>(txtSpawnMonsterSearchText_Change);
+            lstSpawnMonsterSearchList.Selected -= new EventHandler<MVListSelectEventArgs>(lstSpawnMonsterSearchList_Selected);
 
-            txtSearchText = null;
-            lstSearchList = null;
+            txtSpawnMonsterSearchText = null;
+            lstSpawnMonsterSearchList = null;
 
             View.Dispose();
         }
         #endregion Auto-generated view code
 
-        static void Spawn(String id)
+        static void ChatCommand(string command, params string[] tokens)
         {
-            String msg = "/spawn " + id.ToString();
+            StringBuilder sb = new StringBuilder();
+            sb.Append("@");
+            sb.Append(command);
+            sb.Append(" ");
+            
+            foreach (string token in tokens)
+            {
+                sb.Append(token.Trim());
+                sb.Append(' ');
+            }
 
             try
             {
-                PluginCore.MyHost.Actions.AddChatText(msg, 0, 1);
+                PluginCore.MyHost.Actions.AddChatText(sb.ToString(), 0, 1);
+                PluginCore.MyHost.Actions.InvokeChatParser(sb.ToString());
+
             }
             catch (Exception ex)
             {
@@ -81,12 +92,14 @@ namespace PhatACUtil
             }
         }
 
-        static void lstSearchList_Selected(object sender, MVListSelectEventArgs e)
+        static void lstSpawnMonsterSearchList_Selected(object sender, MVListSelectEventArgs e)
         {
             try
             {
-                String val = (String)lstSearchList[e.Row][1][0];
-                Spawn("0x" + Convert.ToInt32(val).ToString("X"));
+                String val = (String)lstSpawnMonsterSearchList[e.Row][0][0];
+                String id = (String)lstSpawnMonsterSearchList[e.Row][1][0];
+
+                ChatCommand("spawnmonster", id);
             }
             catch (Exception ex)
             {
@@ -95,9 +108,9 @@ namespace PhatACUtil
             
         }
 
-        static void txtSearchText_Change(object sender, MVTextBoxChangeEventArgs e)
+        static void txtSpawnMonsterSearchText_Change(object sender, MVTextBoxChangeEventArgs e)
         {
-            var searchText = txtSearchText.Text;
+            var searchText = txtSpawnMonsterSearchText.Text;
 
             if (searchText.Length == 0)
             {
@@ -107,19 +120,19 @@ namespace PhatACUtil
 
             try
             {
-                lstSearchList.Clear();
+                lstSpawnMonsterSearchList.Clear();
 
-                foreach (KeyValuePair<String, Int32> entry in PluginCore.lookup)
+                foreach (KeyValuePair<string, Int32> monster in PluginCore.monsters)
                 {
-                    if (!(entry.Key.ToLowerInvariant().Contains(searchText.ToLowerInvariant())))
+                    if (!(monster.Key.ToLowerInvariant().Contains(searchText.ToLowerInvariant())))
                     {
                         continue;
                     }
 
-                    IListRow row = lstSearchList.Add();
+                    IListRow row = lstSpawnMonsterSearchList.Add();
 
-                    row[0][0] = entry.Key;
-                    row[1][0] = entry.Value.ToString();
+                    row[0][0] = monster.Key;
+                    row[1][0] = monster.Value.ToString();
                 }
             }
             catch (Exception ex)
@@ -133,28 +146,15 @@ namespace PhatACUtil
         {
             try
             {
-                lstSearchList.Clear();
+                lstSpawnMonsterSearchList.Clear();
 
-                foreach (KeyValuePair<String, Int32> entry in PluginCore.lookup)
+                foreach (KeyValuePair<string, Int32> monster in PluginCore.monsters)
                 {
+                    IListRow row = lstSpawnMonsterSearchList.Add();
 
-                    IListRow row = lstSearchList.Add();
-
-                    row[0][0] = entry.Key;
-                    row[1][0] = entry.Value.ToString();
+                    row[0][0] = monster.Key;
+                    row[1][0] = monster.Value.ToString();
                 }
-            }
-            catch (Exception ex)
-            {
-                PluginCore.LogError(ex);
-            }
-        }
-
-        static void Chat(String msg)
-        {
-            try
-            {
-                PluginCore.MyHost.Actions.AddChatText(msg, 0, 1);
             }
             catch (Exception ex)
             {
