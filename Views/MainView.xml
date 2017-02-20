@@ -5,21 +5,25 @@
       <page label="Spawn">
         <control progid="DecalControls.FixedLayout" clipped="">
           <control progid="DecalControls.Notebook" name="nbkSpawn" left="0" top="0" width="500" height="400">
-            <page label="Monster">
+            <page label="Models">
               <control progid="DecalControls.FixedLayout" clipped="">
-                <control progid="DecalControls.Edit" name="txtSpawnMonsterSearchText" left="16" top="16" width="200" height="16" />
-                <control progid="DecalControls.List" name="lstSpawnMonsterSearchList" left="16" top="48" width="200" height="100">
-                  <column progid="DecalControls.TextColumn" name="colSpawnMonsterColumnName" fixedwidth="140"/>
-                  <column progid="DecalControls.TextColumn" name="colSpawnMonsterColumnId" fixedwidth="40"/>
+                <control progid="DecalControls.StaticText" name="stxFilterResults" left="10" top="10" width="400" height="20" text="Filter results:" />
+                <control progid="DecalControls.Edit" name="txtSpawnModelSearchText" left="10" top="30" width="200" height="20" />
+                <control progid="DecalControls.StaticText" name="stxClickRow" left="10" top="60" width="400" height="20" text="Click on a row to spawn it:" />
+                <control progid="DecalControls.List" name="lstSpawnModelSearchList" left="10" top="80" width="400" height="200">
+                  <column progid="DecalControls.TextColumn" name="colSpawnModelColumnId" fixedwidth="40"/>
+                  <column progid="DecalControls.TextColumn" name="colSpawnModelColumnName" fixedwidth="360"/>
                 </control>
+                <control progid="DecalControls.PushButton" name="btnSpawnModelClearSpawns" left="10" top="290" width="80" height="20" text="Clear Spawns" />
+
               </control>
             </page>
-            <page label="Item">
+            <page label="Items">
               <control progid="DecalControls.FixedLayout" clipped="">
                 <control progid="DecalControls.StaticText" name="tmpText" left="10" top="16" width="500" height="20" text="Not implemented yet" />
               </control>
             </page>
-            <page label="Model">
+            <page label="Monsters">
               <control progid="DecalControls.FixedLayout" clipped="">
                 <control progid="DecalControls.StaticText" name="tmpText" left="10" top="16" width="500" height="20" text="Not implemented yet" />
               </control>
