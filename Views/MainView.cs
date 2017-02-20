@@ -29,43 +29,86 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Decal.Adapter;
+using Decal.Adapter.Wrappers;
 using MyClasses.MetaViewWrappers;
 
 namespace PhatACUtil
 {
     internal static class MainView
     {
-        #region Auto-generated view code
         static IView View;
+
+        // Spawn
+
+        // Spawn:Monster
         static ITextBox txtSpawnMonsterSearchText;
         static IList lstSpawnMonsterSearchList;
+
+        // Spawn Tool
+        static ITextBox txtSpawnToolCommand;
+        static ITextBox txtSpawnToolValue;
+        static IButton btnSpawnToolSpawn;
+        static IButton btnSpawnToolSpawnTenX;
+        static IButton btnSpawnToolSpawnMinus;
+        static IButton btnSpawnToolSpawnPlus;
+        static IButton btnSpawnToolClearSpawns;
+
+
+
 
         public static void ViewInit()
         {
             //Create view here
             View = ViewSystemSelector.CreateViewResource(PluginCore.MyHost, "PhatACUtil.Views.MainView.xml");
 
+            // Spawn
+            // Spawn:Monster
             txtSpawnMonsterSearchText = (ITextBox)View["txtSpawnMonsterSearchText"]; 
             lstSpawnMonsterSearchList = (IList)View["lstSpawnMonsterSearchList"];
 
-            txtSpawnMonsterSearchText.Change += new EventHandler<MVTextBoxChangeEventArgs>(txtSpawnMonsterSearchText_Change);
-            lstSpawnMonsterSearchList.Selected += new EventHandler<MVListSelectEventArgs>(lstSpawnMonsterSearchList_Selected);
+            txtSpawnMonsterSearchText.Change += txtSpawnMonsterSearchText_Change;
+            lstSpawnMonsterSearchList.Selected += lstSpawnMonsterSearchList_Selected;
+
+            // Spawn Tool
+            txtSpawnToolCommand = (ITextBox)View["txtSpawnToolCommand"];
+            txtSpawnToolValue = (ITextBox)View["txtSpawnToolValue"];
+            btnSpawnToolSpawn = (IButton)View["btnSpawnToolSpawn"];
+
+            btnSpawnToolSpawn.Hit += btnSpawnToolSpawn_Hit;
+            btnSpawnToolSpawnTenX = (IButton)View["btnSpawnToolSpawnTenX"];
+            btnSpawnToolSpawnTenX.Hit += btnSpawnToolSpawnTenX_Hit;
+            btnSpawnToolSpawnMinus = (IButton)View["btnSpawnToolSpawnMinus"];
+            btnSpawnToolSpawnMinus.Hit += btnSpawnToolSpawnMinus_Hit;
+            btnSpawnToolSpawnPlus = (IButton)View["btnSpawnToolSpawnPlus"];
+            btnSpawnToolSpawnPlus.Hit += btnSpawnToolSpawnPlus_Hit;
+            btnSpawnToolClearSpawns = (IButton)View["btnSpawnToolClearSpawns"];
+            btnSpawnToolClearSpawns.Hit += btnSpawnToolClearSpawns_Hit;
 
             addAll();
         }
 
-
         public static void ViewDestroy()
         {
-            txtSpawnMonsterSearchText.Change -= new EventHandler<MVTextBoxChangeEventArgs>(txtSpawnMonsterSearchText_Change);
-            lstSpawnMonsterSearchList.Selected -= new EventHandler<MVListSelectEventArgs>(lstSpawnMonsterSearchList_Selected);
+            txtSpawnMonsterSearchText.Change -= txtSpawnMonsterSearchText_Change;
+            lstSpawnMonsterSearchList.Selected -= lstSpawnMonsterSearchList_Selected;
+
+            btnSpawnToolSpawn.Hit -= btnSpawnToolSpawn_Hit;
+            btnSpawnToolSpawnTenX.Hit -= btnSpawnToolSpawnTenX_Hit;
+            btnSpawnToolSpawnMinus.Hit -= btnSpawnToolSpawnMinus_Hit;
+            btnSpawnToolSpawnPlus.Hit -= btnSpawnToolSpawnPlus_Hit;
+            btnSpawnToolClearSpawns.Hit -= btnSpawnToolClearSpawns_Hit;
 
             txtSpawnMonsterSearchText = null;
             lstSpawnMonsterSearchList = null;
+            btnSpawnToolSpawn = null;
+            btnSpawnToolSpawnTenX = null;
+            btnSpawnToolSpawnMinus = null;
+            btnSpawnToolSpawnPlus = null;
+            btnSpawnToolClearSpawns = null;
 
             View.Dispose();
         }
-        #endregion Auto-generated view code
 
         static void ChatCommand(string command, params string[] tokens)
         {
@@ -82,7 +125,6 @@ namespace PhatACUtil
 
             try
             {
-                PluginCore.MyHost.Actions.AddChatText(sb.ToString(), 0, 1);
                 PluginCore.MyHost.Actions.InvokeChatParser(sb.ToString());
 
             }
@@ -128,7 +170,7 @@ namespace PhatACUtil
                     {
                         continue;
                     }
-
+                    
                     IListRow row = lstSpawnMonsterSearchList.Add();
 
                     row[0][0] = monster.Key;
@@ -140,6 +182,74 @@ namespace PhatACUtil
                 PluginCore.LogError(ex);
             }
 
+        }
+
+        private static void btnSpawnToolSpawn_Hit(object sender, EventArgs e)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            try
+            {
+                ChatCommand(txtSpawnToolCommand.Text, txtSpawnToolValue.Text);
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+        }
+
+        private static void btnSpawnToolSpawnTenX_Hit(object sender, EventArgs e)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            try
+            {
+                ChatCommand(txtSpawnToolCommand.Text, txtSpawnToolValue.Text, "10");
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+        }
+
+        private static void btnSpawnToolSpawnPlus_Hit(object sender, EventArgs e)
+        {
+            try
+            {
+                Int32 value = Int32.Parse(txtSpawnToolValue.Text);
+                value += 1;
+                txtSpawnToolValue.Text = value.ToString();
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+        }
+
+        private static void btnSpawnToolSpawnMinus_Hit(object sender, EventArgs e)
+        {
+            try
+            {
+                Int32 value = Int32.Parse(txtSpawnToolValue.Text);
+                value -= 1;
+                txtSpawnToolValue.Text = value.ToString();
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+        }
+
+        private static void btnSpawnToolClearSpawns_Hit(object sender, EventArgs e)
+        {
+            try
+            {
+                ChatCommand("clearspawns");
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
         }
 
         static void addAll()

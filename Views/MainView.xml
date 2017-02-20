@@ -35,7 +35,8 @@
           <control progid="DecalControls.PushButton" name="btnSpawnToolSpawnMinus" left="250" top="16" width="20" height="20" text="-" />
           <control progid="DecalControls.PushButton" name="btnSpawnToolSpawnPlus" left="280" top="16" width="20" height="20" text="+" />
           <control progid="DecalControls.PushButton" name="btnSpawnToolSpawn" left="310" top="16" width="40" height="20" text="Spawn" />
-          <control progid="DecalControls.PushButton" name="btnSpawnToolSpawnTenx" left="360" top="16" width="80" height="20" text=" Spawn 10x" />
+          <control progid="DecalControls.PushButton" name="btnSpawnToolSpawnTenX" left="360" top="16" width="80" height="20" text="Spawn 10x" />
+          <control progid="DecalControls.PushButton" name="btnSpawnToolClearSpawns" left="10" top="48" width="80" height="20" text="Clear Spawns" />
         </control>
       </page>
     </control>
