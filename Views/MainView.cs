@@ -174,7 +174,7 @@ namespace PhatACUtil
                     IListRow row = lstSpawnMonsterSearchList.Add();
 
                     row[0][0] = monster.Key;
-                    row[1][0] = monster.Value.ToString();
+                    row[1][0] = monster.Value.ToString("X");
                 }
             }
             catch (Exception ex)

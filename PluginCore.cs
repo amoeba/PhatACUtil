@@ -40,8 +40,8 @@ namespace PhatACUtil
         internal static Decal.Adapter.Wrappers.PluginHost MyHost;
 
         internal static Dictionary<string, Int32> monsters;
-        internal static List<String> models;
-        internal static List<String> items;
+        internal static Dictionary<string, Int32> models;
+        internal static Dictionary<string, Int32> items;
 
         protected override void Startup()
         {
@@ -51,12 +51,27 @@ namespace PhatACUtil
             // Init data
             monsters = new Dictionary<string, Int32>
             {
+                { "Male Human NPC (Naked)", 0x01 },
+                { "Tusker Guard", 0x02 },
+                { "Olthoi Somethingorother", 0x02 },
+                { "Some Guy", 0x02 },
+                { "Virindi Executionier", 0x02 },
+                { "Drudge Skulker", 0x02 },
+                { "Ash Gromnie", 0x02 },
+                { "Jade Gromnie", 0x02 },
+                { "Brown Gromnie", 0x02 }
+            };
+
+            models = new Dictionary<string, Int32> {
+                { "Male Human NPC (Naked)", 0x02 },
+                { "Old Model Olthoi, Purple", 0x03 },
+                { "Armadillo, Orangeish", 0x04 }
+            }; 
+
+            items = new Dictionary<string, Int32> {
                 { "Drudge Skulker", 0x01 },
                 { "Tusker Guard", 0x02 }
             };
-
-            models = new List<string> { }; 
-            items = new List<string> { };
 
             // Init views etc
             try
@@ -69,8 +84,6 @@ namespace PhatACUtil
                 LogError(ex);
             }
             
-
-
         }
 
         protected override void Shutdown()
