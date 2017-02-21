@@ -15,7 +15,7 @@
                   <column progid="DecalControls.TextColumn" name="colSpawnModelColumnName" fixedwidth="360"/>
                 </control>
                 <control progid="DecalControls.PushButton" name="btnSpawnModelClearSpawns" left="10" top="290" width="80" height="20" text="Clear Spawns" />
-
+                <control progid="DecalControls.PushButton" name="btnSpawnModelClearLastAssessed" left="100" top="290" width="120" height="20" text="Clear Last Assessed" />
               </control>
             </page>
             <page label="Items">
@@ -41,6 +41,7 @@
           <control progid="DecalControls.PushButton" name="btnSpawnToolSpawn" left="310" top="16" width="40" height="20" text="Spawn" />
           <control progid="DecalControls.PushButton" name="btnSpawnToolSpawnTenX" left="360" top="16" width="80" height="20" text="Spawn 10x" />
           <control progid="DecalControls.PushButton" name="btnSpawnToolClearSpawns" left="10" top="48" width="80" height="20" text="Clear Spawns" />
+          <control progid="DecalControls.PushButton" name="btnSpawnToolClearLastAssessed" left="100" top="48" width="120" height="20" text="Clear Last Assessed" />
         </control>
       </page>
     </control>
