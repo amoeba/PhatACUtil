@@ -15,6 +15,7 @@ namespace PhatACUtil
         internal static Decal.Adapter.Wrappers.PluginHost MyHost;
 
         internal static Dictionary<int, string> models;
+        internal static List<string> towns;
 
         protected override void Startup()
         {
@@ -27,6 +28,67 @@ namespace PhatACUtil
                 // Load data
 
                 models = LoadModels();
+                towns = new List<string>()
+                {
+                    "Aerlinthe Island",
+                    "Ahurenga",
+                    "Al-Arqas",
+                    "Al-Jalima",
+                    "Arwic",
+                    "Ayan Baqur",
+                    "Baishi",
+                    "Bandit Castle",
+                    "Beach Fort",
+                    "Bluespire",
+                    "Candeth Keep",
+                    "Cragstone",
+                    "Mt Esper-Crater Village",
+                    "Danby's Outpost",
+                    "Dryreach",
+                    "Eastham",
+                    "Fort Tethana",
+                    "Glenden Wood",
+                    "Greenspire",
+                    "Hebian-to",
+                    "Holtburg",
+                    "Kara",
+                    "Khayyaban",
+                    "Kryst",
+                    "Lin",
+                    "Linvak Tukal",
+                    "Lytelthorpe",
+                    "MacNiall's Freehold",
+                    "Mayoi",
+                    "Nanto",
+                    "Neydisa",
+                    "Oolutanga's Refuge",
+                    "Plateau Village",
+                    "Qalaba'r",
+                    "Redspire",
+                    "Rithwic",
+                    "Samsur",
+                    "Sawato",
+                    "Shoushi",
+                    "Singularity Caul Island",
+                    "Stonehold",
+                    "Timaru",
+                    "Tou-Tou",
+                    "Tufa",
+                    "Underground City",
+                    "Uziz",
+                    "Wai Jhou",
+                    "Xarabydun",
+                    "Yanshi",
+                    "Yaraq",
+                    "Zaikhal",
+                    "Picture Room 1",
+                    "Cheese Room",
+                    "Picture Room 2",
+                    "Campfire room",
+                    "Picture Room 3",
+                    "AdminLS",
+                    "Shadow Spire"
+                };
 
                 // Set up views
                 MainView.ViewInit();

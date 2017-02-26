@@ -27,8 +27,9 @@ namespace PhatACUtil
         static IButton btnSpawnToolClearSpawns;
         static IButton btnSpawnToolClearLastAssessed;
 
-
-
+        // Tele town
+        static ITextBox txtTeleTownSearchText;
+        static IList lstTeleTownSearchList;
 
         public static void ViewInit()
         {
@@ -62,6 +63,12 @@ namespace PhatACUtil
             btnSpawnToolClearLastAssessed = (IButton)View["btnSpawnToolClearLastAssessed"];
             btnSpawnToolClearLastAssessed.Hit += btnSpawnToolClearLastAssessed_Hit;
 
+            // Tele town
+            txtTeleTownSearchText = (ITextBox)View["txtTeleTownSearchText"];
+            lstTeleTownSearchList = (IList)View["lstTeleTownSearchList"];
+            txtTeleTownSearchText.Change += txtTeleTownSearchText_Change;
+            lstTeleTownSearchList.Selected += lstTeleTownSearchList_Selected;
+
             addAll();
         }
 
@@ -78,6 +85,9 @@ namespace PhatACUtil
             btnSpawnToolSpawnPlus.Hit -= btnSpawnToolSpawnPlus_Hit;
             btnSpawnToolClearSpawns.Hit -= btnSpawnToolClearSpawns_Hit;
             btnSpawnToolClearLastAssessed.Hit -= btnSpawnToolClearLastAssessed_Hit;
+
+            txtTeleTownSearchText.Change -= txtTeleTownSearchText_Change;
+            lstTeleTownSearchList.Selected -= lstTeleTownSearchList_Selected;
 
             // Controls
             txtSpawnModelSearchText = null;
@@ -265,6 +275,7 @@ namespace PhatACUtil
         {
             try
             {
+                // Models
                 lstSpawnModelSearchList.Clear();
 
                 foreach (KeyValuePair<int, string> model in PluginCore.models)
@@ -274,11 +285,70 @@ namespace PhatACUtil
                     row[0][0] = model.Key.ToString("X4");
                     row[1][0] = model.Value.ToString();
                 }
+
+                // Towns
+                lstTeleTownSearchList.Clear();
+
+                foreach (string town in PluginCore.towns)
+                {
+                    IListRow row = lstTeleTownSearchList.Add();
+
+                    row[0][0] = town;
+                }
             }
             catch (Exception ex)
             {
                 PluginCore.LogError(ex);
             }
         }
+
+        static void lstTeleTownSearchList_Selected(object sender, MVListSelectEventArgs e)
+        {
+            try
+            {
+                String name = (String)lstTeleTownSearchList[e.Row][0][0];
+
+                ChatCommand("teletown", name);
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+
+        }
+
+        static void txtTeleTownSearchText_Change(object sender, MVTextBoxChangeEventArgs e)
+        {
+            var searchText = txtTeleTownSearchText.Text;
+
+            if (searchText.Length == 0)
+            {
+                addAll();
+                return;
+            }
+
+            try
+            {
+                lstTeleTownSearchList.Clear();
+
+                foreach (string name in PluginCore.towns)
+                {
+                    if (!(name.ToLowerInvariant().Contains(searchText.ToLowerInvariant())))
+                    {
+                        continue;
+                    }
+
+                    IListRow row = lstTeleTownSearchList.Add();
+
+                    row[0][0] = name;
+                }
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+
+        }
+
     }
 }

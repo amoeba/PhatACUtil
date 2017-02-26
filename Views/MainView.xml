@@ -5,6 +5,19 @@
       <page label="Spawn">
         <control progid="DecalControls.FixedLayout" clipped="">
           <control progid="DecalControls.Notebook" name="nbkSpawn" left="0" top="0" width="500" height="400">
+            <page label="Tool">
+              <control progid="DecalControls.FixedLayout" clipped="">
+                <control progid="DecalControls.StaticText" name="stxAtSymbol" left="10" top="16" width="10" height="20" text="@" />
+                <control progid="DecalControls.Edit" name="txtSpawnToolCommand" left="30" top="16" width="100" height="20" />
+                <control progid="DecalControls.Edit" name="txtSpawnToolValue" left="140" top="16" width="100" height="20" />
+                <control progid="DecalControls.PushButton" name="btnSpawnToolSpawnMinus" left="250" top="16" width="20" height="20" text="-" />
+                <control progid="DecalControls.PushButton" name="btnSpawnToolSpawnPlus" left="280" top="16" width="20" height="20" text="+" />
+                <control progid="DecalControls.PushButton" name="btnSpawnToolSpawn" left="310" top="16" width="40" height="20" text="Spawn" />
+                <control progid="DecalControls.PushButton" name="btnSpawnToolSpawnTenX" left="360" top="16" width="80" height="20" text="Spawn 10x" />
+                <control progid="DecalControls.PushButton" name="btnSpawnToolClearSpawns" left="10" top="48" width="80" height="20" text="Clear Spawns" />
+                <control progid="DecalControls.PushButton" name="btnSpawnToolClearLastAssessed" left="100" top="48" width="120" height="20" text="Clear Last Assessed" />
+              </control>
+            </page>
             <page label="Models">
               <control progid="DecalControls.FixedLayout" clipped="">
                 <control progid="DecalControls.StaticText" name="stxFilterResults" left="10" top="10" width="400" height="20" text="Filter results:" />
@@ -31,17 +44,19 @@
           </control>
         </control>
       </page>
-      <page label="Spawn Tool">
+      <page label="Towns">
         <control progid="DecalControls.FixedLayout" clipped="">
-          <control progid="DecalControls.StaticText" name="stxAtSymbol" left="10" top="16" width="10" height="20" text="@" />
-          <control progid="DecalControls.Edit" name="txtSpawnToolCommand" left="30" top="16" width="100" height="20" />
-          <control progid="DecalControls.Edit" name="txtSpawnToolValue" left="140" top="16" width="100" height="20" />
-          <control progid="DecalControls.PushButton" name="btnSpawnToolSpawnMinus" left="250" top="16" width="20" height="20" text="-" />
-          <control progid="DecalControls.PushButton" name="btnSpawnToolSpawnPlus" left="280" top="16" width="20" height="20" text="+" />
-          <control progid="DecalControls.PushButton" name="btnSpawnToolSpawn" left="310" top="16" width="40" height="20" text="Spawn" />
-          <control progid="DecalControls.PushButton" name="btnSpawnToolSpawnTenX" left="360" top="16" width="80" height="20" text="Spawn 10x" />
-          <control progid="DecalControls.PushButton" name="btnSpawnToolClearSpawns" left="10" top="48" width="80" height="20" text="Clear Spawns" />
-          <control progid="DecalControls.PushButton" name="btnSpawnToolClearLastAssessed" left="100" top="48" width="120" height="20" text="Clear Last Assessed" />
+          <control progid="DecalControls.StaticText" name="stxFilterResults" left="10" top="10" width="400" height="20" text="Filter results:" />
+          <control progid="DecalControls.Edit" name="txtTeleTownSearchText" left="10" top="30" width="200" height="20" />
+          <control progid="DecalControls.StaticText" name="stxClickRow" left="10" top="60" width="400" height="20" text="Click on a row to teleport instantly:" />
+          <control progid="DecalControls.List" name="lstTeleTownSearchList" left="10" top="80" width="400" height="200">
+            <column progid="DecalControls.TextColumn" name="colTeleTownColumnName" fixedwidth="360"/>
+          </control>
+        </control>
+      </page>
+      <page label="Dungeons">
+        <control progid="DecalControls.FixedLayout" clipped="">
+          <control progid="DecalControls.StaticText" name="tmpText" left="10" top="16" width="500" height="20" text="Not implemented yet" />
         </control>
       </page>
     </control>
