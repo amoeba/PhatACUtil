@@ -6,6 +6,7 @@ A [Decal](http://www.decaldev.com) utility plugin for working with private Asher
 
 - Search and spawn models
 - Automate executing @ commands and going through entity ids
+- Search and teleport to towns instantly by name (via `@teletown`)
 
 ## Installing
 
