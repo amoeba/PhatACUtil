@@ -2,6 +2,39 @@
 <view icon="4149" title="PhatACUtil" width="500" height="400">
   <control progid="DecalControls.FixedLayout" clipped="">
     <control progid="DecalControls.Notebook" name="nbkNotebook" left="0" top="0" width="500" height="400">
+      <page label="Object">
+        <control progid="DecalControls.FixedLayout" clipped="">
+          <control progid="DecalControls.StaticText" name="stxObjectIDName" left="10" top="10" width="50" height="16" text="ID/Name" />
+          <control progid="DecalControls.Edit" name="txtObjectIDName" left="60" top="10" width="100" height="16" />
+
+          <control progid="DecalControls.StaticText" name="stxObjectScale" left="10" top="30" width="50" height="16" text="Scale" />
+          <control progid="DecalControls.Edit" name="txtObjectScale" left="60" top="30" width="40" height="16" />
+
+          <control progid="DecalControls.PushButton" name="btnObjectSpawn" left="10" top="50" width="60" height="16" text="Spawn" />
+
+          <control progid="DecalControls.StaticText" name="stxObjectSolid" left="10" top="90" width="100" height="16" text="Set Solid" />
+          <control progid="DecalControls.PushButton" name="btnObjectSolidTrue" left="120" top="90" width="80" height="16" text="True" />
+          <control progid="DecalControls.PushButton" name="btnObjectSolidFalse" left="220" top="90" width="80" height="16" text="False" />
+
+          <control progid="DecalControls.StaticText" name="stxObjectEditable" left="10" top="110" width="100" height="16" text="Set Editable" />
+          <control progid="DecalControls.PushButton" name="btnObjectEditableEnabled" left="120" top="110" width="80" height="16" text="Enabled" />
+          <control progid="DecalControls.PushButton" name="btnObjectEditableDisabled" left="220" top="110" width="80" height="16" text="Disabled" />
+
+
+          <control progid="DecalControls.StaticText" name="stxObjectNudgeAmount" left="10" top="130" width="100" height="16" text="Nudge Amount" />
+          <control progid="DecalControls.Edit" name="txtObjectNudgeAmount" left="120" top="130" width="50" height="16" />
+
+          <control progid="DecalControls.PushButton" name="btnObjectNudgeXMinus" left="10" top="150" width="20" height="16" text="-X" />
+          <control progid="DecalControls.PushButton" name="btnObjectNudgeXPlus" left="40" top="150" width="20" height="16" text="+X" />
+
+          <control progid="DecalControls.PushButton" name="btnObjectNudgeYMinus" left="10" top="170" width="20" height="16" text="-Y" />
+          <control progid="DecalControls.PushButton" name="btnObjectNudgeYPlus" left="40" top="170" width="20" height="16" text="+Y" />
+
+          <control progid="DecalControls.PushButton" name="btnObjectNudgeZMinus" left="10" top="190" width="20" height="16" text="-Z" />
+          <control progid="DecalControls.PushButton" name="btnObjectNudgeZPlus" left="40" top="190" width="20" height="16" text="+Z" />
+          <control progid="DecalControls.StaticText" name="stxObjectNudgeAmount" left="70" top="190" width="200" height="16" text="* Scaled to 1/10th of Nudge Amount" />
+        </control>
+      </page>
       <page label="Spawn">
         <control progid="DecalControls.FixedLayout" clipped="">
           <control progid="DecalControls.Notebook" name="nbkSpawn" left="0" top="0" width="500" height="400">

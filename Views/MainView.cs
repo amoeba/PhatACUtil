@@ -9,6 +9,22 @@ namespace PhatACUtil
     {
         static IView View;
 
+        // Object
+        static ITextBox txtObjectIDName;
+        static ITextBox txtObjectScale;
+        static IButton btnObjectSpawn;
+        static IButton btnObjectSolidTrue;
+        static IButton btnObjectSolidFalse;
+        static IButton btnObjectEditableEnabled;
+        static IButton btnObjectEditableDisabled;
+        static ITextBox txtObjectNudgeAmount;
+        static IButton btnObjectNudgeXMinus;
+        static IButton btnObjectNudgeXPlus;
+        static IButton btnObjectNudgeYMinus;
+        static IButton btnObjectNudgeYPlus;
+        static IButton btnObjectNudgeZPlus;
+        static IButton btnObjectNudgeZMinus;
+
         // Spawn
 
         // Spawn:Model
@@ -35,6 +51,34 @@ namespace PhatACUtil
         {
             //Create view here
             View = ViewSystemSelector.CreateViewResource(PluginCore.MyHost, "PhatACUtil.Views.MainView.xml");
+
+            // Object
+            txtObjectIDName = (ITextBox)View["txtObjectIDName"];
+            txtObjectScale = (ITextBox)View["txtObjectScale"];
+            btnObjectSpawn = (IButton)View["btnObjectSpawn"];
+            btnObjectSpawn.Hit += btnObjectSpawn_Hit;
+            btnObjectSolidTrue = (IButton)View["btnObjectSolidTrue"];
+            btnObjectSolidTrue.Hit += btnObjectSolidTrue_Hit;
+            btnObjectSolidFalse = (IButton)View["btnObjectSolidFalse"];
+            btnObjectSolidFalse.Hit += btnObjectSolidFalse_Hit;
+            btnObjectEditableEnabled = (IButton)View["btnObjectEditableEnabled"];
+            btnObjectEditableEnabled.Hit += btnObjectEditableEnabled_Hit;
+            btnObjectEditableDisabled = (IButton)View["btnObjectEditableDisabled"];
+            btnObjectEditableDisabled.Hit += btnObjectEditableDisabled_Hit;
+            txtObjectNudgeAmount = (ITextBox)View["txtObjectNudgeAmount"];
+            btnObjectNudgeXMinus = (IButton)View["btnObjectNudgeXMinus"];
+            btnObjectNudgeXMinus.Hit += btnObjectNudgeXMinus_Hit;
+            btnObjectNudgeXPlus = (IButton)View["btnObjectNudgeXPlus"];
+            btnObjectNudgeXPlus.Hit += btnObjectNudgeXPlus_Hit;
+            btnObjectNudgeYMinus = (IButton)View["btnObjectNudgeYMinus"];
+            btnObjectNudgeYMinus.Hit += btnObjectNudgeYMinus_Hit;
+            btnObjectNudgeYPlus = (IButton)View["btnObjectNudgeYPlus"];
+            btnObjectNudgeYPlus.Hit += btnObjectNudgeYPlus_Hit;
+            btnObjectNudgeZMinus = (IButton)View["btnObjectNudgeZMinus"];
+            btnObjectNudgeZMinus.Hit += btnObjectNudgeZMinus_Hit;
+            btnObjectNudgeZPlus = (IButton)View["btnObjectNudgeZPlus"];
+            btnObjectNudgeZPlus.Hit += btnObjectNudgeZPlus_Hit;
+            
 
             // Spawn
             // Spawn Model
@@ -75,6 +119,18 @@ namespace PhatACUtil
         public static void ViewDestroy()
         {
             // Events
+            btnObjectSpawn.Hit -= btnObjectSpawn_Hit;
+            btnObjectSolidTrue.Hit -= btnObjectSolidTrue_Hit;
+            btnObjectSolidFalse.Hit -= btnObjectSolidFalse_Hit;
+            btnObjectEditableEnabled.Hit -= btnObjectEditableEnabled_Hit;
+            btnObjectEditableDisabled.Hit -= btnObjectEditableDisabled_Hit;
+            btnObjectNudgeXMinus.Hit -= btnObjectNudgeXMinus_Hit;
+            btnObjectNudgeXPlus.Hit -= btnObjectNudgeXPlus_Hit;
+            btnObjectNudgeYMinus.Hit -= btnObjectNudgeYMinus_Hit;
+            btnObjectNudgeYPlus.Hit -= btnObjectNudgeYPlus_Hit;
+            btnObjectNudgeZMinus.Hit -= btnObjectNudgeZMinus_Hit;
+            btnObjectNudgeZPlus.Hit -= btnObjectNudgeZPlus_Hit;
+
             txtSpawnModelSearchText.Change -= txtSpawnModelSearchText_Change;
             lstSpawnModelSearchList.Selected -= lstSpawnModelSearchList_Selected;
             btnSpawnModelClearSpawns.Hit -= btnSpawnModelClearSpawns_Hit;
@@ -90,6 +146,22 @@ namespace PhatACUtil
             lstTeleTownSearchList.Selected -= lstTeleTownSearchList_Selected;
 
             // Controls
+
+            txtObjectIDName = null;
+            txtObjectScale = null;
+            btnObjectSpawn = null;
+            btnObjectSolidTrue = null;
+            btnObjectSolidFalse = null;
+            btnObjectEditableEnabled = null;
+            btnObjectEditableDisabled = null;
+            txtObjectNudgeAmount = null;
+            btnObjectNudgeXMinus = null;
+            btnObjectNudgeXPlus = null;
+            btnObjectNudgeYMinus = null;
+            btnObjectNudgeYPlus = null;
+            btnObjectNudgeZMinus = null;
+            btnObjectNudgeZPlus = null;
+
             txtSpawnModelSearchText = null;
             lstSpawnModelSearchList = null;
             btnSpawnModelClearSpawns = null;
@@ -121,6 +193,7 @@ namespace PhatACUtil
 
             try
             {
+                PluginCore.MyHost.Actions.AddChatText(sb.ToString(), 1);
                 PluginCore.MyHost.Actions.InvokeChatParser(sb.ToString());
 
             }
@@ -348,6 +421,189 @@ namespace PhatACUtil
                 PluginCore.LogError(ex);
             }
 
+        }
+
+        // Syntax: @b_spawnobj 0xID or Name, Scale - Spawns an object for building things!-->
+        private static void btnObjectSpawn_Hit(object sender, EventArgs e)
+        {
+            string id = "";
+            int scale = 1;
+
+            try
+            {
+                id = txtObjectIDName.Text.ToString();
+                scale = int.Parse(txtObjectScale.Text.ToString());
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+
+            ChatCommand("b_spawnobj", id, scale.ToString());
+        }
+
+        // Syntax: @b_setsolid 1 for true, 0 for false - Set this object as solid
+        private static void btnObjectSolidTrue_Hit(object sender, EventArgs e)
+        {
+            ChatCommand("b_setsolid", "1");
+        }
+
+        private static void btnObjectSolidFalse_Hit(object sender, EventArgs e)
+        {
+            ChatCommand("b_setsolid", "0");
+        }
+
+        // Syntax: @b_enableEditing 1 for true, 0 for false - Enables editing your objects in a landblock!
+        private static void btnObjectEditableEnabled_Hit(object sender, EventArgs e)
+        {
+            ChatCommand("b_enableEditing", "1");
+        }
+
+        private static void btnObjectEditableDisabled_Hit(object sender, EventArgs e)
+        {
+            ChatCommand("b_enableEditing", "0");
+        }
+
+        // Syntax: @b_nudgeX u units to nudge - Nudges selected object in X direction by U units
+        private static void btnObjectNudgeXMinus_Hit(object sender, EventArgs e)
+        {
+            int amount = 1;
+
+            try
+            {
+                amount = int.Parse(txtObjectNudgeAmount.Text.ToString());
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+
+            // Override the user input if it's nonsense
+            if (amount < 0)
+            {
+                PluginCore.MyHost.Actions.AddChatText("Overriding user input of " + amount + " and using a value of 1 instead.", 1);
+                amount = 1;
+            }
+
+            ChatCommand("b_nudgeX", "-" + amount.ToString());
+        }
+
+        private static void btnObjectNudgeXPlus_Hit(object sender, EventArgs e)
+        {
+            int amount = 1;
+
+            try
+            {
+                amount = int.Parse(txtObjectNudgeAmount.Text.ToString());
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+
+            // Override the user input if it's nonsense
+            if (amount < 0)
+            {
+                PluginCore.MyHost.Actions.AddChatText("Overriding user input of " + amount + " and using a value of 1 instead.", 1);
+                amount = 1;
+            }
+
+            ChatCommand("b_nudgeX", amount.ToString());
+        }
+
+        // Syntax: @b_nudgeY u units to nudge - Nudges selected object in Y direction by U units
+        private static void btnObjectNudgeYMinus_Hit(object sender, EventArgs e)
+        {
+            int amount = 1;
+
+            try
+            {
+                amount = int.Parse(txtObjectNudgeAmount.Text.ToString());
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+
+            // Override the user input if it's nonsense
+            if (amount < 0)
+            {
+                PluginCore.MyHost.Actions.AddChatText("Overriding user input of " + amount + " and using a value of 1 instead.", 1);
+                amount = 1;
+            }
+
+            ChatCommand("b_nudgeY", "-" + amount.ToString());
+        }
+
+        private static void btnObjectNudgeYPlus_Hit(object sender, EventArgs e)
+        {
+            int amount = 1;
+
+            try
+            {
+                amount = int.Parse(txtObjectNudgeAmount.Text.ToString());
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+
+            // Override the user input if it's nonsense
+            if (amount < 0)
+            {
+                PluginCore.MyHost.Actions.AddChatText("Overriding user input of " + amount + " and using a value of 1 instead.", 1);
+                amount = 1;
+            }
+
+            ChatCommand("b_nudgeY", amount.ToString());
+        }
+
+        // Syntax: @b_nudgeZ u units to nudge - Nudges selected object in Z direction by U units
+        private static void btnObjectNudgeZMinus_Hit(object sender, EventArgs e)
+        {
+            double amount = 1;
+
+            try
+            {
+                amount = double.Parse(txtObjectNudgeAmount.Text.ToString());
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+
+            // Override the user input if it's nonsense
+            if (amount < 0)
+            {
+                PluginCore.MyHost.Actions.AddChatText("Overriding user input of " + amount + " and using a value of 1 instead.", 1);
+                amount = 1;
+            }
+
+            ChatCommand("b_nudgeZ", "-" + Math.Round((amount / 10), 2).ToString());
+        }
+
+
+        private static void btnObjectNudgeZPlus_Hit(object sender, EventArgs e)
+        {
+            double amount = 1;
+
+            try
+            {
+                amount = double.Parse(txtObjectNudgeAmount.Text.ToString());
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+
+            // Override the user input if it's nonsense
+            if (amount < 0)
+            {
+                PluginCore.MyHost.Actions.AddChatText("Overriding user input of " + amount + " and using a value of 1 instead.", 1);
+                amount = 1;
+            }
+
+            ChatCommand("b_nudgeZ", Math.Round((amount/10), 2).ToString());
         }
 
     }
