@@ -1,77 +1,78 @@
 <?xml version="1.0"?>
-<view icon="4149" title="PhatACUtil" width="500" height="400">
+<view icon="4149" title="PhatACUtil" width="240" height="400">
   <control progid="DecalControls.FixedLayout" clipped="">
-    <control progid="DecalControls.Notebook" name="nbkNotebook" left="0" top="0" width="500" height="400">
+    <control progid="DecalControls.Notebook" name="nbkNotebook" left="0" top="0" width="240" height="400">
       <page label="Object">
         <control progid="DecalControls.FixedLayout" clipped="">
-          <control progid="DecalControls.StaticText" name="stxObjectIDName" left="10" top="10" width="50" height="16" text="ID/Name" />
-          <control progid="DecalControls.Edit" name="txtObjectIDName" left="60" top="10" width="100" height="16" />
+          <control progid="DecalControls.StaticText" name="stxObjectIDName" left="10" top="10" width="50" height="20" text="ID/Name" />
+          <control progid="DecalControls.Edit" name="txtObjectIDName" left="60" top="10" width="100" height="20" />
 
-          <control progid="DecalControls.StaticText" name="stxObjectScale" left="10" top="30" width="50" height="16" text="Scale" />
-          <control progid="DecalControls.Edit" name="txtObjectScale" left="60" top="30" width="40" height="16" />
+          <control progid="DecalControls.StaticText" name="stxObjectScale" left="10" top="40" width="50" height="20" text="Scale" />
+          <control progid="DecalControls.Edit" name="txtObjectScale" left="60" top="40" width="40" height="20" />
 
-          <control progid="DecalControls.PushButton" name="btnObjectSpawn" left="10" top="50" width="60" height="16" text="Spawn" />
+          <control progid="DecalControls.PushButton" name="btnObjectSpawn" left="10" top="70" width="60" height="20" text="Spawn" />
 
-          <control progid="DecalControls.StaticText" name="stxObjectSolid" left="10" top="90" width="100" height="16" text="Set Solid" />
-          <control progid="DecalControls.PushButton" name="btnObjectSolidTrue" left="120" top="90" width="80" height="16" text="True" />
-          <control progid="DecalControls.PushButton" name="btnObjectSolidFalse" left="220" top="90" width="80" height="16" text="False" />
+          <control progid="DecalControls.StaticText" name="stxObjectSolid" left="10" top="110" width="60" height="20" text="Solid" />
+          <control progid="DecalControls.PushButton" name="btnObjectSolidTrue" left="80" top="110" width="60" height="20" text="True" />
+          <control progid="DecalControls.PushButton" name="btnObjectSolidFalse" left="150" top="110" width="60" height="20" text="False" />
 
-          <control progid="DecalControls.StaticText" name="stxObjectEditable" left="10" top="110" width="100" height="16" text="Set Editable" />
-          <control progid="DecalControls.PushButton" name="btnObjectEditableEnabled" left="120" top="110" width="80" height="16" text="Enabled" />
-          <control progid="DecalControls.PushButton" name="btnObjectEditableDisabled" left="220" top="110" width="80" height="16" text="Disabled" />
+          <control progid="DecalControls.StaticText" name="stxObjectEditable" left="10" top="140" width="60" height="20" text="Editable" />
+          <control progid="DecalControls.PushButton" name="btnObjectEditableEnabled" left="80" top="140" width="60" height="20" text="Enabled" />
+          <control progid="DecalControls.PushButton" name="btnObjectEditableDisabled" left="150" top="140" width="60" height="20" text="Disabled" />
 
 
-          <control progid="DecalControls.StaticText" name="stxObjectNudgeAmount" left="10" top="130" width="100" height="16" text="Nudge Amount" />
-          <control progid="DecalControls.Edit" name="txtObjectNudgeAmount" left="120" top="130" width="50" height="16" />
+          <control progid="DecalControls.StaticText" name="stxObjectNudgeAmount" left="80" top="220" width="100" height="20" text="Nudge Amount" />
+          <control progid="DecalControls.Edit" name="txtObjectNudgeAmount" left="100" top="240" width="40" height="20" />
 
-          <control progid="DecalControls.PushButton" name="btnObjectNudgeXMinus" left="10" top="150" width="20" height="16" text="-X" />
-          <control progid="DecalControls.PushButton" name="btnObjectNudgeXPlus" left="40" top="150" width="20" height="16" text="+X" />
+          <control progid="DecalControls.PushButton" name="btnObjectNudgeXMinus" left="40" top="240" width="20" height="20" text="-X" />
+          <control progid="DecalControls.PushButton" name="btnObjectNudgeXPlus" left="180" top="240" width="20" height="20" text="+X" />
 
-          <control progid="DecalControls.PushButton" name="btnObjectNudgeYMinus" left="10" top="170" width="20" height="16" text="-Y" />
-          <control progid="DecalControls.PushButton" name="btnObjectNudgeYPlus" left="40" top="170" width="20" height="16" text="+Y" />
+          <control progid="DecalControls.PushButton" name="btnObjectNudgeYMinus" left="110" top="280" width="20" height="20" text="-Y" />
+          <control progid="DecalControls.PushButton" name="btnObjectNudgeYPlus" left="110" top="180" width="20" height="20" text="+Y" />
 
-          <control progid="DecalControls.PushButton" name="btnObjectNudgeZMinus" left="10" top="190" width="20" height="16" text="-Z" />
-          <control progid="DecalControls.PushButton" name="btnObjectNudgeZPlus" left="40" top="190" width="20" height="16" text="+Z" />
-          <control progid="DecalControls.StaticText" name="stxObjectNudgeAmount" left="70" top="190" width="200" height="16" text="* Scaled to 1/10th of Nudge Amount" />
+          <control progid="DecalControls.PushButton" name="btnObjectNudgeZMinus" left="10" top="320" width="20" height="20" text="-Z" />
+          <control progid="DecalControls.PushButton" name="btnObjectNudgeZPlus" left="40" top="320" width="20" height="20" text="+Z" />
+          <control progid="DecalControls.StaticText" name="stxObjectNudgeAmount" left="70" top="320" width="200" height="20" text="* Scaled to 1/10th of Nudge Amount" />
         </control>
       </page>
       <page label="Spawn">
         <control progid="DecalControls.FixedLayout" clipped="">
-          <control progid="DecalControls.Notebook" name="nbkSpawn" left="0" top="0" width="500" height="400">
+          <control progid="DecalControls.Notebook" name="nbkSpawn" left="0" top="0" width="240" height="400">
             <page label="Tool">
               <control progid="DecalControls.FixedLayout" clipped="">
                 <control progid="DecalControls.StaticText" name="stxAtSymbol" left="10" top="16" width="10" height="20" text="@" />
                 <control progid="DecalControls.Edit" name="txtSpawnToolCommand" left="30" top="16" width="100" height="20" />
-                <control progid="DecalControls.Edit" name="txtSpawnToolValue" left="140" top="16" width="100" height="20" />
-                <control progid="DecalControls.PushButton" name="btnSpawnToolSpawnMinus" left="250" top="16" width="20" height="20" text="-" />
-                <control progid="DecalControls.PushButton" name="btnSpawnToolSpawnPlus" left="280" top="16" width="20" height="20" text="+" />
-                <control progid="DecalControls.PushButton" name="btnSpawnToolSpawn" left="310" top="16" width="40" height="20" text="Spawn" />
-                <control progid="DecalControls.PushButton" name="btnSpawnToolSpawnTenX" left="360" top="16" width="80" height="20" text="Spawn 10x" />
-                <control progid="DecalControls.PushButton" name="btnSpawnToolClearSpawns" left="10" top="48" width="80" height="20" text="Clear Spawns" />
-                <control progid="DecalControls.PushButton" name="btnSpawnToolClearLastAssessed" left="100" top="48" width="120" height="20" text="Clear Last Assessed" />
+                <control progid="DecalControls.Edit" name="txtSpawnToolValue" left="140" top="16" width="60" height="20" />
+                <control progid="DecalControls.PushButton" name="btnSpawnToolSpawnMinus" left="210" top="30" width="20" height="20" text="-" />
+                <control progid="DecalControls.PushButton" name="btnSpawnToolSpawnPlus" left="210" top="5" width="20" height="20" text="+" />
+                <control progid="DecalControls.PushButton" name="btnSpawnToolSpawn" left="30" top="40" width="60" height="20" text="Spawn 1x" />
+                <control progid="DecalControls.PushButton" name="btnSpawnToolSpawnTenX" left="100" top="40" width="70" height="20" text="Spawn 10x" />
+                <control progid="DecalControls.PushButton" name="btnSpawnToolClearSpawns" left="10" top="80" width="80" height="20" text="Clear Spawns" />
+                <control progid="DecalControls.PushButton" name="btnSpawnToolClearLastAssessed" left="100" top="80" width="110" height="20" text="Clear Last Assessed" />
               </control>
             </page>
             <page label="Models">
               <control progid="DecalControls.FixedLayout" clipped="">
-                <control progid="DecalControls.StaticText" name="stxFilterResults" left="10" top="10" width="400" height="20" text="Filter results:" />
-                <control progid="DecalControls.Edit" name="txtSpawnModelSearchText" left="10" top="30" width="200" height="20" />
-                <control progid="DecalControls.StaticText" name="stxClickRow" left="10" top="60" width="400" height="20" text="Click on a row to spawn it:" />
-                <control progid="DecalControls.List" name="lstSpawnModelSearchList" left="10" top="80" width="400" height="200">
+                <control progid="DecalControls.StaticText" name="stxFilterResults" left="10" top="10" width="400" height="20" text="This list may be quite outdated!" />
+                <control progid="DecalControls.StaticText" name="stxFilterResults" left="10" top="30" width="400" height="20" text="Filter results:" />
+                <control progid="DecalControls.Edit" name="txtSpawnModelSearchText" left="10" top="50" width="200" height="20" />
+                <control progid="DecalControls.StaticText" name="stxClickRow" left="10" top="80" width="200" height="20" text="Click on a row to spawn it:" />
+                <control progid="DecalControls.List" name="lstSpawnModelSearchList" left="10" top="100" width="200" height="200">
                   <column progid="DecalControls.TextColumn" name="colSpawnModelColumnId" fixedwidth="40"/>
-                  <column progid="DecalControls.TextColumn" name="colSpawnModelColumnName" fixedwidth="360"/>
+                  <column progid="DecalControls.TextColumn" name="colSpawnModelColumnName" fixedwidth="160"/>
                 </control>
-                <control progid="DecalControls.PushButton" name="btnSpawnModelClearSpawns" left="10" top="290" width="80" height="20" text="Clear Spawns" />
-                <control progid="DecalControls.PushButton" name="btnSpawnModelClearLastAssessed" left="100" top="290" width="120" height="20" text="Clear Last Assessed" />
+                <control progid="DecalControls.PushButton" name="btnSpawnModelClearSpawns" left="10" top="310" width="80" height="20" text="Clear Spawns" />
+                <control progid="DecalControls.PushButton" name="btnSpawnModelClearLastAssessed" left="100" top="310" width="110" height="20" text="Clear Last Assessed" />
               </control>
             </page>
             <page label="Items">
               <control progid="DecalControls.FixedLayout" clipped="">
-                <control progid="DecalControls.StaticText" name="tmpText" left="10" top="16" width="500" height="20" text="Not implemented yet" />
+                <control progid="DecalControls.StaticText" name="tmpText" left="10" top="16" width="240" height="20" text="Not implemented yet" />
               </control>
             </page>
             <page label="Monsters">
               <control progid="DecalControls.FixedLayout" clipped="">
-                <control progid="DecalControls.StaticText" name="tmpText" left="10" top="16" width="500" height="20" text="Not implemented yet" />
+                <control progid="DecalControls.StaticText" name="tmpText" left="10" top="16" width="240" height="20" text="Not implemented yet" />
               </control>
             </page>
           </control>
@@ -81,15 +82,15 @@
         <control progid="DecalControls.FixedLayout" clipped="">
           <control progid="DecalControls.StaticText" name="stxFilterResults" left="10" top="10" width="400" height="20" text="Filter results:" />
           <control progid="DecalControls.Edit" name="txtTeleTownSearchText" left="10" top="30" width="200" height="20" />
-          <control progid="DecalControls.StaticText" name="stxClickRow" left="10" top="60" width="400" height="20" text="Click on a row to teleport instantly:" />
-          <control progid="DecalControls.List" name="lstTeleTownSearchList" left="10" top="80" width="400" height="200">
-            <column progid="DecalControls.TextColumn" name="colTeleTownColumnName" fixedwidth="360"/>
+          <control progid="DecalControls.StaticText" name="stxClickRow" left="10" top="60" width="200" height="20" text="Click on a row to teleport instantly:" />
+          <control progid="DecalControls.List" name="lstTeleTownSearchList" left="10" top="80" width="200" height="200">
+            <column progid="DecalControls.TextColumn" name="colTeleTownColumnName" fixedwidth="200"/>
           </control>
         </control>
       </page>
       <page label="Dungeons">
         <control progid="DecalControls.FixedLayout" clipped="">
-          <control progid="DecalControls.StaticText" name="tmpText" left="10" top="16" width="500" height="20" text="Not implemented yet" />
+          <control progid="DecalControls.StaticText" name="tmpText" left="10" top="16" width="240" height="20" text="Not implemented yet" />
         </control>
       </page>
     </control>

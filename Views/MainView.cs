@@ -276,6 +276,19 @@ namespace PhatACUtil
 
             try
             {
+
+                if (txtSpawnToolCommand.Text.ToString().Length == 0)
+                {
+                    PluginCore.MyHost.Actions.AddChatText("You must enter a command.", 1);
+                    return;
+                }
+
+                if (txtSpawnToolValue.Text.ToString().Length == 0)
+                {
+                    PluginCore.MyHost.Actions.AddChatText("You must enter a value.", 1);
+                    return;
+                }
+
                 ChatCommand(txtSpawnToolCommand.Text, txtSpawnToolValue.Text);
             }
             catch (Exception ex)
@@ -290,6 +303,18 @@ namespace PhatACUtil
 
             try
             {
+                if (txtSpawnToolCommand.Text.ToString().Length == 0)
+                {
+                    PluginCore.MyHost.Actions.AddChatText("You must enter a command.", 1);
+                    return;
+                }
+
+                if (txtSpawnToolValue.Text.ToString().Length == 0)
+                {
+                    PluginCore.MyHost.Actions.AddChatText("You must enter a value.", 1);
+                    return;
+                }
+
                 ChatCommand(txtSpawnToolCommand.Text, txtSpawnToolValue.Text, "10");
             }
             catch (Exception ex)
@@ -304,7 +329,7 @@ namespace PhatACUtil
             {
                 int value = int.Parse(txtSpawnToolValue.Text, System.Globalization.NumberStyles.HexNumber);
  
-                 value += 1;
+                value += 1;
                 txtSpawnToolValue.Text = value.ToString("X4");
             }
             catch (Exception ex)
