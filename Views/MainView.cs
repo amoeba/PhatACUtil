@@ -24,6 +24,16 @@ namespace PhatACUtil
         static IButton btnObjectNudgeYPlus;
         static IButton btnObjectNudgeZPlus;
         static IButton btnObjectNudgeZMinus;
+        static ITextBox txtObjectSpinAmount;
+        static IButton btnObjectSpin;
+        static IButton btnObjectSpinWMinus;
+        static IButton btnObjectSpinWPlus;
+        static IButton btnObjectSpinWXMinus;
+        static IButton btnObjectSpinWXPlus;
+        static IButton btnObjectSpinWYMinus;
+        static IButton btnObjectSpinWYPlus;
+        static IButton btnObjectSpinWZMinus;
+        static IButton btnObjectSpinWZPlus;
 
         // Spawn
 
@@ -78,7 +88,34 @@ namespace PhatACUtil
             btnObjectNudgeZMinus.Hit += btnObjectNudgeZMinus_Hit;
             btnObjectNudgeZPlus = (IButton)View["btnObjectNudgeZPlus"];
             btnObjectNudgeZPlus.Hit += btnObjectNudgeZPlus_Hit;
-            
+
+            txtObjectSpinAmount = (ITextBox)View["txtObjectSpinAmount"];
+
+            btnObjectSpin = (IButton)View["btnObjectSpin"];
+            btnObjectSpin.Hit += btnObjectSpin_Hit;
+
+            btnObjectSpinWMinus = (IButton)View["btnObjectSpinWMinus"];
+            btnObjectSpinWMinus.Hit += btnObjectSpinWMinus_Hit;
+            btnObjectSpinWPlus = (IButton)View["btnObjectSpinWPlus"];
+            btnObjectSpinWPlus.Hit += btnObjectSpinWPlus_Hit;
+
+            btnObjectSpinWXMinus = (IButton)View["btnObjectSpinWXMinus"];
+            btnObjectSpinWXMinus.Hit += btnObjectSpinWXMinus_Hit;
+
+            btnObjectSpinWXPlus = (IButton)View["btnObjectSpinWXPlus"];
+            btnObjectSpinWXPlus.Hit += btnObjectSpinWXPlus_Hit;
+
+            btnObjectSpinWYMinus = (IButton)View["btnObjectSpinWYMinus"];
+            btnObjectSpinWYMinus.Hit += btnObjectSpinWYMinus_Hit;
+
+            btnObjectSpinWYPlus = (IButton)View["btnObjectSpinWYPlus"];
+            btnObjectSpinWYPlus.Hit += btnObjectSpinWYPlus_Hit;
+
+            btnObjectSpinWZMinus = (IButton)View["btnObjectSpinWZMinus"];
+            btnObjectSpinWZMinus.Hit += btnObjectSpinWZMinus_Hit;
+
+            btnObjectSpinWZPlus = (IButton)View["btnObjectSpinWZPlus"];
+            btnObjectSpinWZPlus.Hit += btnObjectSpinWZPlus_Hit;
 
             // Spawn
             // Spawn Model
@@ -118,35 +155,7 @@ namespace PhatACUtil
 
         public static void ViewDestroy()
         {
-            // Events
-            btnObjectSpawn.Hit -= btnObjectSpawn_Hit;
-            btnObjectSolidTrue.Hit -= btnObjectSolidTrue_Hit;
-            btnObjectSolidFalse.Hit -= btnObjectSolidFalse_Hit;
-            btnObjectEditableEnabled.Hit -= btnObjectEditableEnabled_Hit;
-            btnObjectEditableDisabled.Hit -= btnObjectEditableDisabled_Hit;
-            btnObjectNudgeXMinus.Hit -= btnObjectNudgeXMinus_Hit;
-            btnObjectNudgeXPlus.Hit -= btnObjectNudgeXPlus_Hit;
-            btnObjectNudgeYMinus.Hit -= btnObjectNudgeYMinus_Hit;
-            btnObjectNudgeYPlus.Hit -= btnObjectNudgeYPlus_Hit;
-            btnObjectNudgeZMinus.Hit -= btnObjectNudgeZMinus_Hit;
-            btnObjectNudgeZPlus.Hit -= btnObjectNudgeZPlus_Hit;
-
-            txtSpawnModelSearchText.Change -= txtSpawnModelSearchText_Change;
-            lstSpawnModelSearchList.Selected -= lstSpawnModelSearchList_Selected;
-            btnSpawnModelClearSpawns.Hit -= btnSpawnModelClearSpawns_Hit;
-
-            btnSpawnToolSpawn.Hit -= btnSpawnToolSpawn_Hit;
-            btnSpawnToolSpawnTenX.Hit -= btnSpawnToolSpawnTenX_Hit;
-            btnSpawnToolSpawnMinus.Hit -= btnSpawnToolSpawnMinus_Hit;
-            btnSpawnToolSpawnPlus.Hit -= btnSpawnToolSpawnPlus_Hit;
-            btnSpawnToolClearSpawns.Hit -= btnSpawnToolClearSpawns_Hit;
-            btnSpawnToolClearLastAssessed.Hit -= btnSpawnToolClearLastAssessed_Hit;
-
-            txtTeleTownSearchText.Change -= txtTeleTownSearchText_Change;
-            lstTeleTownSearchList.Selected -= lstTeleTownSearchList_Selected;
-
             // Controls
-
             txtObjectIDName = null;
             txtObjectScale = null;
             btnObjectSpawn = null;
@@ -161,6 +170,16 @@ namespace PhatACUtil
             btnObjectNudgeYPlus = null;
             btnObjectNudgeZMinus = null;
             btnObjectNudgeZPlus = null;
+            btnObjectSpinWXMinus = null;
+            btnObjectSpin = null;
+            btnObjectSpinWMinus = null;
+            btnObjectSpinWPlus = null;
+            btnObjectSpinWXMinus = null;
+            btnObjectSpinWXPlus = null;
+            btnObjectSpinWYMinus = null;
+            btnObjectSpinWYPlus = null;
+            btnObjectSpinWZMinus = null;
+            btnObjectSpinWZPlus = null;
 
             txtSpawnModelSearchText = null;
             lstSpawnModelSearchList = null;
@@ -178,31 +197,6 @@ namespace PhatACUtil
             View.Dispose();
         }
 
-        static void ChatCommand(string command, params string[] tokens)
-        {
-            StringBuilder sb = new StringBuilder();
-            sb.Append("@");
-            sb.Append(command);
-            sb.Append(" ");
-            
-            foreach (string token in tokens)
-            {
-                sb.Append(token.Trim());
-                sb.Append(' ');
-            }
-
-            try
-            {
-                PluginCore.MyHost.Actions.AddChatText(sb.ToString(), 1);
-                PluginCore.MyHost.Actions.InvokeChatParser(sb.ToString());
-
-            }
-            catch (Exception ex)
-            {
-                PluginCore.LogError(ex);
-            }
-        }
-
         static void lstSpawnModelSearchList_Selected(object sender, MVListSelectEventArgs e)
         {
             try
@@ -210,7 +204,7 @@ namespace PhatACUtil
                 String id = (String)lstSpawnModelSearchList[e.Row][0][0];
                 String val = (String)lstSpawnModelSearchList[e.Row][1][0];
 
-                ChatCommand("spawnmodel", id);
+                PluginCore.ChatCommand("spawnmodel", id);
             }
             catch (Exception ex)
             {
@@ -257,7 +251,7 @@ namespace PhatACUtil
         {
             try
             {
-                ChatCommand("clearspawns");
+                PluginCore.ChatCommand("clearspawns");
             }
             catch (Exception ex)
             {
@@ -267,7 +261,7 @@ namespace PhatACUtil
 
         private static void btnSpawnModelClearLastAssessed_Hit(object sender, EventArgs e)
         {
-            ChatCommand("removethis");
+            PluginCore.ChatCommand("removethis");
         }
 
         private static void btnSpawnToolSpawn_Hit(object sender, EventArgs e)
@@ -289,7 +283,7 @@ namespace PhatACUtil
                     return;
                 }
 
-                ChatCommand(txtSpawnToolCommand.Text, txtSpawnToolValue.Text);
+                PluginCore.ChatCommand(txtSpawnToolCommand.Text, txtSpawnToolValue.Text);
             }
             catch (Exception ex)
             {
@@ -315,7 +309,7 @@ namespace PhatACUtil
                     return;
                 }
 
-                ChatCommand(txtSpawnToolCommand.Text, txtSpawnToolValue.Text, "10");
+                PluginCore.ChatCommand(txtSpawnToolCommand.Text, txtSpawnToolValue.Text, "10");
             }
             catch (Exception ex)
             {
@@ -356,7 +350,7 @@ namespace PhatACUtil
         {
             try
             {
-                ChatCommand("clearspawns");
+                PluginCore.ChatCommand("clearspawns");
             }
             catch (Exception ex)
             {
@@ -366,7 +360,7 @@ namespace PhatACUtil
 
         private static void btnSpawnToolClearLastAssessed_Hit(object sender, EventArgs e)
         {
-            ChatCommand("removethis");
+            PluginCore.ChatCommand("removethis");
         }
 
         static void addAll()
@@ -406,7 +400,7 @@ namespace PhatACUtil
             {
                 String name = (String)lstTeleTownSearchList[e.Row][0][0];
 
-                ChatCommand("teletown", name);
+                PluginCore.ChatCommand("teletown", name);
             }
             catch (Exception ex)
             {
@@ -464,29 +458,29 @@ namespace PhatACUtil
                 PluginCore.LogError(ex);
             }
 
-            ChatCommand("b_spawnobj", id, scale.ToString());
+            PluginCore.ChatCommand("b_spawnobj", id, scale.ToString());
         }
 
         // Syntax: @b_setsolid 1 for true, 0 for false - Set this object as solid
         private static void btnObjectSolidTrue_Hit(object sender, EventArgs e)
         {
-            ChatCommand("b_setsolid", "1");
+            PluginCore.ChatCommand("b_setsolid", "1");
         }
 
         private static void btnObjectSolidFalse_Hit(object sender, EventArgs e)
         {
-            ChatCommand("b_setsolid", "0");
+            PluginCore.ChatCommand("b_setsolid", "0");
         }
 
         // Syntax: @b_enableEditing 1 for true, 0 for false - Enables editing your objects in a landblock!
         private static void btnObjectEditableEnabled_Hit(object sender, EventArgs e)
         {
-            ChatCommand("b_enableEditing", "1");
+            PluginCore.ChatCommand("b_enableEditing", "1");
         }
 
         private static void btnObjectEditableDisabled_Hit(object sender, EventArgs e)
         {
-            ChatCommand("b_enableEditing", "0");
+            PluginCore.ChatCommand("b_enableEditing", "0");
         }
 
         // Syntax: @b_nudgeX u units to nudge - Nudges selected object in X direction by U units
@@ -510,7 +504,7 @@ namespace PhatACUtil
                 amount = 1;
             }
 
-            ChatCommand("b_nudgeX", "-" + amount.ToString());
+            PluginCore.ChatCommand("b_nudgeX", "-" + amount.ToString());
         }
 
         private static void btnObjectNudgeXPlus_Hit(object sender, EventArgs e)
@@ -533,7 +527,7 @@ namespace PhatACUtil
                 amount = 1;
             }
 
-            ChatCommand("b_nudgeX", amount.ToString());
+            PluginCore.ChatCommand("b_nudgeX", amount.ToString());
         }
 
         // Syntax: @b_nudgeY u units to nudge - Nudges selected object in Y direction by U units
@@ -557,7 +551,7 @@ namespace PhatACUtil
                 amount = 1;
             }
 
-            ChatCommand("b_nudgeY", "-" + amount.ToString());
+            PluginCore.ChatCommand("b_nudgeY", "-" + amount.ToString());
         }
 
         private static void btnObjectNudgeYPlus_Hit(object sender, EventArgs e)
@@ -580,7 +574,7 @@ namespace PhatACUtil
                 amount = 1;
             }
 
-            ChatCommand("b_nudgeY", amount.ToString());
+            PluginCore.ChatCommand("b_nudgeY", amount.ToString());
         }
 
         // Syntax: @b_nudgeZ u units to nudge - Nudges selected object in Z direction by U units
@@ -604,7 +598,7 @@ namespace PhatACUtil
                 amount = 1;
             }
 
-            ChatCommand("b_nudgeZ", "-" + Math.Round((amount / 10), 2).ToString());
+            PluginCore.ChatCommand("b_nudgeZ", "-" + Math.Round((amount / 10), 2).ToString());
         }
 
 
@@ -628,8 +622,196 @@ namespace PhatACUtil
                 amount = 1;
             }
 
-            ChatCommand("b_nudgeZ", Math.Round((amount/10), 2).ToString());
+            PluginCore.ChatCommand("b_nudgeZ", Math.Round((amount/10), 2).ToString());
         }
 
+        private static void btnObjectSpin_Hit(object sender, EventArgs e)
+        {
+            PluginCore.ChatCommand("b_spin");
+        }
+
+        private static void btnObjectSpinWMinus_Hit(object sender, EventArgs e)
+        {
+            double amount = 0.1;
+
+            try
+            {
+                amount = double.Parse(txtObjectSpinAmount.Text.ToString());
+            } 
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+
+            try
+            {
+                PluginCore.ChatCommand("b_spinW", (-1 * amount).ToString());
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+        }
+
+        private static void btnObjectSpinWPlus_Hit(object sender, EventArgs e)
+        {
+            double amount = 0.1;
+
+            try
+            {
+                amount = double.Parse(txtObjectSpinAmount.Text.ToString());
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+
+            try
+            {
+                PluginCore.ChatCommand("b_spinW", amount.ToString());
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+        }
+
+        private static void btnObjectSpinWXMinus_Hit(object sender, EventArgs e)
+        {
+            double amount = 0.1;
+
+            try
+            {
+                amount = double.Parse(txtObjectSpinAmount.Text.ToString());
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+
+            try
+            {
+                PluginCore.ChatCommand("b_spinWX", (-1 * amount).ToString());
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+        }
+
+        private static void btnObjectSpinWXPlus_Hit(object sender, EventArgs e)
+        {
+            double amount = 0.1;
+
+            try
+            {
+                amount = double.Parse(txtObjectSpinAmount.Text.ToString());
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+
+            try
+            {
+                PluginCore.ChatCommand("b_spinWX", amount.ToString());
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+        }
+
+        private static void btnObjectSpinWYMinus_Hit(object sender, EventArgs e)
+        {
+            double amount = 0.1;
+
+            try
+            {
+                amount = double.Parse(txtObjectSpinAmount.Text.ToString());
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+
+            try
+            {
+                PluginCore.ChatCommand("b_spinWY", (-1 * amount).ToString());
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+        }
+
+        private static void btnObjectSpinWYPlus_Hit(object sender, EventArgs e)
+        {
+            double amount = 0.1;
+
+            try
+            {
+                amount = double.Parse(txtObjectSpinAmount.Text.ToString());
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+
+            try
+            {
+                PluginCore.ChatCommand("b_spinWY", amount.ToString());
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+        }
+
+        private static void btnObjectSpinWZMinus_Hit(object sender, EventArgs e)
+        {
+            double amount = 0.1;
+
+            try
+            {
+                amount = double.Parse(txtObjectSpinAmount.Text.ToString());
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+
+            try
+            {
+                PluginCore.ChatCommand("b_spinWZ", (-1 * amount).ToString());
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+        }
+
+        private static void btnObjectSpinWZPlus_Hit(object sender, EventArgs e)
+        {
+            double amount = 0.1;
+
+            try
+            {
+                amount = double.Parse(txtObjectSpinAmount.Text.ToString());
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+
+            try
+            {
+                PluginCore.ChatCommand("b_spinWZ", amount.ToString());
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
+        }
     }
 }

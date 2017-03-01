@@ -1,4 +1,5 @@
 using System;
+using System.Text;
 using System.Reflection;
 using System.IO;
 using System.Collections.Generic;
@@ -188,6 +189,37 @@ namespace PhatACUtil
             }
            
             return models;
+        }
+
+
+        public static void ChatMessage(string message)
+        {
+            MyHost.Actions.AddChatText(message, 1);
+        }
+
+        public static void ChatCommand(string command, params string[] tokens)
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append("@");
+            sb.Append(command);
+            sb.Append(" ");
+
+            foreach (string token in tokens)
+            {
+                sb.Append(token.Trim());
+                sb.Append(' ');
+            }
+
+            try
+            {
+                ChatMessage(sb.ToString());
+                PluginCore.MyHost.Actions.InvokeChatParser(sb.ToString());
+
+            }
+            catch (Exception ex)
+            {
+                PluginCore.LogError(ex);
+            }
         }
     }
 }
