@@ -49,9 +49,27 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;VVS_REFERENCED</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;VVS_REFERENCED</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Decal.Adapter">
-      <HintPath>..\..\games\Decal\Decal.Adapter.dll</HintPath>
+      <HintPath>..\..\..\..\games\Decal\Decal.Adapter.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Decal.Interop.Core, Version=2.9.7.5, Culture=neutral, PublicKeyToken=481f17d392f1fb65, processorArchitecture=MSIL">
@@ -64,9 +82,8 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
-    <Reference Include="VirindiViewService, Version=1.0.0.47, Culture=neutral, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Games\VirindiPlugins\VirindiViewService\VirindiViewService.dll</HintPath>
+    <Reference Include="VirindiViewService">
+      <HintPath>..\..\..\..\games\VirindiPlugins\VirindiViewService\VirindiViewService.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
